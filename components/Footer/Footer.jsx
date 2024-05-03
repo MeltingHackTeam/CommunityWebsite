@@ -15,16 +15,6 @@ const Footer = () => {
                                 <h2 className="uppercase letter-spacing-1">{footerData.mainData.websiteName}</h2>
                                 <p>{footerData.mainData.websiteDescription}</p>
                             </div>
-                            <div className="col-12 col-md-6 col-lg-4">
-                                <h6 className="sm-heading">Email:</h6>
-                                <h3>{footerData.mainData.email}</h3>
-                                <p>{footerData.mainData.time}</p>
-                            </div>
-                            <div className="col-12 col-md-6 col-lg-4">
-                                <h6 className="sm-heading">Phone:</h6>
-                                <h3>{footerData.mainData.phone}</h3>
-                                <p>Call or WhatsApp</p>
-                            </div>
                         </div> {/* end row */}
                     </div> {/* end container */}
 

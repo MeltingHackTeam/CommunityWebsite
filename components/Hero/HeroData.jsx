@@ -1,5 +1,5 @@
 import AgencyImage from '@/public/images/meltinghack_logo.png';
-import BackgroundImage from '@/public/images/background.jpg';
+import BackgroundImage from '@/public/images/meltinghack-hero.webp';
 import Avatar from '@/public/images/client-avatar.jpg';
 import Image from '@/public/images/meltinghack_logo.png';
 
@@ -41,18 +41,18 @@ export const heroData = {
         ]
     },
     corporate: {
-        title: 'Creating the Best Solutions for your Business',
+        title: 'Unleash your potential and build practical skills',
         backgroundImage: BackgroundImage,
-        learnMoreUrl: '#',
+        learnMoreUrl: 'https://discord.gg/q6ttuTYu',
         features1: [
-            { title: 'Lorem ipsum dolor sit amet, consectetuer' },
-            { title: 'Aenean commodo ligula eget dolor' },
-            { title: 'Cum sociis natoque penatibus et magnis' },
+            { title: 'Level up your career' },
+            { title: 'Build and showcase' },
+            { title: 'Find your dream team' },
         ],
         features2: [
-            { title: 'Aenean commodo ligula eget dolor' },
-            { title: 'Lorem ipsum dolor sit amet, consectetuer' },
-            { title: 'Cum sociis natoque penatibus' },
+            { title: 'Go global' },
+            { title: 'Get recognized' },
+            { title: 'Attract top talent scouts' },
         ]
     },
     portfolio: {

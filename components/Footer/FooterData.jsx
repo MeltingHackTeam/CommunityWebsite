@@ -2,7 +2,7 @@ export const footerData = {
     name: 'FlaTheme',
     copyWriteText: 'All Rights Reserved.',
     mainData: {
-        websiteName: 'Sana',
+        websiteName: 'MeltingHack',
         websiteDescription: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo sit facilis cum nisi magnam',
         phone: '+123 456 7890',
         email: 'contact@example.com',
