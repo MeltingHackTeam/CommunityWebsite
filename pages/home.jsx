@@ -1,12 +1,15 @@
 import Head from 'next/head'
 import { mainData } from '@/lib/data'
-import { About, AgencyHero, BackgroundVerticalLines, Clients, Footer, Header, Portfolio, Pricing, ScrollToTop, Services, Team, Testimonial } from '@/components'
+import { Accordion, Blog, BusinessAbout, CorporateHero, About, AgencyHero, BackgroundVerticalLines, Clients, Footer, Header, Portfolio, Pricing, ScrollToTop, Services, Team, Testimonial } from '@/components'
 import { clientsData } from '@/components/Clients/ClientsData'
 import { portfolioData } from '@/components/Portfolio/PortfolioData'
 import { pricingData } from '@/components/Pricing/PricingData'
 import { teamData } from '@/components/Team/TeamData'
 import { servicesData } from '@/components/Services/ServicesData'
 import { testimonialData } from '@/components/Testimonial/TestimonialData'
+import { accordionData } from '@/components/Accordion/AccordionData'
+import { aboutData } from '@/components/About/AboutData'
+import { blogData } from '@/components/Blog/BlogData'
 
 export default function Home() {
     const themeData = mainData.home;
@@ -20,23 +23,19 @@ export default function Home() {
             </Head>
             <main>
                 {/* Header section */}
-                {/* <Header /> */}
+                <Header />
                 {/* Hero section */}
-                <AgencyHero />
-                {/* Clients section*/}
-                {/* <Clients data={clientsData.agency.clients} className="pt-0" /> */}
-                {/* Services section */}
-                {/* <Services data={servicesData.agency} className="pt-0" /> */}
-                {/* Portfolio section */}
-                {/* <Portfolio data={portfolioData.agency} /> */}
-                {/* Pricing section */}
-                {/* <Pricing data={pricingData.agency} /> */}
+                <div style={{marginBottom: "2rem"}}>
+                    <CorporateHero />
+                </div>
                 {/* About section */}
-                {/* <About /> */}
+                <BusinessAbout data={aboutData.corporate} />
+                {/* Blog section */}
+                <Blog data={blogData.business} />
                 {/* Team section */}
-                {/* <Team data={teamData.agency} /> */}
-                {/* Testimonial section */}
-                {/* <Testimonial data={testimonialData.agency} /> */}
+                <Team data={teamData.agency} />
+                {/* Accordion section */}
+                <Accordion data={accordionData.corporate} />
                 {/* Footer section */}
                 <Footer />
                 {/* Scroll To Top */}
