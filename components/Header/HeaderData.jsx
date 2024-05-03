@@ -1,5 +1,5 @@
 export const headerData = {
-    logo: 'Sana',
+    logo: 'MeltingHack',
     menu: [
         {
             label: 'Basic Nav',
