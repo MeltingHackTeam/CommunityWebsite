@@ -20,23 +20,23 @@ export default function Home() {
             </Head>
             <main>
                 {/* Header section */}
-                <Header />
+                {/* <Header /> */}
                 {/* Hero section */}
                 <AgencyHero />
                 {/* Clients section*/}
-                <Clients data={clientsData.agency.clients} className="pt-0" />
+                {/* <Clients data={clientsData.agency.clients} className="pt-0" /> */}
                 {/* Services section */}
-                <Services data={servicesData.agency} className="pt-0" />
+                {/* <Services data={servicesData.agency} className="pt-0" /> */}
                 {/* Portfolio section */}
-                <Portfolio data={portfolioData.agency} />
+                {/* <Portfolio data={portfolioData.agency} /> */}
                 {/* Pricing section */}
-                <Pricing data={pricingData.agency} />
+                {/* <Pricing data={pricingData.agency} /> */}
                 {/* About section */}
-                <About />
+                {/* <About /> */}
                 {/* Team section */}
-                <Team data={teamData.agency} />
+                {/* <Team data={teamData.agency} /> */}
                 {/* Testimonial section */}
-                <Testimonial data={testimonialData.agency} />
+                {/* <Testimonial data={testimonialData.agency} /> */}
                 {/* Footer section */}
                 <Footer />
                 {/* Scroll To Top */}
