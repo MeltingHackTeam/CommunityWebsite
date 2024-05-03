@@ -38,9 +38,9 @@ export default function Home() {
                 {/* Testimonial section */}
                 {/* <Testimonial data={testimonialData.agency} /> */}
                 {/* Footer section */}
-                {/* <Footer /> */}
+                <Footer />
                 {/* Scroll To Top */}
-                {/* <ScrollToTop /> */}
+                <ScrollToTop />
                 {/* Background Vertical Lines */}
                 <BackgroundVerticalLines />
             </main>
