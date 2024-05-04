@@ -1,9 +1,9 @@
 export const footerData = {
-    name: 'FlaTheme',
+    name: 'Melting Hack',
     copyWriteText: 'All Rights Reserved.',
     mainData: {
         websiteName: 'MeltingHack',
-        websiteDescription: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo sit facilis cum nisi magnam',
+        websiteDescription: 'Unleash your potential',
         phone: '+123 456 7890',
         email: 'contact@example.com',
         time: 'Mon-Fri 9am-5pm',
@@ -11,6 +11,14 @@ export const footerData = {
         facebookURL: '#',
         twitterURL: '#',
         youtubeURL: '#',
+        discord: {
+            src: "https://discord.com/widget?id=1222852077823201280&theme=dark",
+            width: "350",
+            height: "300",
+            allowtransparency: true,
+            frameborder: "0",
+            sandbox: "allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"
+        }
     },
     links: [
         {
