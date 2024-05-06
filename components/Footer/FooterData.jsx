@@ -15,8 +15,8 @@ export const footerData = {
             src: "https://discord.com/widget?id=1222852077823201280&theme=dark",
             width: "350",
             height: "300",
-            allowtransparency: true,
-            frameborder: "0",
+            allowtransparency: "true",
+            frameBorder: "0",
             sandbox: "allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"
         }
     },

@@ -17,7 +17,7 @@ const Footer = () => {
                                 <p>{footerData.mainData.websiteDescription}</p>
                             </div>
                             <div className="col-12 col-lg-4">
-                                <iframe src={discord.src}  frameborder={discord.frameborder} width={discord.width} height={discord.height} allowtransparency={discord.allowtransparency} sandbox={discord.sandbox}></iframe>
+                                <iframe src={discord.src} frameBorder={discord.frameBorder} width={discord.width} height={discord.height} allowtransparency={discord.allowtransparency} sandbox={discord.sandbox}></iframe>
                             </div>
                         </div> {/* end row */}
                     </div> {/* end container */}
