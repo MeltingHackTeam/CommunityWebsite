@@ -1,4 +1,5 @@
 import AgencyImage from '@/public/images/meltinghack_logo.png';
+import BGClearLogoImage from '@/public/images/meltinghack_logo_bg_clear.png';
 import BackgroundImage from '@/public/images/meltinghack-hero.webp';
 import Avatar from '@/public/images/client-avatar.jpg';
 import Image from '@/public/images/meltinghack_logo.png';
@@ -41,19 +42,13 @@ export const heroData = {
         ]
     },
     corporate: {
+        name: "MeltingHack",
         title: 'Unleash your potential and build practical skills',
+        description: 'Melting Hack is a Tokyo-based non-profit international hackathon community that empowers individuals of all backgrounds to gain hands-on tech skills and bring their dreams to life. Through short-term prototyping, immersive workshops, and passionate connections, we foster an environment where innovation thrives.',
+        message: 'Join us as we shape the future, one hackathon at a time.',
         backgroundImage: BackgroundImage,
+        logoImage: BGClearLogoImage,
         learnMoreUrl: 'https://discord.gg/q6ttuTYu',
-        features1: [
-            { title: 'Level up your career' },
-            { title: 'Build and showcase' },
-            { title: 'Find your dream team' },
-        ],
-        features2: [
-            { title: 'Go global' },
-            { title: 'Get recognized' },
-            { title: 'Attract top talent scouts' },
-        ]
     },
     portfolio: {
         title: 'Good Design is Obvious',
