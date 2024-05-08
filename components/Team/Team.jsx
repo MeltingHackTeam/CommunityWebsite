@@ -40,9 +40,9 @@ const Team = ({data, className}) => {
                         </div>
                     ))}
                 </div> {/* end row */}
-                <div className="text-center mt-4">
+                {/* <div className="text-center mt-4">
                     <a className="button button-lg" href={data.mainData.ViewAllMembersUrl}>View All Members</a>
-                </div>
+                </div> */}
             </div> {/* end container */}
         </div>
     )
