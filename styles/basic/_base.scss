@@ -100,6 +100,7 @@ a {
 //
 .section-box {
 	padding: 0 24px;
+	margin-block: 2rem;
 	@include breakpoint-less(md) {
 		padding: 0 24px;
 		.container, .container-fluid {
