@@ -1,6 +1,6 @@
 import AgencyImage from '@/public/images/meltinghack_logo.png';
 import BGClearLogoImage from '@/public/images/meltinghack_logo_bg_clear.png';
-import BackgroundImage from '@/public/images/meltinghack-hero.webp';
+import BackgroundImage from '@/public/images/meltinghack_hero_bg.png';
 import Avatar from '@/public/images/client-avatar.jpg';
 import Image from '@/public/images/meltinghack_logo.png';
 

@@ -1,6 +1,5 @@
 import React from 'react';
 import Link from 'next/link';
-import Image from 'next/image';
 import { heroData } from './HeroData';
 
 const CorporateHero = () => {
@@ -9,15 +8,12 @@ const CorporateHero = () => {
             <div className="bg-image border-radius-1" data-bg-src={heroData.corporate.backgroundImage.src}>
                 <div className="bg-dark-06 section">
                     <div className="container">
-                        <div className="row g-4 align-items-center">
+                        <div className="row g-4">
                             <div className="col-12 col-md-10 col-lg-9 col-xl-8 col-xxl-7">
                                 <h1 className="display-5 fw-normal">{heroData.corporate.title}</h1>
                                 <p className="mt-3 mt-lg-4">{heroData.corporate.description}</p>
                                 <p className="mt-3 mt-lg-4">{heroData.corporate.message}</p>
                                 <Link className="button button-lg button-font-2 mt-4 mt-lg-5" href={heroData.corporate.learnMoreUrl} target='_blank'><i className='bi bi-discord'></i>  Join Discord</Link>
-                            </div>
-                            <div className="col-12 col-md-2 col-lg-3 col-xl-4 col-xxl-5 text-center">
-                                <Image className="img-mask-1" src={heroData.corporate.logoImage} alt={heroData.corporate.name} />
                             </div>
                         </div> {/* end row */}
                     </div> {/* end container */}
