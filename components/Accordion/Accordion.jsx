@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
+import faq from '@/public/images/faq.jpg'
 import { LightboxVideo } from '..';
 
 const Accordion = ({ data }) => {
@@ -60,7 +61,7 @@ const Accordion = ({ data }) => {
                     </div>
                     <div className="col-12 col-lg-6">
                         <div className="lightbox-video">
-                            <Image src={data.mainData.thumbnail} alt="thumbnail" />
+                            <Image src={faq} alt="FAQ" />
                             <a className="button-circle button-circle-xl button-circle-style-2" onClick={() => openLightbox(data.mainData.youtubeVideoUrl)}>
                                 <i className="fa-solid fa-play"></i>
                             </a>

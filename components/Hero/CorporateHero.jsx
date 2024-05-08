@@ -6,7 +6,7 @@ const CorporateHero = () => {
     return (
         <div className="section-box">
             <div className="bg-image border-radius-1" data-bg-src={heroData.corporate.backgroundImage.src}>
-                <div className="bg-dark-06 section">
+                <div className="bg-dark-08 section">
                     <div className="container">
                         <div className="row">
                             <div className="col-12 col-lg-10 col-xl-8">
