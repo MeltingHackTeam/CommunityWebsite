@@ -27,7 +27,7 @@ const CorporateHero = () => {
                                         </ul>
                                     </div>
                                 </div> {/* end row(inner) */}
-                                <Link className="button button-lg button-font-2 mt-4 mt-lg-5" href={heroData.corporate.learnMoreUrl} target='_blank'>Join Discord</Link>
+                                <Link className="button button-lg button-font-2 mt-4 mt-lg-5" href={heroData.corporate.learnMoreUrl} target='_blank'><i className='bi bi-discord'></i>  Join Discord</Link>
                             </div>
                         </div> {/* end row */}
                     </div> {/* end container */}
