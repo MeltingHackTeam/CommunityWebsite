@@ -7,7 +7,7 @@ import News3Image from '@/public/images/news/news_3.png'
 export const blogData = {
     business: {
         mainData: {
-            title: "Journal",
+            title: "Blog",
             title2: "Our Recent News",
             description: "We will keep you updated on our activities. Please check our SNS and Discord for the most up-to-date information."
         },
