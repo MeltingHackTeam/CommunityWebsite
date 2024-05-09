@@ -12,83 +12,83 @@ export const teamData = {
             {
                 image: Kent,
                 name: 'Kent',
-                jobTitle: 'Founder',
+                jobTitle: 'Hackathon Enthusiast',
                 socials: [
+                    // {
+                    //     url: '#',
+                    //     bootstrapIcon: 'bi bi-github',
+                    // },
                     {
-                        url: '#',
-                        bootstrapIcon: 'bi bi-github',
+                        url: 'https://twitter.com/rheu401',
+                        bootstrapIcon: 'bi bi-twitter-x',
                     },
                     {
-                        url: '#',
-                        bootstrapIcon: 'bi bi-person-circle',
-                    },
-                    {
-                        url: '#',
+                        url: 'https://www.linkedin.com/in/kenta-uehara-039a8b144/',
                         bootstrapIcon: 'bi bi-linkedin',
                     },
                 ]
             },
             {
                 image: Sae,
-                name: 'Sae',
+                name: 'Sae Nuruki',
                 jobTitle: 'Founder',
                 socials: [
                     {
-                        url: '#',
+                        url: 'https://github.com/saenuruki',
                         bootstrapIcon: 'bi bi-github',
                     },
                     {
-                        url: '#',
+                        url: 'https://saenuruki.com',
                         bootstrapIcon: 'bi bi-person-circle',
                     },
                     {
-                        url: '#',
+                        url: 'https://www.linkedin.com/in/saenuruki',
                         bootstrapIcon: 'bi bi-linkedin',
                     },
                 ]
             },
             {
                 image: Avie,
-                name: 'Avie',
-                jobTitle: 'Founder',
+                name: 'Avie Fukai',
+                jobTitle: 'Community Manager',
                 socials: [
                     {
-                        url: '#',
+                        url: 'https://github.com/avie-dev',
                         bootstrapIcon: 'bi bi-github',
                     },
                     {
-                        url: '#',
+                        url: 'https://aviefukai.com/',
                         bootstrapIcon: 'bi bi-person-circle',
                     },
                     {
-                        url: '#',
+                        url: 'https://www.linkedin.com/in/jfukai/',
                         bootstrapIcon: 'bi bi-linkedin',
                     },
                 ]
             },
             {
                 image: Tch4lla,
-                name: 'Sulaymane',
-                jobTitle: 'Founder',
+                name: 'Sulaymane Sillah',
+                jobTitle: 'Engineering Director',
                 socials: [
                     {
-                        url: '#',
+                        url: 'github.com/tch4lla',
                         bootstrapIcon: 'bi bi-github',
                     },
                     {
-                        url: '#',
+                        url: 'sulaymanesillah.netlify.app',
                         bootstrapIcon: 'bi bi-person-circle',
                     },
                     {
-                        url: '#',
+                        url: 'linkedin.com/in/sulaymanesillah',
                         bootstrapIcon: 'bi bi-linkedin',
                     },
                 ]
             },
             {
                 image: Taku,
-                name: 'Taku',
-                jobTitle: 'Founder',
+                name: 'Takuya Nishikawa',
+                jobTitle: 'Community Manager',
                 socials: [
                     {
                         url: '#',
@@ -99,72 +99,72 @@ export const teamData = {
                         bootstrapIcon: 'bi bi-person-circle',
                     },
                     {
-                        url: '#',
+                        url: 'linkedin.com/in/琢也-西川-2554b01ab',
                         bootstrapIcon: 'bi bi-linkedin',
                     },
                 ]
             },
             {
                 image: Merhmood,
-                name: 'Merhmood',
-                jobTitle: 'Founder',
+                name: 'Mahmud Suberu',
+                jobTitle: 'Community Growth Lead',
                 socials: [
                     {
-                        url: '#',
+                        url: 'www.github.com/merhmood',
                         bootstrapIcon: 'bi bi-github',
                     },
                     {
-                        url: '#',
+                        url: 'www.merhmood.me',
                         bootstrapIcon: 'bi bi-person-circle',
                     },
                     {
-                        url: '#',
+                        url: 'https://www.linkedin.com/in/mahmud-a-suberu-684020235',
                         bootstrapIcon: 'bi bi-linkedin',
                     },
                 ]
             },
             {
                 image: Kuu,
-                name: 'Kuu',
-                jobTitle: 'Founder',
+                name: 'Fumiya Kume',
+                jobTitle: 'Hackathon Director',
                 socials: [
+                    // {
+                    //     url: '#',
+                    //     bootstrapIcon: 'bi bi-github',
+                    // },
                     {
-                        url: '#',
-                        bootstrapIcon: 'bi bi-github',
-                    },
-                    {
-                        url: '#',
+                        url: 'https://kuxumarin.hatenablog.com/',
                         bootstrapIcon: 'bi bi-person-circle',
                     },
                     {
-                        url: '#',
+                        url: 'https://www.linkedin.com/in/kuu-sushi/',
                         bootstrapIcon: 'bi bi-linkedin',
                     },
                 ]
             },
             {
                 image: Morizuq,
-                name: 'Morizuq',
-                jobTitle: 'Founder',
+                name: 'Morizuq Shoneye',
+                jobTitle: 'Events Director',
                 socials: [
                     {
-                        url: '#',
+                        url: 'github.com/Morizuq',
                         bootstrapIcon: 'bi bi-github',
                     },
                     {
-                        url: '#',
+                        url: 'https://morizuq.tech/',
                         bootstrapIcon: 'bi bi-person-circle',
                     },
                     {
-                        url: '#',
+                        url: 'linkedin.com/in/morizuq/',
                         bootstrapIcon: 'bi bi-linkedin',
                     },
                 ]
             },
             {
                 image: Kado,
-                name: 'Kado',
-                jobTitle: 'Founder',
+                name: 'Ayumi Kado',
+                jobTitle: 'Community Manager',
                 socials: [
                     {
                         url: '#',
@@ -182,424 +182,43 @@ export const teamData = {
             },
             {
                 image: Ucchi,
-                name: 'Ucchi',
-                jobTitle: 'Founder',
+                name: 'Atsuchi Uchiyama',
+                jobTitle: 'Hackathon Director',
                 socials: [
-                    {
-                        url: '#',
-                        bootstrapIcon: 'bi bi-github',
-                    },
-                    {
-                        url: '#',
-                        bootstrapIcon: 'bi bi-person-circle',
-                    },
-                    {
-                        url: '#',
-                        bootstrapIcon: 'bi bi-linkedin',
-                    },
+                    // {
+                    //     url: '#',
+                    //     bootstrapIcon: 'bi bi-github',
+                    // },
+                    // {
+                    //     url: '#',
+                    //     bootstrapIcon: 'bi bi-person-circle',
+                    // },
+                    // {
+                    //     url: '#',
+                    //     bootstrapIcon: 'bi bi-linkedin',
+                    // },
                 ]
             },
             {
                 image: Jonnie,
                 name: 'Jonnie',
-                jobTitle: 'Founder',
+                jobTitle: 'Leand Engagement Strategist',
                 socials: [
                     {
-                        url: '#',
+                        url: 'https://www.github.com/Jonnie-Dev',
                         bootstrapIcon: 'bi bi-github',
                     },
                     {
-                        url: '#',
+                        url: 'https://jon-nie.vercel.app',
                         bootstrapIcon: 'bi bi-person-circle',
                     },
                     {
-                        url: '#',
+                        url: 'https://www.linkedin.com/in/john-areola',
                         bootstrapIcon: 'bi bi-linkedin',
                     },
                 ]
             },
         ]
     },
-    business: {
-        mainData: {
-            title: "Team Members",
-            title2: "Meet Our Team",
-            description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem obcaecati, placeat nemo natus deleniti iusto labore quod quisquam quasi iure dolore architecto maxime beatae",
-            ViewAllMembersUrl: "#"
-        },
-        members: [
-            {
-                image: Image,
-                name: 'Alexander Warren',
-                jobTitle: 'Founder',
-                socials: [
-                    {
-                        url: '#',
-                        bootstrapIcon: 'bi bi-facebook',
-                    },
-                    {
-                        url: '#',
-                        bootstrapIcon: 'bi bi-twitter-x',
-                    },
-                    {
-                        url: '#',
-                        bootstrapIcon: 'bi bi-instagram',
-                    },
-                ]
-            },
-            {
-                image: Image,
-                name: 'Alexander Warren',
-                jobTitle: 'Founder',
-                socials: [
-                    {
-                        url: '#',
-                        bootstrapIcon: 'bi bi-facebook',
-                    },
-                    {
-                        url: '#',
-                        bootstrapIcon: 'bi bi-twitter-x',
-                    },
-                    {
-                        url: '#',
-                        bootstrapIcon: 'bi bi-instagram',
-                    },
-                ]
-            },
-            {
-                image: Image,
-                name: 'Alexander Warren',
-                jobTitle: 'Founder',
-                socials: [
-                    {
-                        url: '#',
-                        bootstrapIcon: 'bi bi-facebook',
-                    },
-                    {
-                        url: '#',
-                        bootstrapIcon: 'bi bi-twitter-x',
-                    },
-                    {
-                        url: '#',
-                        bootstrapIcon: 'bi bi-instagram',
-                    },
-                ]
-            },
-        ]
-    },
-    startup: {
-        mainData: {
-            title: "Team Members",
-            title2: "Meet Our Team",
-            description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem obcaecati, placeat nemo natus deleniti iusto labore quod quisquam quasi iure dolore architecto maxime beatae",
-            ViewAllMembersUrl: "#"
-        },
-        members: [
-            {
-                image: Image,
-                name: 'Alexander Warren',
-                jobTitle: 'Founder',
-                socials: [
-                    {
-                        url: '#',
-                        bootstrapIcon: 'bi bi-facebook',
-                    },
-                    {
-                        url: '#',
-                        bootstrapIcon: 'bi bi-twitter-x',
-                    },
-                    {
-                        url: '#',
-                        bootstrapIcon: 'bi bi-instagram',
-                    },
-                ]
-            },
-            {
-                image: Image,
-                name: 'Alexander Warren',
-                jobTitle: 'Founder',
-                socials: [
-                    {
-                        url: '#',
-                        bootstrapIcon: 'bi bi-facebook',
-                    },
-                    {
-                        url: '#',
-                        bootstrapIcon: 'bi bi-twitter-x',
-                    },
-                    {
-                        url: '#',
-                        bootstrapIcon: 'bi bi-instagram',
-                    },
-                ]
-            },
-            {
-                image: Image,
-                name: 'Alexander Warren',
-                jobTitle: 'Founder',
-                socials: [
-                    {
-                        url: '#',
-                        bootstrapIcon: 'bi bi-facebook',
-                    },
-                    {
-                        url: '#',
-                        bootstrapIcon: 'bi bi-twitter-x',
-                    },
-                    {
-                        url: '#',
-                        bootstrapIcon: 'bi bi-instagram',
-                    },
-                ]
-            },
-        ]
-    },
-    aboutPage: {
-        mainData: {
-            title: "Team Members",
-            title2: "Meet Our Team",
-            description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem obcaecati, placeat nemo natus deleniti iusto labore quod quisquam quasi iure dolore architecto maxime beatae",
-            ViewAllMembersUrl: "#"
-        },
-        members: [
-            {
-                image: Image,
-                name: 'Alexander Warren',
-                jobTitle: 'Founder',
-                socials: [
-                    {
-                        url: '#',
-                        bootstrapIcon: 'bi bi-facebook',
-                    },
-                    {
-                        url: '#',
-                        bootstrapIcon: 'bi bi-twitter-x',
-                    },
-                    {
-                        url: '#',
-                        bootstrapIcon: 'bi bi-instagram',
-                    },
-                ]
-            },
-            {
-                image: Image,
-                name: 'Alexander Warren',
-                jobTitle: 'Founder',
-                socials: [
-                    {
-                        url: '#',
-                        bootstrapIcon: 'bi bi-facebook',
-                    },
-                    {
-                        url: '#',
-                        bootstrapIcon: 'bi bi-twitter-x',
-                    },
-                    {
-                        url: '#',
-                        bootstrapIcon: 'bi bi-instagram',
-                    },
-                ]
-            },
-            {
-                image: Image,
-                name: 'Alexander Warren',
-                jobTitle: 'Founder',
-                socials: [
-                    {
-                        url: '#',
-                        bootstrapIcon: 'bi bi-facebook',
-                    },
-                    {
-                        url: '#',
-                        bootstrapIcon: 'bi bi-twitter-x',
-                    },
-                    {
-                        url: '#',
-                        bootstrapIcon: 'bi bi-instagram',
-                    },
-                ]
-            },
-            {
-                image: Image,
-                name: 'Alexander Warren',
-                jobTitle: 'Founder',
-                socials: [
-                    {
-                        url: '#',
-                        bootstrapIcon: 'bi bi-facebook',
-                    },
-                    {
-                        url: '#',
-                        bootstrapIcon: 'bi bi-twitter-x',
-                    },
-                    {
-                        url: '#',
-                        bootstrapIcon: 'bi bi-instagram',
-                    },
-                ]
-            },
-            {
-                image: Image,
-                name: 'Alexander Warren',
-                jobTitle: 'Founder',
-                socials: [
-                    {
-                        url: '#',
-                        bootstrapIcon: 'bi bi-facebook',
-                    },
-                    {
-                        url: '#',
-                        bootstrapIcon: 'bi bi-twitter-x',
-                    },
-                    {
-                        url: '#',
-                        bootstrapIcon: 'bi bi-instagram',
-                    },
-                ]
-            },
-            {
-                image: Image,
-                name: 'Alexander Warren',
-                jobTitle: 'Founder',
-                socials: [
-                    {
-                        url: '#',
-                        bootstrapIcon: 'bi bi-facebook',
-                    },
-                    {
-                        url: '#',
-                        bootstrapIcon: 'bi bi-twitter-x',
-                    },
-                    {
-                        url: '#',
-                        bootstrapIcon: 'bi bi-instagram',
-                    },
-                ]
-            },
-        ]
-    },
-    teamPage: {
-        mainData: {
-            title: "Team Members",
-            title2: "Meet Our Team",
-            description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem obcaecati, placeat nemo natus deleniti iusto labore quod quisquam quasi iure dolore architecto maxime beatae",
-            ViewAllMembersUrl: "#"
-        },
-        members: [
-            {
-                image: Image,
-                name: 'Alexander Warren',
-                jobTitle: 'Founder',
-                socials: [
-                    {
-                        url: '#',
-                        bootstrapIcon: 'bi bi-facebook',
-                    },
-                    {
-                        url: '#',
-                        bootstrapIcon: 'bi bi-twitter-x',
-                    },
-                    {
-                        url: '#',
-                        bootstrapIcon: 'bi bi-instagram',
-                    },
-                ]
-            },
-            {
-                image: Image,
-                name: 'Alexander Warren',
-                jobTitle: 'Founder',
-                socials: [
-                    {
-                        url: '#',
-                        bootstrapIcon: 'bi bi-facebook',
-                    },
-                    {
-                        url: '#',
-                        bootstrapIcon: 'bi bi-twitter-x',
-                    },
-                    {
-                        url: '#',
-                        bootstrapIcon: 'bi bi-instagram',
-                    },
-                ]
-            },
-            {
-                image: Image,
-                name: 'Alexander Warren',
-                jobTitle: 'Founder',
-                socials: [
-                    {
-                        url: '#',
-                        bootstrapIcon: 'bi bi-facebook',
-                    },
-                    {
-                        url: '#',
-                        bootstrapIcon: 'bi bi-twitter-x',
-                    },
-                    {
-                        url: '#',
-                        bootstrapIcon: 'bi bi-instagram',
-                    },
-                ]
-            },
-            {
-                image: Image,
-                name: 'Alexander Warren',
-                jobTitle: 'Founder',
-                socials: [
-                    {
-                        url: '#',
-                        bootstrapIcon: 'bi bi-facebook',
-                    },
-                    {
-                        url: '#',
-                        bootstrapIcon: 'bi bi-twitter-x',
-                    },
-                    {
-                        url: '#',
-                        bootstrapIcon: 'bi bi-instagram',
-                    },
-                ]
-            },
-            {
-                image: Image,
-                name: 'Alexander Warren',
-                jobTitle: 'Founder',
-                socials: [
-                    {
-                        url: '#',
-                        bootstrapIcon: 'bi bi-facebook',
-                    },
-                    {
-                        url: '#',
-                        bootstrapIcon: 'bi bi-twitter-x',
-                    },
-                    {
-                        url: '#',
-                        bootstrapIcon: 'bi bi-instagram',
-                    },
-                ]
-            },
-            {
-                image: Image,
-                name: 'Alexander Warren',
-                jobTitle: 'Founder',
-                socials: [
-                    {
-                        url: '#',
-                        bootstrapIcon: 'bi bi-facebook',
-                    },
-                    {
-                        url: '#',
-                        bootstrapIcon: 'bi bi-twitter-x',
-                    },
-                    {
-                        url: '#',
-                        bootstrapIcon: 'bi bi-instagram',
-                    },
-                ]
-            },
-        ]
-    },
+
 };
