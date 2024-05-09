@@ -8,26 +8,12 @@ const CorporateHero = () => {
             <div className="bg-image border-radius-1" data-bg-src={heroData.corporate.backgroundImage.src}>
                 <div className="bg-dark-06 section">
                     <div className="container">
-                        <div className="row">
-                            <div className="col-12 col-lg-10 col-xl-8">
-                                <h1 className="display-3 fw-normal">{heroData.corporate.title}</h1>
-                                <div className="row g-2 g-md-3 mt-3">
-                                    <div className="col-12 col-md-6">
-                                        <ul className="list-unstyled">
-                                            {heroData.corporate.features1.map((item, index) => (
-                                                <li key={index}><i className="bi bi-check pe-2"></i>{item.title}</li>
-                                            ))}
-                                        </ul>
-                                    </div>
-                                    <div className="col-12 col-md-6">
-                                        <ul className="list-unstyled">
-                                            {heroData.corporate.features2.map((item, index) => (
-                                                <li key={index}><i className="bi bi-check pe-2"></i>{item.title}</li>
-                                            ))}
-                                        </ul>
-                                    </div>
-                                </div> {/* end row(inner) */}
-                                <Link className="button button-lg button-font-2 mt-4 mt-lg-5" href={heroData.corporate.learnMoreUrl} target='_blank'>Join Discord</Link>
+                        <div className="row g-4">
+                            <div className="col-12 col-md-10 col-lg-9 col-xl-8 col-xxl-7">
+                                <h1 className="display-5 fw-normal">{heroData.corporate.title}</h1>
+                                <p className="mt-3 mt-lg-4">{heroData.corporate.description}</p>
+                                <p className="mt-3 mt-lg-4">{heroData.corporate.message}</p>
+                                <Link className="button button-lg button-font-2 mt-4 mt-lg-5" href={heroData.corporate.learnMoreUrl} target='_blank'><i className='bi bi-discord'></i>  Join Discord</Link>
                             </div>
                         </div> {/* end row */}
                     </div> {/* end container */}
