@@ -8,7 +8,7 @@ const Header = () => {
 	return (
 		<>
 			<div className="header-placeholder"></div>
-			<div className="header with-placeholder">
+			<div className="header with-placeholder bg-dark-06">
 				<div className="container-fluid">
 					{/* Logo */}
 					<div className="header-logo">
