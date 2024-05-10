@@ -11,7 +11,7 @@ export const teamData = {
         members: [
             {
                 image: Kent,
-                name: 'Kent',
+                name: 'Kenta Uehara',
                 jobTitle: 'Hackathon Enthusiast',
                 socials: [
                     // {
@@ -31,7 +31,7 @@ export const teamData = {
             {
                 image: Sae,
                 name: 'Sae Nuruki',
-                jobTitle: 'Founder',
+                jobTitle: 'Founder・Hackathon Enthusiast',
                 socials: [
                     {
                         url: 'https://github.com/saenuruki',
@@ -88,7 +88,7 @@ export const teamData = {
             {
                 image: Taku,
                 name: 'Takuya Nishikawa',
-                jobTitle: 'Community Manager',
+                jobTitle: 'Founder・Career Cousultant',
                 socials: [
                     {
                         url: '#',
