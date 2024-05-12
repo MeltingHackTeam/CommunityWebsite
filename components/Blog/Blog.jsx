@@ -84,12 +84,12 @@ const Blog = ({data}) => {
                                 <div className="blog-post-box">
                                     <div className="blog-img">
                                         {/* Image */}
-                                        <Link className="blog-img-link" href={`blog/${ isLightTheme ? item.slug : 'light/' + item.slug}`}>
+                                        <Link className="blog-img-link" href={`blog/${item.slug}`}>
                                             <Image src={item.mainImage} alt={item.title} placeholder="blur" />
                                         </Link>
                                         {/* Category */}
                                         <div className="blog-category">
-                                            <Link href={`blog/${ isLightTheme ? item.slug : 'light/' + item.slug}`} className="button button-sm button-style-2 button-font-2">
+                                            <Link href={`blog/${item.slug}`} className="button button-sm button-style-2 button-font-2">
                                                 <span>{item.category}</span>
                                             </Link>
                                         </div>
@@ -97,18 +97,18 @@ const Blog = ({data}) => {
                                     <div className="pt-4">
                                         <ul className="list-inline-dot sm-heading mb-2">
                                             <li>
-                                                <Link className="link-hover" href={`blog/${ isLightTheme ? item.slug : 'light/' + item.slug}`}>
+                                                <Link className="link-hover" href={`blog/${item.slug}`}>
                                                     <span>by {item.postedBy}</span>
                                                 </Link>
                                             </li>
                                             <li>
-                                                <Link className="link-hover" href={`blog/${ isLightTheme ? item.slug : 'light/' + item.slug}`}>
+                                                <Link className="link-hover" href={`blog/${item.slug}`}>
                                                     <span>{item.date}</span>
                                                 </Link>
                                             </li>
                                         </ul>
                                         <h2>
-                                            <Link className="link-hover-2" href={`blog/${ isLightTheme ? item.slug : 'light/' + item.slug}`}>
+                                            <Link className="link-hover-2" href={`blog/${item.slug}`}>
                                                 {item.title}
                                             </Link>
                                         </h2>
