@@ -1,17 +1,20 @@
 import MainImage from '@/public/images/blog-fullwidth.jpg'
 import Image from '@/public/images/col-2.jpg';
+import News1Image from '@/public/images/news/news_1.png'
+import News2Image from '@/public/images/news/news_2.png'
+import News3Image from '@/public/images/news/news_3.png'
 
 export const blogData = {
     business: {
         mainData: {
-            title: "Journal",
-            title2: "Blog Posts",
-            description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation"
+            title: "Blog",
+            title2: "Our Recent News",
+            description: "We will keep you updated on our activities. Please check our SNS and Discord for the most up-to-date information."
         },
         posts: [
             {
-                title: 'Blog Post Title',
-                slug: 'blog-post-title',
+                title: 'The Dawn of MeltingHack',
+                slug: 'The-Dawn-of-MeltingHack',
                 description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit',
                 keywords: 'key1, key2, key3',
                 categories: [
@@ -21,7 +24,7 @@ export const blogData = {
                 date: 'Oct 8',
                 postedBy: 'Admin',
                 content: '<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p> <div className="row mt-4"> <div className="col-12 col-lg-6"> <h4>Heading</h4> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt fugit odit eum itaque, fugiat illo dolores molestias obcaecati culpa</p> </div> <div className="col-12 col-lg-6"> <h4>Heading</h4> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt fugit odit eum itaque, fugiat illo dolores molestias obcaecati culpa</p> </div> </div>',
-                mainImage: MainImage,
+                mainImage: News1Image,
                 media: [
                     { image: Image, alt: 'image' },
                     { image: Image, alt: 'image' },
@@ -38,8 +41,8 @@ export const blogData = {
                 ]
             },
             {
-                title: 'Blog Post Title',
-                slug: 'blog-post-title-1',
+                title: 'Intel Ideathon Preparation',
+                slug: 'Intel-Ideathon-Preparation',
                 description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit',
                 keywords: 'key1, key2, key3',
                 categories: [
@@ -49,7 +52,7 @@ export const blogData = {
                 date: 'Oct 8',
                 postedBy: 'Admin',
                 content: '<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p> <div className="row mt-4"> <div className="col-12 col-lg-6"> <h4>Heading</h4> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt fugit odit eum itaque, fugiat illo dolores molestias obcaecati culpa</p> </div> <div className="col-12 col-lg-6"> <h4>Heading</h4> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt fugit odit eum itaque, fugiat illo dolores molestias obcaecati culpa</p> </div> </div>',
-                mainImage: MainImage,
+                mainImage: News2Image,
                 media: [
                     { image: Image, alt: 'image' },
                     { image: Image, alt: 'image' },
@@ -66,8 +69,8 @@ export const blogData = {
                 ]
             },
             {
-                title: 'Blog Post Title',
-                slug: 'blog-post-title-2',
+                title: 'The Generative AI Expedition',
+                slug: 'The-Generative-AI-Expedition',
                 description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit',
                 keywords: 'key1, key2, key3',
                 categories: [
@@ -77,7 +80,7 @@ export const blogData = {
                 date: 'Oct 8',
                 postedBy: 'Admin',
                 content: '<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p> <div className="row mt-4"> <div className="col-12 col-lg-6"> <h4>Heading</h4> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt fugit odit eum itaque, fugiat illo dolores molestias obcaecati culpa</p> </div> <div className="col-12 col-lg-6"> <h4>Heading</h4> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt fugit odit eum itaque, fugiat illo dolores molestias obcaecati culpa</p> </div> </div>',
-                mainImage: MainImage,
+                mainImage: News3Image,
                 media: [
                     { image: Image, alt: 'image' },
                     { image: Image, alt: 'image' },
