@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
-import faq from '@/public/images/faq.jpg'
+import faq from '@/public/images/faq.png'
 import { LightboxVideo } from '..';
 
 const Accordion = ({ data }) => {
