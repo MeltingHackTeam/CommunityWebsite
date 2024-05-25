@@ -4,12 +4,14 @@ import News1Image from '@/public/images/news/news_1.png'
 import News2Image from '@/public/images/news/news_2.png'
 import News3Image from '@/public/images/news/news_3.png'
 import YuriIshitoya from '@/public/images/blog/yuri_ishitoya/yuri_ishitoya_1.png'
+import ShunKatayose from '@/public/images/blog/shun_katayose/shun_katayose_2.png'
+
 
 export const blogData = {
     business: {
         mainData: {
             title: "Blog",
-            title2: "Melting Interview 🫠",
+            title2: "Melting Interview 🔥",
             description: "We are conducting interviews with MeltingHack members about their passionate involvement (Melting) in their life."
         },
         posts: [
@@ -23,6 +25,20 @@ export const blogData = {
                 postedBy: 'Taku',
                 content: '',
                 mainImage: YuriIshitoya,
+                media: [],
+                images: [],
+                tags: []
+            },
+            {
+                title: 'Shun Katayose',
+                slug: 'Shun-Katayose',
+                description: '',
+                keywords: '',
+                categories: [],
+                date: 'May 25',
+                postedBy: 'Taku',
+                content: '',
+                mainImage: ShunKatayose,
                 media: [],
                 images: [],
                 tags: []

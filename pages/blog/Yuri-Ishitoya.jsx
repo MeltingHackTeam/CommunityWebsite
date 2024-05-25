@@ -61,7 +61,7 @@ const YuriIshitoyaBlog = ({ post }) => {
                                 {/* <div dangerouslySetInnerHTML={{ __html: post.content }} /> */}
                                 <div className="py-3">
                                     <h4>Q: 経歴について教えてください。</h4>
-                                    <p>私はお茶の水女子大学の４年生で、エンジニアとしてiOSやモバイルアプリケーションの開発に取り組んでいます。現在は人工知能関係の研究を進めています。</p><p></p>
+                                    <p>私はお茶の水女子大学の４年生で、エンジニアとしてiOSやモバイルアプリケーションの開発に取り組んでいます。現在は人工知能関係の研究を進めています。</p>
                                 </div>
                                 <div className="py-3">
                                     <h4>Q: 現在、溶けちゃうくらい熱中（Melting）していることは何ですか？</h4>
@@ -116,48 +116,5 @@ const YuriIshitoyaBlog = ({ post }) => {
         </>
     )
 }
-
-// export async function getStaticPaths() {
-//     // Generate paths for all your business and corporate blog posts
-//     const businessPaths = blogData.business.posts.map((post) => ({
-//         params: { slug: post.slug },
-//     }));
-
-//     const corporatePaths = blogData.corporate.posts.map((post) => ({
-//         params: { slug: post.slug },
-//     }));
-
-//     const paths = [...businessPaths, ...corporatePaths];
-
-//     return {
-//         paths,
-//         fallback: false,
-//     };
-// }
-
-// export async function getStaticProps({ params }) {
-//     const slug = params.slug;
-
-//     // Search for the blog post with the matching slug in the business section
-//     const businessPost = blogData.business.posts.find((post) => post.slug === slug);
-//     // Search for the blog post with the matching slug in the corporate section
-//     const corporatePost = blogData.corporate.posts.find((post) => post.slug === slug);
-
-//     // Check if the post is found in either section
-//     if (!businessPost && !corporatePost) {
-//         return {
-//             notFound: true,
-//         };
-//     }
-
-//     // Return the appropriate post based on the section
-//     const post = businessPost || corporatePost;
-
-//     return {
-//         props: {
-//             post,
-//         },
-//     };
-// }
 
 export default YuriIshitoyaBlog
