@@ -46,7 +46,7 @@ const YuriIshitoyaBlog = ({ post }) => {
                 <div className="section pt-0">
                     <div className="container">
                         {/* Media */}
-                        <div className="row g-4 m-4">
+                        <div className="row justify-content-md-center g-4 m-4">
                             <div className="col-12 col-md-6">
                                 <div className="lightbox-image" onClick={() => openLightbox(Image2)}>
                                     <Image src={Image2} alt="yuri_ishitoya_2" placeholder="blur" />
@@ -92,7 +92,7 @@ const YuriIshitoyaBlog = ({ post }) => {
                         {/* end row */}
 
                         {/* Images */}
-                        <div className="row g-4 m-4">
+                        <div className="row justify-content-md-center g-4 m-4">
                             <div className="col-12 col-md-6">
                                 <div className="lightbox-image" onClick={() => openLightbox(Image1)}>
                                     <Image src={Image1} alt="yuri_ishitoya_1" placeholder="blur" />
