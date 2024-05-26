@@ -35,6 +35,8 @@ const ShunKatayoseBlog = ({ post }) => {
                         <div className="row">
                             <div className="col-12 col-lg-10 offset-lg-1 col-xl-8 offset-xl-2">
                                 <h1 className="display-4 fw-normal">Shun Katayose</h1>
+                                <p>X (Twitter)：<a href='https://x.com/Shun592848561'>https://x.com/Shun592848561</a></p>
+                                <p>LinkedIn：<a href='https://www.linkedin.com/in/shun-katayose-8b45b61b2/'>https://www.linkedin.com/in/shun-katayose-8b45b61b2/</a></p>
                             </div>
                         </div> {/* end row */}
                     </div> {/* end container */}
