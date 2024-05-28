@@ -48,7 +48,7 @@ export const heroData = {
         message: 'Join us as we shape the future, one hackathon at a time.',
         backgroundImage: BackgroundImage,
         logoImage: BGClearLogoImage,
-        learnMoreUrl: 'https://discord.gg/q6ttuTYu',
+        learnMoreUrl: 'https://discord.gg/74WJ455uWw',
     },
     portfolio: {
         title: 'Good Design is Obvious',
