@@ -88,11 +88,11 @@ const Blog = ({data}) => {
                                             <Image src={item.mainImage} alt={item.title} placeholder="blur" />
                                         </Link>
                                         {/* Category */}
-                                        <div className="blog-category">
+                                        {/* <div className="blog-category">
                                             <Link href={`blog/${item.slug}`} className="button button-sm button-style-2 button-font-2">
                                                 <span>{item.category}</span>
                                             </Link>
-                                        </div>
+                                        </div> */}
                                     </div>
                                     <div className="pt-4">
                                         <ul className="list-inline-dot sm-heading mb-2">

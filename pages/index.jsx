@@ -31,8 +31,7 @@ export default function Home() {
                 {/* About section */}
                 <BusinessAbout data={aboutData.corporate} />
                 {/* Blog section */}
-                {/* TODO: (sae) Uncomment when I've finished writing the article. */}
-                {/* <Blog data={blogData.business} /> */}
+                <Blog data={blogData.business} />
                 {/* Team section */}
                 <Team data={teamData.agency} />
                 {/* Accordion section */}
