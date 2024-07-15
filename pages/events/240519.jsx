@@ -4,14 +4,14 @@ import Head from 'next/head'
 import { blogData } from '@/components/Blog/BlogData'
 import Image from 'next/image';
 import Link from 'next/link';
-import SmallImage1 from '@/public/images/events/event240713_small1.png'
-import SmallImage2 from '@/public/images/events/event240713_small2.png'
-import SmallImage3 from '@/public/images/events/event240713_small3.png'
-import BigImage1 from '@/public/images/events/event240713_big1.png'
-import BigImage2 from '@/public/images/events/event240713_big2.png'
+import SmallImage1 from '@/public/images/events/event240519_small1.png'
+import SmallImage2 from '@/public/images/events/event240519_small2.png'
+import SmallImage3 from '@/public/images/events/event240519_small3.png'
+import BigImage1 from '@/public/images/events/event240519_big1.png'
+import BigImage2 from '@/public/images/events/event240519_big2.png'
 
 
-const Event240713 = ({ post }) => {
+const Event240519 = ({ post }) => {
     const [lightboxImage, setLightboxImage] = useState(null);
 
     const openLightbox = (image) => {
@@ -25,9 +25,9 @@ const Event240713 = ({ post }) => {
     return (
         <>
             <Head>
-                <title>MeltingHack Meetup Night</title>
-                <meta name="description" content="A networking event designed to connect passionate individuals who are actively pursuing their challenges and those who are eager to take on new challenges to achieve their dreams, fostering a dynamic environment for collaboration and synergy." />
-                <meta name="keywords" content="fun, meetup" />
+                <title>AR 1Day Hackathon</title>
+                <meta name="description" content="A hackathon was held where even beginners could create an AR app in 1 day with support from Meracri and Apple." />
+                <meta name="keywords" content="hackathon, offline, ar" />
             </Head>
 
             <main>
@@ -37,8 +37,8 @@ const Event240713 = ({ post }) => {
                     <div className="container">
                         <div className="row">
                             <div className="col-12 col-lg-10 offset-lg-1 col-xl-8 offset-xl-2">
-                                <h1 className="display-4 fw-normal">MeltingHack Meetup Night</h1>
-                                <p>A networking event designed to connect passionate individuals who are actively pursuing their challenges and those who are eager to take on new challenges to achieve their dreams, fostering a dynamic environment for collaboration and synergy.</p>
+                                <h1 className="display-4 fw-normal">AR 1Day Hackathon</h1>
+                                <p>A hackathon was held where even beginners could create an AR app in 1 day with support from Meracri and Apple.</p>
                             </div>
                         </div> {/* end row */}
                         <div className="row g-4 mt-4">
@@ -46,27 +46,28 @@ const Event240713 = ({ post }) => {
                                 <div className="fancy-box">
                                     <h6 className="sm-heading">Category</h6>
                                     <ul className="list-inline-dot">
-                                        <li>Fun Event</li>
+                                        <li>Hackathon</li>
                                         <li>Offline</li>
+                                        <li>AR</li>
                                     </ul>
                                 </div>
                             </div>
                             <div className="col-12 col-lg-6 col-xl-3">
                                 <div className="fancy-box">
                                     <h6 className="sm-heading">Date</h6>
-                                    <span>July 13th, 2024</span>
+                                    <span>May 19th, 2024</span>
                                 </div>
                             </div>
                             <div className="col-12 col-lg-6 col-xl-3">
                                 <div className="fancy-box">
                                     <h6 className="sm-heading">Website</h6>
-                                    <Link className="link-hover" href="https://lu.ma/h6clgro2">https://lu.ma/h6clgro2</Link>
+                                    <Link className="link-hover" href="https://melting-hack.connpass.com/event/317845/">https://melting-hack.connpass.com/</Link>
                                 </div>
                             </div>
                             <div className="col-12 col-lg-6 col-xl-3">
                                 <div className="fancy-box">
                                     <h6 className="sm-heading">Participants</h6>
-                                    <span>20 members</span>
+                                    <span>30 members</span>
                                 </div>
                             </div>
                         </div> {/* end row */}
@@ -94,31 +95,30 @@ const Event240713 = ({ post }) => {
                             <div className="col-12 col-lg-10 offset-lg-1 col-xl-8 offset-xl-2">
                                 {/* <div dangerouslySetInnerHTML={{ __html: post.content }} /> */}
                                 <div className="py-3">
-                                    <h4>100 Days of Passion and Collaboration</h4>
-                                    <p>It&apos;s been an incredible 100 days since the MeltingHack community was established, and we&apos;re so grateful for the incredible team and members who have made it all possible. To express our heartfelt appreciation and foster further synergy among our passionate dreamers, we hosted a special networking event.</p>
+                                    <p>In anticipation of Apple&apos;s highly-awaited Vision Pro launch in Japan, we hosted an exhilarating AR hackathon, providing an immersive experience for developing AR apps using ARKit, RealityKit and etc. </p>
                                 </div>
                                 <div className="py-3">
-                                    <h4>Enhancing Connections Through Transparency</h4>
-                                    <p>To encourage meaningful interactions, we encouraged participants to update their self-introduction slides beforehand, increasing transparency and allowing everyone to get a glimpse of the diverse backgrounds and expertise within the community. This approach not only clarified each participant&apos;s motivation but also set the stage for more focused and engaging conversations.</p>
+                                    <h4>A Day of Exploration and Learning</h4>
+                                    <p>The hackathon kicked off with an inspiring keynote session featuring Apple Evangelists <a href='https://www.linkedin.com/in/masashitoyota/'>Masashi</a> and <a href='https://www.linkedin.com/in/shun-ichi-takeishi-2b735026/'>Shun</a>, who delved into the world of AR, captivating the audience with its transformative potential. Their expertise guided participants through the intricacies of ARKit and RealityKit, empowering them to embark on their creative journeys.</p>
                                 </div>
                                 <div className="py-3">
-                                    <h4>Melting Talk: Igniting Passions</h4>
-                                    <p>Adopting the theme &quot;Melting Talk (My passion that melts my heart)&quot; for self-introductions, we aimed to capture the essence of each individual&apos;s burning passion. By sharing visual aids and discussing their work, participants gained a deeper understanding of one another&apos;s approaches and projects, leading to more concrete collaborations.</p>
+                                    <h4>Imagination Takes Flight</h4>
+                                    <p>With a spark of inspiration ignited, participants dove into the hackathon, eagerly transforming their visions into reality. The air was filled with an infectious energy as individuals from diverse backgrounds collaborated, sharing ideas and supporting one another&apos;s endeavors.</p>
                                 </div>
                                 <div className="py-3">
-                                    <h4>Inspiring Connections and Shared Dreams</h4>
-                                    <p>The event brought together a remarkable group of individuals, including:</p>
-                                    <ul>
-                                        <li>A UX designer and data analyst with a knack for consistently winning hackathons, eager to share their insights into captivating the judges.</li>
-                                        <li>An entrepreneur developing an AI-powered gaming service, collaborating with a 3D artist to bring their vision to life. Their complementary skills promise the creation of truly innovative products.</li>
-                                        <li>A community organizer fostering connections for overseas members residing in Japan, and a student bridging the gap between aspiring global citizens and international residents in Japan. Their shared experiences promise to create even greater value.</li>
-                                        <li>And many more passionate individuals driven by hackathons, development, and entrepreneurship.</li>
-                                    </ul>
-                                    <p>The enthusiasm extended far beyond the event&apos;s official duration, with lively discussions and networking continuing late into the night.</p>
+                                    <h4>Fostering Connections and Camaraderie</h4>
+                                    <p>To showcase the diversity of our participants and foster deeper connections, we conducted Melting Interviews, capturing their perspectives and experiences. Furthering the spirit of camaraderie, we embarked on a group outing to Shake Shack, savoring delicious food and strengthening bonds. </p>
                                 </div>
                                 <div className="py-3">
-                                    <h4>Looking Ahead: Year-End Gathering</h4>
-                                    <p>Overwhelmed by the positive response, we would like to organize another meetup event around the end of the year. Stay tuned for more details!</p>
+                                    <h4>Celebrating Innovation and Creativity</h4>
+                                    <p>Despite the tight one-day timeframe, fueled by dedicated technical support and a collaborative spirit, participants delivered exceptional presentations. A 3D designer, new to app development, utilized SparkAR to craft stunning virtual decorations around them.</p>
+                                    <p>An iOS engineer, brimming with parental love, created an app that playfully placed their daughter&apos;s poster on the backs of fellow participants.</p>
+                                    <p>And the grand prize went to <a href='https://www.linkedin.com/in/tiphainedilet/'>Tiphaine</a>&apos;s ingenious app that displayed animations and speech bubbles on real-world store items when scanned with a smartphone.</p>
+                                </div>
+                                <div className="py-3">
+                                    <h4>Conclusion: A Catalyst for Innovation</h4>
+                                    <p>The event culminated in a delectable pizza party, where participants celebrated their achievements and forged lasting friendships.</p>
+                                    <p>The success of this AR hackathon has ignited our enthusiasm to host a Vision Pro Hackathon upon the release of Apple&apos;s groundbreaking device. Stay tuned for further updates and prepare to embark on an extraordinary journey into the realm of augmented reality!</p>
                                 </div>
                             </div>
                         </div> 
@@ -156,4 +156,4 @@ const Event240713 = ({ post }) => {
     )
 }
 
-export default Event240713
+export default Event240519
