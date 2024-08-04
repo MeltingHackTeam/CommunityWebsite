@@ -22,7 +22,7 @@ const Header = () => {
 	return (
 		<>
 			<div className="header-placeholder"></div>
-			<div className={`header with-placeholder nav ${scrollY > 30 && "bg-dark-06"}`}>
+			<div className={`header with-placeholder ${scrollY > 30 && "bg-dark-06"}`}>
 				<div className="container-fluid">
 					{/* Logo */}
 					<div className="header-logo">
