@@ -30,6 +30,19 @@ const Header = () => {
 							<Link href="/"><Image src={headerData.icon} alt={headerData.logo} /></Link>
 						</h2>
 					</div>
+
+					{/* Menu */}
+					<div className={`header-menu`}>
+						<ul className="nav">
+							{headerData.menu.map((menuItem, index) => (
+								<li key={index} className="nav-item">
+									<Link href={menuItem.link} className="nav-link">
+										{menuItem.label}
+									</Link>
+								</li>
+							))}
+						</ul>
+					</div>
 				</div>{/* end container-fluid */}
 			</div>
 		</>
