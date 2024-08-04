@@ -43,7 +43,7 @@ export const aboutData = {
     corporate: {
         mainData: {
             name1: 'Community Members',
-            count1: '250',
+            count1: '290',
             image1: OnlineSessionImage,
             name2: 'Events Organized',
             count2: '10',
@@ -58,8 +58,9 @@ export const aboutData = {
         mainData: {
             title: "Subscription App Hackathon: ​RevenueCat Ship-a-ton Japan Special",
             image: FeaturedEventImage,
-            featuredSite: '#',
-            eventSite: 'https://lu.ma/dk0afwud',
+            featuredSite: 'https://subscription-hackathon.melting-hack.tokyo/',
+            eventSite: 'https://melting-hack.connpass.com/event/327248/',
+            eventSiteEnglish: 'https://lu.ma/dk0afwud',
         },
         features1: [
             {name: 'Up to 100,000 yen in funding per team'},

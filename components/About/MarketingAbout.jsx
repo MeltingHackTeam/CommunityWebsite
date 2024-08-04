@@ -26,6 +26,7 @@ const MarketingAbout = ({data}) => {
                         </div> {/* end row(inner) */}
                         <a className="button button-lg mt-4 mx-2 mt-lg-5" href={data.mainData.featuredSite}>Event Website</a>
                         <a className="button button-lg mt-4 mx-2 mt-lg-5" href={data.mainData.eventSite}>Registr Here</a>
+                        <a className="button button-lg mt-4 mx-2 mt-lg-5" href={data.mainData.eventSiteEnglish}>English Page</a>
                     </div>
                     <div className="col-12 col-xxl-4 text-xxl-end d-none d-xxl-block">
                         <Image className="img-mask-1" src={data.mainData.image} alt="image" placeholder="blur" />

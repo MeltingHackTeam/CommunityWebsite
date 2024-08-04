@@ -564,7 +564,7 @@ export const portfolioData = {
         projects: [
             {
                 title: 'Subscription App Hackathon: ​RevenueCat Ship-a-ton Japan Special',
-                slug: 'event-sites/HTML/subscriptionhackathon.html',
+                slug: 'https://subscription-hackathon.melting-hack.tokyo/',
                 description: '',
                 category: 'hackathon',
                 services: [],
