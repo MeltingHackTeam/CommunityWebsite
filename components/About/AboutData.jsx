@@ -1,6 +1,7 @@
 import Image from '@/public/images/col-3-square.jpg';
 import OnlineSessionImage from '@/public/images/online-session.webp';
 import BornFireImage from '@/public/images/born-fire.webp';
+import FeaturedEventImage from '@/public/images/featured-event.png';
 
 export const aboutData = {
     mainData: {
@@ -55,19 +56,20 @@ export const aboutData = {
     },
     marketing: {
         mainData: {
-            title: "We're a team of marketing specialists with innovative thinking",
-            image: Image,
-            meetOurTeamUrl: '#',
+            title: "Subscription App Hackathon: ​RevenueCat Ship-a-ton Japan Special",
+            image: FeaturedEventImage,
+            featuredSite: '#',
+            eventSite: 'https://lu.ma/dk0afwud',
         },
         features1: [
-            {name: 'Lorem ipsum dolor sit amet, consectetuer'},
-            {name: 'Aenean commodo ligula eget dolor'},
-            {name: 'Cum sociis natoque penatibus et magnis'},
+            {name: 'Up to 100,000 yen in funding per team'},
+            {name: 'Build a monetized app using the RevenueCat SDK'},
+            {name: 'A special edition of the global hackathon \"RevenueCat Ship-a-ton\"'},
         ],
         features2: [
-            {name: 'Aenean commodo ligula eget dolor'},
-            {name: 'Lorem ipsum dolor sit amet, consectetuer'},
-            {name: 'Cum sociis natoque penatibus'},
+            {name: 'Sessions on monetization tips and strategies'},
+            {name: 'Support in both Japanese and English'},
+            {name: 'First prize: $5,000 USD and a week-long ad campaign on a digital billboard'},
         ]
     },
     servicesPage: {
