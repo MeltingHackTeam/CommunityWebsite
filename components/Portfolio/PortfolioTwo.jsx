@@ -44,7 +44,7 @@ const PortfolioTwo = ({data}) => {
                             <div className="portfolio-box">
                                 {/* Image */}
                                 <div className="portfolio-img">
-                                    <Link href={`portfolio/${ isLightTheme ? item.slug : 'light/' + item.slug}`}>
+                                    <Link href={`${item.slug}`}>
                                         <Image src={item.mainImage} alt={item.title} placeholder="blur" />
                                     </Link>
                                 </div>
@@ -53,7 +53,7 @@ const PortfolioTwo = ({data}) => {
                                     <ul className="list-inline-dot sm-heading mb-2">
                                         {item.categories.map((category, index) => (
                                             <li key={index}>
-                                                <Link className="link-hover" href={`portfolio/${ isLightTheme ? item.slug : 'light/' + item.slug}`}>
+                                                <Link className="link-hover" href={`${item.slug}`}>
                                                     {category.name}
                                                 </Link>
                                             </li>
@@ -61,7 +61,7 @@ const PortfolioTwo = ({data}) => {
                                     </ul>
                                     {/* Caption */}
                                     <h2>
-                                        <Link className="link-hover-2" href={`portfolio/${ isLightTheme ? item.slug : 'light/' + item.slug}`}>
+                                        <Link className="link-hover-2" href={`${item.slug}`}>
                                             {item.title}
                                         </Link>
                                     </h2>
