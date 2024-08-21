@@ -1,5 +1,5 @@
 import Image from '@/public/images/col-3-square.jpg';
-import { Avie, Jonnie, Kado, Kent, Kuu, Merhmood, Morizuq, Sae, Taku, Tch4lla, Ucchi } from '@/public/images/team';
+import { Avie, Jonnie, Kado, Kent, Kuu, Merhmood, Morizuq, Sae, Taku, Tch4lla, Ucchi, Jun, Tomoya } from '@/public/images/team';
 export const teamData = {
     agency: {
         mainData: {
@@ -9,25 +9,6 @@ export const teamData = {
             ViewAllMembersUrl: "#"
         },
         members: [
-            {
-                image: Kent,
-                name: 'Kenta Uehara',
-                jobTitle: 'Hackathon Enthusiast',
-                socials: [
-                    // {
-                    //     url: '#',
-                    //     bootstrapIcon: 'bi bi-github',
-                    // },
-                    {
-                        url: 'https://twitter.com/rheu401',
-                        bootstrapIcon: 'bi bi-twitter-x',
-                    },
-                    {
-                        url: 'https://www.linkedin.com/in/kenta-uehara-039a8b144/',
-                        bootstrapIcon: 'bi bi-linkedin',
-                    },
-                ]
-            },
             {
                 image: Sae,
                 name: 'Sae Nuruki',
@@ -43,44 +24,6 @@ export const teamData = {
                     },
                     {
                         url: 'https://www.linkedin.com/in/saenuruki',
-                        bootstrapIcon: 'bi bi-linkedin',
-                    },
-                ]
-            },
-            {
-                image: Avie,
-                name: 'Avie Fukai',
-                jobTitle: 'Community Manager',
-                socials: [
-                    {
-                        url: 'https://github.com/avie-dev',
-                        bootstrapIcon: 'bi bi-github',
-                    },
-                    {
-                        url: 'https://aviefukai.com/',
-                        bootstrapIcon: 'bi bi-person-circle',
-                    },
-                    {
-                        url: 'https://www.linkedin.com/in/jfukai/',
-                        bootstrapIcon: 'bi bi-linkedin',
-                    },
-                ]
-            },
-            {
-                image: Tch4lla,
-                name: 'Sulaymane Sillah',
-                jobTitle: 'Engineering Director',
-                socials: [
-                    {
-                        url: 'github.com/tch4lla',
-                        bootstrapIcon: 'bi bi-github',
-                    },
-                    {
-                        url: 'sulaymanesillah.netlify.app',
-                        bootstrapIcon: 'bi bi-person-circle',
-                    },
-                    {
-                        url: 'linkedin.com/in/sulaymanesillah',
                         bootstrapIcon: 'bi bi-linkedin',
                     },
                 ]
@@ -105,20 +48,92 @@ export const teamData = {
                 ]
             },
             {
-                image: Merhmood,
-                name: 'Mahmud Suberu',
-                jobTitle: 'Community Growth Lead',
+                image: Avie,
+                name: 'Avie Fukai',
+                jobTitle: 'Community Manager',
                 socials: [
                     {
-                        url: 'www.github.com/merhmood',
+                        url: 'https://github.com/avie-dev',
                         bootstrapIcon: 'bi bi-github',
                     },
                     {
-                        url: 'www.merhmood.me',
+                        url: 'https://aviefukai.com/',
                         bootstrapIcon: 'bi bi-person-circle',
                     },
                     {
-                        url: 'https://www.linkedin.com/in/mahmud-a-suberu-684020235',
+                        url: 'https://www.linkedin.com/in/jfukai/',
+                        bootstrapIcon: 'bi bi-linkedin',
+                    },
+                ]
+            },
+            {
+                image: Kent,
+                name: 'Kenta Uehara',
+                jobTitle: 'Hackathon Enthusiast',
+                socials: [
+                    // {
+                    //     url: '#',
+                    //     bootstrapIcon: 'bi bi-github',
+                    // },
+                    {
+                        url: 'https://twitter.com/rheu401',
+                        bootstrapIcon: 'bi bi-twitter-x',
+                    },
+                    {
+                        url: 'https://www.linkedin.com/in/kenta-uehara-039a8b144/',
+                        bootstrapIcon: 'bi bi-linkedin',
+                    },
+                ]
+            },
+            // {
+            //     image: Jun,
+            //     name: 'Jun Misaki',
+            //     jobTitle: 'Game Dev Community Manager',
+            //     socials: [
+            //         {
+            //             url: 'https://x.com/junmisak',
+            //             bootstrapIcon: 'bi bi-twitter-x',
+            //         },
+            //         {
+            //             url: 'https://www.linkedin.com/in/jun-misaki/',
+            //             bootstrapIcon: 'bi bi-linkedin',
+            //         },
+            //     ]
+            // },
+            {
+                image: Tch4lla,
+                name: 'Sulaymane Sillah',
+                jobTitle: 'Engineering Director',
+                socials: [
+                    {
+                        url: 'github.com/tch4lla',
+                        bootstrapIcon: 'bi bi-github',
+                    },
+                    {
+                        url: 'sulaymanesillah.netlify.app',
+                        bootstrapIcon: 'bi bi-person-circle',
+                    },
+                    {
+                        url: 'linkedin.com/in/sulaymanesillah',
+                        bootstrapIcon: 'bi bi-linkedin',
+                    },
+                ]
+            },
+            {
+                image: Morizuq,
+                name: 'Morizuq Shoneye',
+                jobTitle: 'Events Director',
+                socials: [
+                    {
+                        url: 'github.com/Morizuq',
+                        bootstrapIcon: 'bi bi-github',
+                    },
+                    {
+                        url: 'https://morizuq.tech/',
+                        bootstrapIcon: 'bi bi-person-circle',
+                    },
+                    {
+                        url: 'linkedin.com/in/morizuq/',
                         bootstrapIcon: 'bi bi-linkedin',
                     },
                 ]
@@ -142,21 +157,32 @@ export const teamData = {
                     },
                 ]
             },
+            // {
+            //     image: Tomoya,
+            //     name: 'Tomoya Fujita',
+            //     jobTitle: 'Game Dev Community Manager',
+            //     socials: [
+            //         {
+            //             url: 'https://www.linkedin.com/in/tomoya-fujita/',
+            //             bootstrapIcon: 'bi bi-linkedin',
+            //         },
+            //     ]
+            // },
             {
-                image: Morizuq,
-                name: 'Morizuq Shoneye',
-                jobTitle: 'Events Director',
+                image: Merhmood,
+                name: 'Mahmud Suberu',
+                jobTitle: 'Community Growth Lead',
                 socials: [
                     {
-                        url: 'github.com/Morizuq',
+                        url: 'www.github.com/merhmood',
                         bootstrapIcon: 'bi bi-github',
                     },
                     {
-                        url: 'https://morizuq.tech/',
+                        url: 'www.merhmood.me',
                         bootstrapIcon: 'bi bi-person-circle',
                     },
                     {
-                        url: 'linkedin.com/in/morizuq/',
+                        url: 'https://www.linkedin.com/in/mahmud-a-suberu-684020235',
                         bootstrapIcon: 'bi bi-linkedin',
                     },
                 ]
@@ -184,20 +210,7 @@ export const teamData = {
                 image: Ucchi,
                 name: 'Atsuchi Uchiyama',
                 jobTitle: 'Hackathon Director',
-                socials: [
-                    // {
-                    //     url: '#',
-                    //     bootstrapIcon: 'bi bi-github',
-                    // },
-                    // {
-                    //     url: '#',
-                    //     bootstrapIcon: 'bi bi-person-circle',
-                    // },
-                    // {
-                    //     url: '#',
-                    //     bootstrapIcon: 'bi bi-linkedin',
-                    // },
-                ]
+                socials: []
             },
             {
                 image: Jonnie,

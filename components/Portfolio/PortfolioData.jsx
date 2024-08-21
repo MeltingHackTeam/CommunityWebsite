@@ -4,6 +4,7 @@ import Image from '@/public/images/col-2.jpg';
 import Event240519Image from '@/public/images/events/event240519_big2.png'
 import Event240630Image from '@/public/images/events/event240630_small3.png'
 import Event240713Image from '@/public/images/events/event240713_big1.png'
+import Event240818Image from '@/public/images/events/event240818_big2.png'
 import SubscriptionImage from '@/public/images/events/subscription_hackathon.png'
 
 export const portfolioData = {
@@ -563,7 +564,7 @@ export const portfolioData = {
         ],
         projects: [
             {
-                title: 'Subscription App Hackathon: ​RevenueCat Ship-a-ton Japan Special',
+                title: 'サブスクアプリ Hackathon: ​RevenueCat Global Hackathon Japan Special',
                 slug: 'https://subscription-hackathon.melting-hack.tokyo/',
                 description: '',
                 category: 'hackathon',
@@ -578,6 +579,24 @@ export const portfolioData = {
                 categories: [
                     { name: 'Hackathon' },
                     { name: 'Offline' },
+                ],
+            },
+            {
+                title: 'GameJam vol.1',
+                slug: 'events/240818',
+                description: '',
+                category: 'hackathon',
+                services: [],
+                client: '',
+                projectLink: {},
+                duration: '',
+                content: '',
+                mainImage: Event240818Image,
+                media: [],
+                images: [],
+                categories: [
+                    { name: 'Hackathon' },
+                    { name: 'Hybrid' },
                 ],
             },
             {
