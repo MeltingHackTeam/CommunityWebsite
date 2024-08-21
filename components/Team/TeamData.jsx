@@ -85,25 +85,21 @@ export const teamData = {
                     },
                 ]
             },
-            {
-                image: Jun,
-                name: 'Jun Misaki',
-                jobTitle: 'Game Dev Community Manager',
-                socials: [
-                    // {
-                    //     url: '#',
-                    //     bootstrapIcon: 'bi bi-github',
-                    // },
-                    {
-                        url: 'https://x.com/junmisak',
-                        bootstrapIcon: 'bi bi-twitter-x',
-                    },
-                    {
-                        url: 'https://www.linkedin.com/in/jun-misaki/',
-                        bootstrapIcon: 'bi bi-linkedin',
-                    },
-                ]
-            },
+            // {
+            //     image: Jun,
+            //     name: 'Jun Misaki',
+            //     jobTitle: 'Game Dev Community Manager',
+            //     socials: [
+            //         {
+            //             url: 'https://x.com/junmisak',
+            //             bootstrapIcon: 'bi bi-twitter-x',
+            //         },
+            //         {
+            //             url: 'https://www.linkedin.com/in/jun-misaki/',
+            //             bootstrapIcon: 'bi bi-linkedin',
+            //         },
+            //     ]
+            // },
             {
                 image: Tch4lla,
                 name: 'Sulaymane Sillah',
@@ -161,17 +157,17 @@ export const teamData = {
                     },
                 ]
             },
-            {
-                image: Tomoya,
-                name: 'Tomoya Fujita',
-                jobTitle: 'Game Dev Community Manager',
-                socials: [
-                    {
-                        url: 'https://www.linkedin.com/in/tomoya-fujita/',
-                        bootstrapIcon: 'bi bi-linkedin',
-                    },
-                ]
-            },
+            // {
+            //     image: Tomoya,
+            //     name: 'Tomoya Fujita',
+            //     jobTitle: 'Game Dev Community Manager',
+            //     socials: [
+            //         {
+            //             url: 'https://www.linkedin.com/in/tomoya-fujita/',
+            //             bootstrapIcon: 'bi bi-linkedin',
+            //         },
+            //     ]
+            // },
             {
                 image: Merhmood,
                 name: 'Mahmud Suberu',
@@ -214,20 +210,7 @@ export const teamData = {
                 image: Ucchi,
                 name: 'Atsuchi Uchiyama',
                 jobTitle: 'Hackathon Director',
-                socials: [
-                    // {
-                    //     url: '#',
-                    //     bootstrapIcon: 'bi bi-github',
-                    // },
-                    // {
-                    //     url: '#',
-                    //     bootstrapIcon: 'bi bi-person-circle',
-                    // },
-                    // {
-                    //     url: '#',
-                    //     bootstrapIcon: 'bi bi-linkedin',
-                    // },
-                ]
+                socials: []
             },
             {
                 image: Jonnie,
