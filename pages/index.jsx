@@ -31,7 +31,7 @@ export default function Home() {
                 {/* About section */}
                 <BusinessAbout data={aboutData.corporate} />
                 {/* About section */}
-                <MarketingAbout data={aboutData.marketing} />
+                {/* <MarketingAbout data={aboutData.marketing} /> */}
                 {/* Blog section */}
                 <Blog data={blogData.business} />
                 {/* Team section */}
