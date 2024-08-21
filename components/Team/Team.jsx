@@ -19,7 +19,7 @@ const Team = ({ data, className }) => {
           {data.members.map((item, index) => (
             <div
               key={index}
-              className="col-12 col-sm-6 col-lg-4"
+              className="col-6 col-sm-4 col-lg-3"
             >
               <div className="team-box">
                 <div className="team-img">

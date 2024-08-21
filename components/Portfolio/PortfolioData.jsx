@@ -596,7 +596,7 @@ export const portfolioData = {
                 images: [],
                 categories: [
                     { name: 'Hackathon' },
-                    { name: 'Offline' },
+                    { name: 'Hybrid' },
                 ],
             },
             {
