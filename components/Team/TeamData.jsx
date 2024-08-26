@@ -1,5 +1,5 @@
 import Image from '@/public/images/col-3-square.jpg';
-import { Avie, Jonnie, Kado, Kent, Kuu, Merhmood, Morizuq, Sae, Taku, Tch4lla, Ucchi, Jun, Tomoya } from '@/public/images/team';
+import { Avie, Jonnie, Kado, Kent, Kuu, Merhmood, Morizuq, Sae, Taku, Tch4lla, Ucchi, Jun, Tomoya, Mohit, Declan } from '@/public/images/team';
 export const teamData = {
     agency: {
         mainData: {
@@ -85,21 +85,21 @@ export const teamData = {
                     },
                 ]
             },
-            // {
-            //     image: Jun,
-            //     name: 'Jun Misaki',
-            //     jobTitle: 'Game Dev Community Manager',
-            //     socials: [
-            //         {
-            //             url: 'https://x.com/junmisak',
-            //             bootstrapIcon: 'bi bi-twitter-x',
-            //         },
-            //         {
-            //             url: 'https://www.linkedin.com/in/jun-misaki/',
-            //             bootstrapIcon: 'bi bi-linkedin',
-            //         },
-            //     ]
-            // },
+            {
+                image: Jun,
+                name: 'Jun Misaki',
+                jobTitle: 'Game Events Organizer',
+                socials: [
+                    {
+                        url: 'https://x.com/junmisak',
+                        bootstrapIcon: 'bi bi-twitter-x',
+                    },
+                    {
+                        url: 'https://www.linkedin.com/in/jun-misaki/',
+                        bootstrapIcon: 'bi bi-linkedin',
+                    },
+                ]
+            },
             {
                 image: Tch4lla,
                 name: 'Sulaymane Sillah',
@@ -115,6 +115,40 @@ export const teamData = {
                     },
                     {
                         url: 'linkedin.com/in/sulaymanesillah',
+                        bootstrapIcon: 'bi bi-linkedin',
+                    },
+                ]
+            },
+            {
+                image: Declan,
+                name: 'Declan Clowry',
+                jobTitle: 'Game Events Organizer',
+                socials: [
+                    {
+                        url: 'https://github.com/Dekuran',
+                        bootstrapIcon: 'bi bi-github',
+                    },
+                    {
+                        url: 'https://www.linkedin.com/in/declanclowry/',
+                        bootstrapIcon: 'bi bi-linkedin',
+                    },
+                ]
+            },
+            {
+                image: Kuu,
+                name: 'Fumiya Kume',
+                jobTitle: 'Hackathon Director',
+                socials: [
+                    // {
+                    //     url: '#',
+                    //     bootstrapIcon: 'bi bi-github',
+                    // },
+                    {
+                        url: 'https://kuxumarin.hatenablog.com/',
+                        bootstrapIcon: 'bi bi-person-circle',
+                    },
+                    {
+                        url: 'https://www.linkedin.com/in/kuu-sushi/',
                         bootstrapIcon: 'bi bi-linkedin',
                     },
                 ]
@@ -139,35 +173,27 @@ export const teamData = {
                 ]
             },
             {
-                image: Kuu,
-                name: 'Fumiya Kume',
-                jobTitle: 'Hackathon Director',
+                image: Tomoya,
+                name: 'Tomoya Fujita',
+                jobTitle: 'Game Events Organizer',
                 socials: [
-                    // {
-                    //     url: '#',
-                    //     bootstrapIcon: 'bi bi-github',
-                    // },
                     {
-                        url: 'https://kuxumarin.hatenablog.com/',
-                        bootstrapIcon: 'bi bi-person-circle',
-                    },
-                    {
-                        url: 'https://www.linkedin.com/in/kuu-sushi/',
+                        url: 'https://www.linkedin.com/in/tomoya-fujita/',
                         bootstrapIcon: 'bi bi-linkedin',
                     },
                 ]
             },
-            // {
-            //     image: Tomoya,
-            //     name: 'Tomoya Fujita',
-            //     jobTitle: 'Game Dev Community Manager',
-            //     socials: [
-            //         {
-            //             url: 'https://www.linkedin.com/in/tomoya-fujita/',
-            //             bootstrapIcon: 'bi bi-linkedin',
-            //         },
-            //     ]
-            // },
+            {
+                image: Mohit,
+                name: 'Mohit Sharma',
+                jobTitle: 'Hackathon Coordinator',
+                socials: [
+                    {
+                        url: 'https://www.linkedin.com/in/mohit-sharma-80220911b/',
+                        bootstrapIcon: 'bi bi-linkedin',
+                    },
+                ]
+            },
             {
                 image: Merhmood,
                 name: 'Mahmud Suberu',
