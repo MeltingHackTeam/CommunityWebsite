@@ -43,10 +43,10 @@ export const aboutData = {
     corporate: {
         mainData: {
             name1: 'Community Members',
-            count1: '320',
+            count1: '360',
             image1: OnlineSessionImage,
             name2: 'Events Organized',
-            count2: '10',
+            count2: '20',
             image2: BornFireImage,
             title1: 'About US',
             title2: 'MeltingHack: a Hackathon hub for anyone ready to take on new challenges',

@@ -1,10 +1,14 @@
 import PortfolioImg from '@/public/images/col-2.jpg';
 import MainImage from '@/public/images/col-2.jpg';
 import Image from '@/public/images/col-2.jpg';
+import Event240427Image from '@/public/images/events/event240427_big1.png'
+import Event240514Image from '@/public/images/events/event240514_small1.png'
 import Event240519Image from '@/public/images/events/event240519_big2.png'
 import Event240630Image from '@/public/images/events/event240630_small3.png'
 import Event240713Image from '@/public/images/events/event240713_big1.png'
 import Event240818Image from '@/public/images/events/event240818_big2.png'
+import Event240830Image from '@/public/images/events/event240830_big1.png'
+import Event241002Image from '@/public/images/events/event241002_small2.png'
 import SubscriptionImage from '@/public/images/events/subscription_hackathon.png'
 
 export const portfolioData = {
@@ -557,6 +561,11 @@ export const portfolioData = {
                 dataFilter: ".hackathon"
             },
             {
+                title: "Workshop",
+                classes: "workshop",
+                dataFilter: ".workshop"
+            },
+            {
                 title: "Fun Event",
                 classes: "fun-event",
                 dataFilter: ".fun-event"
@@ -564,8 +573,27 @@ export const portfolioData = {
         ],
         projects: [
             {
-                title: 'サブスクアプリ Hackathon: ​RevenueCat Global Hackathon Japan Special',
-                slug: 'https://subscription-hackathon.melting-hack.tokyo/',
+                title: 'Hands-on AI Workshop with Alibaba Cloud',
+                slug: 'events/241002',
+                description: '',
+                category: 'workshop',
+                services: [],
+                client: '',
+                projectLink: {},
+                duration: '',
+                content: '',
+                mainImage: Event241002Image,
+                media: [],
+                images: [],
+                categories: [
+                    { name: 'Workshop' },
+                    { name: 'Offline' },
+                    { name: 'AI' },
+                ],
+            },
+            {
+                title: 'SubscriptionApp Hackathon with RevenueCat',
+                slug: 'events/240830',
                 description: '',
                 category: 'hackathon',
                 services: [],
@@ -573,12 +601,13 @@ export const portfolioData = {
                 projectLink: {},
                 duration: '',
                 content: '',
-                mainImage: SubscriptionImage,
+                mainImage: Event240830Image,
                 media: [],
                 images: [],
                 categories: [
                     { name: 'Hackathon' },
                     { name: 'Offline' },
+                    { name: 'Mobile' },
                 ],
             },
             {
@@ -597,6 +626,7 @@ export const portfolioData = {
                 categories: [
                     { name: 'Hackathon' },
                     { name: 'Hybrid' },
+                    { name: 'Game'},
                 ],
             },
             {
@@ -633,10 +663,11 @@ export const portfolioData = {
                 categories: [
                     { name: 'Hackathon' },
                     { name: 'Online' },
+                    { name: 'Game' },
                 ],
             },
             {
-                title: 'AR 1Day Hackathon',
+                title: 'AR 1Day Hackathon with Apple and Mercari',
                 slug: 'events/240519',
                 description: '',
                 category: 'hackathon',
@@ -651,6 +682,45 @@ export const portfolioData = {
                 categories: [
                     { name: 'Hackathon' },
                     { name: 'Offline' },
+                    { name: 'Mobile'},
+                ],
+            },
+            {
+                title: 'Intel AI PC Hands-on Workshop with Intel',
+                slug: 'events/240514',
+                description: '',
+                category: 'workshop',
+                services: [],
+                client: '',
+                projectLink: {},
+                duration: '',
+                content: '',
+                mainImage: Event240514Image,
+                media: [],
+                images: [],
+                categories: [
+                    { name: 'Workshop' },
+                    { name: 'Offline' },
+                    { name: 'AI' },
+                ],
+            },
+            {
+                title: 'Generative AI 1DAY Hackathon supported by Stability AI',
+                slug: 'events/240427',
+                description: '',
+                category: 'hackathon',
+                services: [],
+                client: '',
+                projectLink: {},
+                duration: '',
+                content: '',
+                mainImage: Event240427Image,
+                media: [],
+                images: [],
+                categories: [
+                    { name: 'Hackathon' },
+                    { name: 'Offline' },
+                    { name: 'AI'},
                 ],
             },
         ],
