@@ -62,7 +62,7 @@ export const blogData = {
         posts: [
             {
                 title: 'Hands-on AI Workshop with Alibaba Cloud',
-                slug: 'events/241002',
+                slug: '../events/241002',
                 description: '',
                 keywords: '',
                 categories: [
@@ -79,7 +79,7 @@ export const blogData = {
             },
             {
                 title: 'SubscriptionApp Hackathon with RevenueCat',
-                slug: 'events/240830',
+                slug: '../events/240830',
                 description: '',
                 keywords: '',
                 categories: [
@@ -97,7 +97,7 @@ export const blogData = {
             },
             {
                 title: 'GameJam vol.1',
-                slug: 'events/240818',
+                slug: '../events/240818',
                 description: '',
                 keywords: '',
                 categories: [
@@ -115,7 +115,7 @@ export const blogData = {
             },
             {
                 title: 'MeltingHack Meetup Night',
-                slug: 'events/240713',
+                slug: '../events/240713',
                 description: '',
                 keywords: '',
                 categories: [
@@ -132,7 +132,7 @@ export const blogData = {
             },
             {
                 title: 'MeltingHack Sprint#2: Card Game Development',
-                slug: 'events/240630',
+                slug: '../events/240630',
                 description: '',
                 keywords: '',
                 categories: [
@@ -150,7 +150,7 @@ export const blogData = {
             },
             {
                 title: 'AR 1Day Hackathon with Apple and Mercari',
-                slug: 'events/240519',
+                slug: '../events/240519',
                 description: '',
                 keywords: '',
                 categories: [
@@ -168,7 +168,7 @@ export const blogData = {
             },
             {
                 title: 'Intel AI PC Hands-on Workshop with Intel',
-                slug: 'events/240514',
+                slug: '../events/240514',
                 description: '',
                 keywords: '',
                 categories: [
@@ -186,7 +186,7 @@ export const blogData = {
             },
             {
                 title: 'Generative AI 1DAY Hackathon supported by Stability AI',
-                slug: 'events/240427',
+                slug: '../events/240427',
                 description: '',
                 keywords: '',
                 categories: [
