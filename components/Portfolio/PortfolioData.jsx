@@ -9,6 +9,7 @@ import Event240713Image from '@/public/images/events/event240713_big1.png'
 import Event240818Image from '@/public/images/events/event240818_big2.png'
 import Event240830Image from '@/public/images/events/event240830_big1.png'
 import Event241002Image from '@/public/images/events/event241002_small2.png'
+import Event241115Image from '@/public/images/events/event241115_small5.png'
 import SubscriptionImage from '@/public/images/events/subscription_hackathon.png'
 
 export const portfolioData = {
@@ -572,6 +573,25 @@ export const portfolioData = {
             }
         ],
         projects: [
+            {
+                title: 'AI Buildathon by Inception Studio',
+                slug: 'events/241115',
+                description: '',
+                category: 'hackathon',
+                services: [],
+                client: '',
+                projectLink: {},
+                duration: '',
+                content: '',
+                mainImage: Event241115Image,
+                media: [],
+                images: [],
+                categories: [
+                    { name: 'Hackathon' },
+                    { name: 'Offline' },
+                    { name: 'AI' },
+                ],
+            },
             {
                 title: 'Hands-on AI Workshop with Alibaba Cloud',
                 slug: 'events/241002',

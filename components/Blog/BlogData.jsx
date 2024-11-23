@@ -11,6 +11,7 @@ import Event240713Image from '@/public/images/events/event240713_big1.png'
 import Event240818Image from '@/public/images/events/event240818_big2.png'
 import Event240830Image from '@/public/images/events/event240830_big1.png'
 import Event241002Image from '@/public/images/events/event241002_small2.png'
+import Event241115Image from '@/public/images/events/event241115_small5.png'
 import YuriIshitoya from '@/public/images/blog/yuri_ishitoya/yuri_ishitoya_1.png'
 import ShunKatayose from '@/public/images/blog/shun_katayose/shun_katayose_2.png'
 
@@ -60,6 +61,23 @@ export const blogData = {
             description: "Let's dive into our passionate memory, where we were so enthusiastic that it felt like we were melting."
         },
         posts: [
+            {
+                title: 'AI Buildathon by Inception Studio',
+                slug: '../events/241115',
+                description: '',
+                keywords: '',
+                categories: [
+                    { name: 'Hackathon' },
+                    { name: 'Offline' },
+                    { name: 'AI' },],
+                date: 'November 15th, 2024',
+                postedBy: '',
+                content: '',
+                mainImage: Event241115Image,
+                media: [],
+                images: [],
+                tags: []
+            },
             {
                 title: 'Hands-on AI Workshop with Alibaba Cloud',
                 slug: '../events/241002',
