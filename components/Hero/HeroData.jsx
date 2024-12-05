@@ -49,6 +49,7 @@ export const heroData = {
         backgroundImage: BackgroundImage,
         logoImage: BGClearLogoImage,
         learnMoreUrl: 'https://discord.gg/74WJ455uWw',
+        youtubeVideoUrl: 'https://www.youtube.com/watch?v=m1UYhjEK_Mg',
     },
     portfolio: {
         title: 'Good Design is Obvious',
