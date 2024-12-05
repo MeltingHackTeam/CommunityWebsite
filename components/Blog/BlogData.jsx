@@ -12,6 +12,7 @@ import Event240818Image from '@/public/images/events/event240818_big2.png'
 import Event240830Image from '@/public/images/events/event240830_big1.png'
 import Event241002Image from '@/public/images/events/event241002_small2.png'
 import Event241115Image from '@/public/images/events/event241115_small5.png'
+import Event241120Image from '@/public/images/events/event241120_big1.png'
 import YuriIshitoya from '@/public/images/blog/yuri_ishitoya/yuri_ishitoya_1.png'
 import ShunKatayose from '@/public/images/blog/shun_katayose/shun_katayose_2.png'
 
@@ -61,6 +62,23 @@ export const blogData = {
             description: "Let's dive into our passionate memory, where we were so enthusiastic that it felt like we were melting."
         },
         posts: [
+            {
+                title: 'Subscription App Industry Networking Night',
+                slug: '../events/241120',
+                description: '',
+                keywords: '',
+                categories: [
+                    { name: 'FunEvent' },
+                    { name: 'Offline' },
+                    { name: 'Mobile' },],
+                date: 'November 20th, 2024',
+                postedBy: '',
+                content: '',
+                mainImage: Event241120Image,
+                media: [],
+                images: [],
+                tags: []
+            },
             {
                 title: 'AI Buildathon by Inception Studio',
                 slug: '../events/241115',
