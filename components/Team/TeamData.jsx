@@ -1,5 +1,5 @@
 import Image from '@/public/images/col-3-square.jpg';
-import { Avie, Jonnie, Kado, Kent, Kuu, Merhmood, Morizuq, Sae, Taku, Tch4lla, Ucchi, Jun, Tomoya, Mohit, Declan } from '@/public/images/team';
+import { Avie, Jonnie, Kado, Kent, Kuu, Merhmood, Morizuq, Sae, Taku, Tch4lla, Ucchi, Jun, Tomoya, Mohit, Declan, Joshua } from '@/public/images/team';
 export const teamData = {
     agency: {
         mainData: {
@@ -34,15 +34,7 @@ export const teamData = {
                 jobTitle: 'Founder・Career Cousultant',
                 socials: [
                     {
-                        url: '#',
-                        bootstrapIcon: 'bi bi-github',
-                    },
-                    {
-                        url: '#',
-                        bootstrapIcon: 'bi bi-person-circle',
-                    },
-                    {
-                        url: 'linkedin.com/in/琢也-西川-2554b01ab',
+                        url: 'https://www.linkedin.com/in/takuya-nishikawa/',
                         bootstrapIcon: 'bi bi-linkedin',
                     },
                 ]
@@ -71,10 +63,6 @@ export const teamData = {
                 name: 'Kenta Uehara',
                 jobTitle: 'Hackathon Enthusiast',
                 socials: [
-                    // {
-                    //     url: '#',
-                    //     bootstrapIcon: 'bi bi-github',
-                    // },
                     {
                         url: 'https://twitter.com/rheu401',
                         bootstrapIcon: 'bi bi-twitter-x',
@@ -101,20 +89,20 @@ export const teamData = {
                 ]
             },
             {
-                image: Tch4lla,
-                name: 'Sulaymane Sillah',
-                jobTitle: 'Engineering Director',
+                image: Joshua,
+                name: 'Joshua Owoyemi',
+                jobTitle: 'AI Events Organizer',
                 socials: [
                     {
-                        url: 'github.com/tch4lla',
-                        bootstrapIcon: 'bi bi-github',
+                        url: 'https://x.com/toluwajosh',
+                        bootstrapIcon: 'bi bi-twitter-x',
                     },
                     {
-                        url: 'sulaymanesillah.netlify.app',
+                        url: 'https://tjosh.co/',
                         bootstrapIcon: 'bi bi-person-circle',
                     },
                     {
-                        url: 'linkedin.com/in/sulaymanesillah',
+                        url: 'https://www.linkedin.com/in/joshua-owoyemi/',
                         bootstrapIcon: 'bi bi-linkedin',
                     },
                 ]
@@ -135,14 +123,29 @@ export const teamData = {
                 ]
             },
             {
+                image: Tch4lla,
+                name: 'Sulaymane Sillah',
+                jobTitle: 'Engineering Director',
+                socials: [
+                    {
+                        url: 'github.com/tch4lla',
+                        bootstrapIcon: 'bi bi-github',
+                    },
+                    {
+                        url: 'sulaymanesillah.netlify.app',
+                        bootstrapIcon: 'bi bi-person-circle',
+                    },
+                    {
+                        url: 'linkedin.com/in/sulaymanesillah',
+                        bootstrapIcon: 'bi bi-linkedin',
+                    },
+                ]
+            },
+            {
                 image: Kuu,
                 name: 'Fumiya Kume',
-                jobTitle: 'Hackathon Director',
+                jobTitle: 'Mobile Events Organizer',
                 socials: [
-                    // {
-                    //     url: '#',
-                    //     bootstrapIcon: 'bi bi-github',
-                    // },
                     {
                         url: 'https://kuxumarin.hatenablog.com/',
                         bootstrapIcon: 'bi bi-person-circle',
