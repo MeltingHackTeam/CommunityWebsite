@@ -29,7 +29,7 @@ const Event250323 = ({ post }) => {
         <>
             <Head>
                 <title>Apple Vision Pro Hackathon</title>
-                <meta name="description" content="" />
+                <meta name="description" content="Developing apps that maximize spatial computing by borrowing actual Apple Vision Pro devices." />
                 <meta name="keywords" content="Hackathon, Offline, VR" />
             </Head>
 
@@ -41,7 +41,7 @@ const Event250323 = ({ post }) => {
                         <div className="row">
                             <div className="col-12 col-lg-10 offset-lg-1 col-xl-8 offset-xl-2">
                                 <h1 className="display-4 fw-normal">Apple Vision Pro Hackathon</h1>
-                                <p>TODO</p>
+                                <p>Developing apps that maximize spatial computing by borrowing actual Apple Vision Pro devices.</p>
                             </div>
                         </div> {/* end row */}
                         <div className="row g-4 mt-4">
@@ -98,7 +98,7 @@ const Event250323 = ({ post }) => {
                             <div className="col-12 col-lg-10 offset-lg-1 col-xl-8 offset-xl-2">
                                 {/* <div dangerouslySetInnerHTML={{ __html: post.content }} /> */}
                                 <div className="py-3">
-                                    <p>From March 21–23, 2023, we hosted "Apple Vision Pro Hackathon", a special three-day hackathon focused entirely on Apple's Vision Pro platform.</p>
+                                    <p>From March 21–23, 2023, we hosted &quot;Apple Vision Pro Hackathon&quot;, a special three-day hackathon focused entirely on Apple&apos;s Vision Pro platform.</p>
                                     <p>55 participants from across Japan joined this exciting event, including 20 university students, 30% women. We were delighted and deeply moved to welcome participants traveling from as far as Hokkaido, Gifu, and Nagoya, making this a truly nationwide event.</p>
                                 </div>
                                 <div className="py-3">
@@ -109,7 +109,7 @@ const Event250323 = ({ post }) => {
                                 </div>
                                 <div className="py-3">
                                     <p>One unique highlight of MeltingHack was the rare opportunity for participants to borrow and use actual Apple Vision Pro devices in their project development. Paired with delicious catering provided during the day, it created an ideal atmosphere for fostering creativity and collaboration.</p>
-                                    <p>The name "MeltingHack" was inspired by our hope that participants would become so immersed—almost melting away—due to excitement and sheer passion. Witnessing everyone's enthusiasm throughout this initial day truly energized and motivated our entire organizing team.</p>
+                                    <p>The name &quot;MeltingHack&quot; was inspired by our hope that participants would become so immersed—almost melting away—due to excitement and sheer passion. Witnessing everyone&apos;s enthusiasm throughout this initial day truly energized and motivated our entire organizing team.</p>
                                 </div>
                             </div>
                         </div> 
@@ -135,26 +135,26 @@ const Event250323 = ({ post }) => {
                                 {/* <div dangerouslySetInnerHTML={{ __html: post.content }} /> */}
                                 <div className="py-3">
                                     <h4>Day 3 (Final Day) 🚀🏆</h4>
-                                    <p>After deepening their ideas on Day 1 and intensely working through Day 2's development phase, all fourteen teams confidently presented their projects on our final day.</p>
-                                    <p>Impressively, most participants had never experienced Vision Pro prior to the event, yet each team showcased highly innovative prototypes, clearly demonstrating Vision Pro's full potential. The pitches were captivating and dynamic, resulting in animated conversations among the judges and a truly difficult deliberation for awards. Ultimately, three outstanding teams stood out to claim the top prizes:</p>
+                                    <p>After deepening their ideas on Day 1 and intensely working through Day 2&apos;s development phase, all fourteen teams confidently presented their projects on our final day.</p>
+                                    <p>Impressively, most participants had never experienced Vision Pro prior to the event, yet each team showcased highly innovative prototypes, clearly demonstrating Vision Pro&apos;s full potential. The pitches were captivating and dynamic, resulting in animated conversations among the judges and a truly difficult deliberation for awards. Ultimately, three outstanding teams stood out to claim the top prizes:</p>
                                 </div>
                                 <div className="py-3">
                                     <h4>🎉 Winners Announcement 🎉</h4>
                                 </div>
                                 <div className="py-3">
                                     <h4>🥇 1st Place: Vision Pro Beginners</h4>
-                                    <p><b>Project Name:</b> "Omoide Bubble" (Memory Bubble)</p>
+                                    <p><b>Project Name:</b> &quot;Omoide Bubble&quot; (Memory Bubble)</p>
                                     <p>A next-generation immersive photo album app that allows users to relive special memories in virtual spaces. Its inclusive UI enables people located far away or individuals with limited mobility to effortlessly enjoy their precious moments in an entirely new, immersive context. Vision Pro Beginners earned the highest praise for their thoughtful approach.</p>
                                 </div>
                                 <div className="py-3">
                                     <h4>🥈 2nd Place: EZO</h4>
-                                    <p><b>Project Name:</b> "BONSAI"</p>
+                                    <p><b>Project Name:</b> &quot;BONSAI&quot;</p>
                                     <p>An engaging visual management tool that grows a virtual bonsai plant as your GitHub commits progress. Its delightful interface and creative approach to project visualization charmed judges and audience alike, leaving everyone excited about its future possibilities.</p>
                                 </div>
                                 <div className="py-3">
                                     <h4>🥉 3rd Place: Seals</h4>
-                                    <p><b>Project Name:</b> "Doco Camp"</p>
-                                    <p>An immersive camping-experience app that lets anyone easily enjoy the sounds, scenery, and seasonal ambience of camping at home. The judges hailed Seals' work as an exceptional utilization of Vision Pro capabilities, admiring its vivid audio-visual fidelity and imaginative representation of outdoor environments.</p>
+                                    <p><b>Project Name:</b> &quot;Doco Camp&quot;</p>
+                                    <p>An immersive camping-experience app that lets anyone easily enjoy the sounds, scenery, and seasonal ambience of camping at home. The judges hailed Seals&apos; work as an exceptional utilization of Vision Pro capabilities, admiring its vivid audio-visual fidelity and imaginative representation of outdoor environments.</p>
                                 </div>
                                 <div className="py-3">
                                     <p>After the awards ceremony, participants enjoyed chatting, networking, and relaxing together over delicious catering. The atmosphere throughout was lively, full of excitement, accomplishment, and friendly conversations. Witnessing the satisfied smiles and sense of achievement from all participants made our organizing team incredibly grateful and fulfilled.</p>

@@ -26,7 +26,7 @@ const Event250209 = ({ post }) => {
         <>
             <Head>
                 <title>AI Agent 1Day Hackathon</title>
-                <meta name="description" content="" />
+                <meta name="description" content="Turbo Hackathon, where participants will embark on an innovative journey to streamline travel planning using AI Agents." />
                 <meta name="keywords" content="Hackathon, Offline, AI" />
             </Head>
 
@@ -38,7 +38,7 @@ const Event250209 = ({ post }) => {
                         <div className="row">
                             <div className="col-12 col-lg-10 offset-lg-1 col-xl-8 offset-xl-2">
                                 <h1 className="display-4 fw-normal">AI Agent 1Day Hackathon</h1>
-                                <p>TODO</p>
+                                <p>Turbo Hackathon, where participants will embark on an innovative journey to streamline travel planning using AI Agents.</p>
                             </div>
                         </div> {/* end row */}
                         <div className="row g-4 mt-4">

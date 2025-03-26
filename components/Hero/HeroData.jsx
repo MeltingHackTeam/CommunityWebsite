@@ -16,7 +16,7 @@ export const heroData = {
         title: 'We help innovators to successfully bring their business to life',
         description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi architecto beatae doloribus odio nulla vero impedit quam omnis amet est! Ex ratione',
         backgroundImage: BackgroundImage,
-        youtubeVideoUrl: 'https://www.youtube.com/watch?v=W-j4QGAgNu8',
+        youtubeVideoUrl: 'https://youtu.be/iNXsABdJ_Fs',
         countOfClients: '4,000',
         avatars: [
             {
@@ -49,7 +49,7 @@ export const heroData = {
         backgroundImage: BackgroundImage,
         logoImage: BGClearLogoImage,
         learnMoreUrl: 'https://discord.gg/74WJ455uWw',
-        youtubeVideoUrl: 'https://www.youtube.com/watch?v=m1UYhjEK_Mg',
+        youtubeVideoUrl: 'https://www.youtube.com/watch?v=iNXsABdJ_Fs',
     },
     portfolio: {
         title: 'Good Design is Obvious',
