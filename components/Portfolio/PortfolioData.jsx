@@ -11,6 +11,9 @@ import Event240830Image from '@/public/images/events/event240830_big1.png'
 import Event241002Image from '@/public/images/events/event241002_small2.png'
 import Event241115Image from '@/public/images/events/event241115_small5.png'
 import Event241120Image from '@/public/images/events/event241120_big1.png'
+import Event250209Image from '@/public/images/events/event250209_small2.png'
+import Event250219Image from '@/public/images/events/event250219_small1.png'
+import Event250323Image from '@/public/images/events/event250323_big1.png'
 import SubscriptionImage from '@/public/images/events/subscription_hackathon.png'
 
 export const portfolioData = {
@@ -574,6 +577,57 @@ export const portfolioData = {
             }
         ],
         projects: [
+            {
+                title: 'Apple Vision Pro Hackathon',
+                slug: 'events/250323',
+                description: '',
+                category: 'hackathon',
+                keywords: '',
+                categories: [
+                    { name: 'Hackathon' },
+                    { name: 'Offline' },
+                    { name: 'VR' },],
+                postedBy: '',
+                content: '',
+                mainImage: Event250323Image,
+                media: [],
+                images: [],
+                tags: []
+            },
+            {
+                title: 'Tokyo GameJam Community Night',
+                slug: 'events/250219',
+                description: '',
+                category: 'fun-event',
+                keywords: '',
+                categories: [
+                    { name: 'FunEvent' },
+                    { name: 'Offline' },
+                    { name: 'Game' },],
+                postedBy: '',
+                content: '',
+                mainImage: Event250219Image,
+                media: [],
+                images: [],
+                tags: []
+            },
+            {
+                title: 'AI Agents 1Day Hackathon',
+                slug: 'events/250209',
+                description: '',
+                category: 'hackathon',
+                keywords: '',
+                categories: [
+                    { name: 'Hackathon' },
+                    { name: 'Offline' },
+                    { name: 'AI' },],
+                postedBy: '',
+                content: '',
+                mainImage: Event250209Image,
+                media: [],
+                images: [],
+                tags: []
+            },
             {
                 title: 'Subscription App Industry Networking Night',
                 slug: 'events/241120',

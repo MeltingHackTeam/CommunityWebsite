@@ -66,6 +66,23 @@ export const blogData = {
         },
         posts: [
             {
+                title: 'Apple Vision Pro Hackathon',
+                slug: '../events/250323',
+                description: '',
+                keywords: '',
+                categories: [
+                    { name: 'Hackathon' },
+                    { name: 'Offline' },
+                    { name: 'VR' },],
+                date: 'March 21st - 23rd, 2025',
+                postedBy: '',
+                content: '',
+                mainImage: Event250323Image,
+                media: [],
+                images: [],
+                tags: []
+            },
+            {
                 title: 'Tokyo GameJam Community Night',
                 slug: '../events/250219',
                 description: '',
