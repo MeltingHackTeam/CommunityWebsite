@@ -13,6 +13,9 @@ import Event240830Image from '@/public/images/events/event240830_big1.png'
 import Event241002Image from '@/public/images/events/event241002_small2.png'
 import Event241115Image from '@/public/images/events/event241115_small5.png'
 import Event241120Image from '@/public/images/events/event241120_big1.png'
+import Event250209Image from '@/public/images/events/event250209_small2.png'
+import Event250219Image from '@/public/images/events/event250219_small1.png'
+import Event250323Image from '@/public/images/events/event250323_big1.png'
 import YuriIshitoya from '@/public/images/blog/yuri_ishitoya/yuri_ishitoya_1.png'
 import ShunKatayose from '@/public/images/blog/shun_katayose/shun_katayose_2.png'
 
@@ -62,6 +65,23 @@ export const blogData = {
             description: "Let's dive into our passionate memory, where we were so enthusiastic that it felt like we were melting."
         },
         posts: [
+            {
+                title: 'AI Agents 1Day Hackathon',
+                slug: '../events/250209',
+                description: '',
+                keywords: '',
+                categories: [
+                    { name: 'Hackathon' },
+                    { name: 'Offline' },
+                    { name: 'AI' },],
+                date: 'February 9th, 2025',
+                postedBy: '',
+                content: '',
+                mainImage: Event250209Image,
+                media: [],
+                images: [],
+                tags: []
+            },
             {
                 title: 'Subscription App Industry Networking Night',
                 slug: '../events/241120',

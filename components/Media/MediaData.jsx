@@ -7,6 +7,6 @@ export const mediaData = {
         mainImage: MainImage,
         ImageMask1: ImageMask1,
         ImageMask2: ImageMask2,
-        youtubeVideoUrl: 'https://www.youtube.com/watch?v=W-j4QGAgNu8',
+        youtubeVideoUrl: 'https://youtu.be/iNXsABdJ_Fs',
     },
 }

@@ -43,7 +43,7 @@ export const aboutData = {
     corporate: {
         mainData: {
             name1: 'Community Members',
-            count1: '360',
+            count1: '500',
             image1: OnlineSessionImage,
             name2: 'Events Organized',
             count2: '20',
