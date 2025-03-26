@@ -66,6 +66,23 @@ export const blogData = {
         },
         posts: [
             {
+                title: 'Tokyo GameJam Community Night',
+                slug: '../events/250219',
+                description: '',
+                keywords: '',
+                categories: [
+                    { name: 'FunEvent' },
+                    { name: 'Offline' },
+                    { name: 'Game' },],
+                date: 'February 19th, 2025',
+                postedBy: '',
+                content: '',
+                mainImage: Event250219Image,
+                media: [],
+                images: [],
+                tags: []
+            },
+            {
                 title: 'AI Agents 1Day Hackathon',
                 slug: '../events/250209',
                 description: '',
