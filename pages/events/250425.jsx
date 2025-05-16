@@ -29,7 +29,7 @@ const Event250425 = ({ post }) => {
         <>
             <Head>
                 <title>Tokyo Game Jam - Spring 2025</title>
-                <meta name="description" content="A challenging 3day game development hackathon focused on leveraging AI technology and provided participants with Alibaba Cloud's AI resources" />
+                <meta name="description" content="A challenging 3day game development hackathon focused on leveraging AI technology and provided participants with Alibaba Cloud&apos;s AI resources" />
                 <meta name="keywords" content="Hackathon, Offline, Game" />
             </Head>
 
@@ -41,7 +41,7 @@ const Event250425 = ({ post }) => {
                         <div className="row">
                             <div className="col-12 col-lg-10 offset-lg-1 col-xl-8 offset-xl-2">
                                 <h1 className="display-4 fw-normal">Tokyo Game Jam - Spring 2025</h1>
-                                <p>A challenging 3day game development hackathon focused on leveraging AI technology and provided participants with Alibaba Cloud's AI resources</p>
+                                <p>A challenging 3day game development hackathon focused on leveraging AI technology and provided participants with Alibaba Cloud&apos;s AI resources</p>
                             </div>
                         </div> {/* end row */}
                         <div className="row g-4 mt-4">
@@ -99,13 +99,13 @@ const Event250425 = ({ post }) => {
                                 {/* <div dangerouslySetInnerHTML={{ __html: post.content }} /> */}
                                 <div className="py-3">
                                     <p>The Tokyo Game Jam 2025 Spring, a collaboration between Alibaba Cloud and MeltingHack, ran from April 25th to 27th, 2025. </p>
-                                    <p>Focused on "Utilizing AI technology in development or games," the hackathon saw teams rapidly develop game concepts to demos. </p>
+                                    <p>Focused on &quot;Utilizing AI technology in development or games,&quot; the hackathon saw teams rapidly develop game concepts to demos. </p>
                                     <p>Alibaba Cloud, a leader in cloud services and AI with its Qwen models, provided the technical backbone. </p>
-                                    <p>The intensive three-day event culminated in 'Big Brother,' a card game by a team of five, winning the ¥1,000,000 grand prize for its groundbreaking use of AI.</p>
+                                    <p>The intensive three-day event culminated in &apos;Big Brother,&apos; a card game by a team of five, winning the ¥1,000,000 grand prize for its groundbreaking use of AI.</p>
                                 </div>
                                 <div className="py-3">
-                                    <p>While many teams leveraged generative AI for assets or dialogue, 'Big Brother' stood out by having AI dynamically alter the game's rules during play, a core innovation. </p>
-                                    <p>Participants, ranging from industry vets to students, formed 12 teams to compete under judging criteria that heavily weighted AI innovation. Access to Alibaba Cloud's AI environment was provided.</p>
+                                    <p>While many teams leveraged generative AI for assets or dialogue, &apos;Big Brother&apos; stood out by having AI dynamically alter the game&apos;s rules during play, a core innovation. </p>
+                                    <p>Participants, ranging from industry vets to students, formed 12 teams to compete under judging criteria that heavily weighted AI innovation. Access to Alibaba Cloud&apos;s AI environment was provided.</p>
                                 </div>
                             </div>
                         </div> 
@@ -135,12 +135,12 @@ const Event250425 = ({ post }) => {
                                 <div className="py-3">
                                     <h4>🥇 1st Place: Big Brother</h4>
                                     <p><b>Project Page:</b> <Link className="link-hover" href="https://sushibytes.itch.io/big-brother">https://sushibytes.itch.io/big-brother</Link></p>
-                                    <p>Inspired by '1984' and 'Mao,' this psychological card game uses a standard deck but hides the rules. Players must infer rules from gameplay, with AI dynamically generating new rules as Python scripts throughout the game.</p>
+                                    <p>Inspired by &apos;1984&apos; and &apos;Mao,&apos; this psychological card game uses a standard deck but hides the rules. Players must infer rules from gameplay, with AI dynamically generating new rules as Python scripts throughout the game.</p>
                                 </div>
                                 <div className="py-3">
                                     <h4>🥈 2nd Place: The Normal Dating Game</h4>
                                     <p><b>Project Page:</b> <Link className="link-hover" href="https://bt-games-mac.itch.io/the-normal-dating-game">https://bt-games-mac.itch.io/the-normal-dating-game</Link></p>
-                                    <p>A blend of visual novel dating sim and 'Werewolf,' featuring a horror twist among potential dates. AI powered character conversations and judgments, allowing players free-text responses tailored to personalities.</p>
+                                    <p>A blend of visual novel dating sim and &apos;Werewolf,&apos; featuring a horror twist among potential dates. AI powered character conversations and judgments, allowing players free-text responses tailored to personalities.</p>
                                 </div>
                                 <div className="py-3">
                                     <h4>🥉 3rd Place: Lost and Found</h4>
@@ -155,11 +155,11 @@ const Event250425 = ({ post }) => {
                                 <div className="py-3">
                                     <h4>Alibaba Award: PromptVision</h4>
                                     <p><b>Project Page:</b> <Link className="link-hover" href="https://gimu-ai.itch.io/promptvision">https://gimu-ai.itch.io/promptvision</Link></p>
-                                    <p>A party game using image generation AI. Players guess the bizarre keyword combinations (like 'Napoleon,' 'surfing,' 'Antarctica') used to generate AI images without seeing the prompts.</p>
+                                    <p>A party game using image generation AI. Players guess the bizarre keyword combinations (like &apos;Napoleon,&apos; &apos;surfing,&apos; &apos;Antarctica&apos;) used to generate AI images without seeing the prompts.</p>
                                 </div>
                                 <div className="py-3">
-                                    <p>'Big Brother' was the champion, despite strong competition. Judge Mr. Horikoshi of Mynet highlighted the crucial difference: while others used AI within the game, 'Big Brother' had AI create the game's fundamental rules. </p>
-                                    <p>He called this a glimpse into "the future of gaming." The concept of AI-determined, unrevealed rules also powerfully matched the game's dystopian themes of surveillance and control, adding depth despite the potential stress, contributing to its high score in gameplay and thematic unity.</p>
+                                    <p>&apos;Big Brother&apos; was the champion, despite strong competition. Judge Mr. Horikoshi of Mynet highlighted the crucial difference: while others used AI within the game, &apos;Big Brother&apos; had AI create the game&apos;s fundamental rules. </p>
+                                    <p>He called this a glimpse into &quot;the future of gaming.&quot; The concept of AI-determined, unrevealed rules also powerfully matched the game&apos;s dystopian themes of surveillance and control, adding depth despite the potential stress, contributing to its high score in gameplay and thematic unity.</p>
                                 </div>
                                 <div className="py-3">
                                     <p>This Tokyo Game Jam demonstrated the diverse and innovative ways AI is beginning to reshape game development and the gaming experience itself.</p>
