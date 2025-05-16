@@ -14,6 +14,7 @@ import Event241120Image from '@/public/images/events/event241120_big1.png'
 import Event250209Image from '@/public/images/events/event250209_small2.png'
 import Event250219Image from '@/public/images/events/event250219_small1.png'
 import Event250323Image from '@/public/images/events/event250323_big1.png'
+import Event250425Image from '@/public/images/events/event250425_big3.png'
 import SubscriptionImage from '@/public/images/events/subscription_hackathon.png'
 
 export const portfolioData = {
@@ -577,6 +578,23 @@ export const portfolioData = {
             }
         ],
         projects: [
+            {
+                title: 'Tokyo Game Jam - Spring 2025',
+                slug: 'events/250425',
+                description: '',
+                category: 'hackathon',
+                keywords: '',
+                categories: [
+                    { name: 'Hackathon' },
+                    { name: 'Offline' },
+                    { name: 'Game' },],
+                postedBy: '',
+                content: '',
+                mainImage: Event250425Image,
+                media: [],
+                images: [],
+                tags: []
+            },
             {
                 title: 'Apple Vision Pro Hackathon',
                 slug: 'events/250323',

@@ -16,6 +16,7 @@ import Event241120Image from '@/public/images/events/event241120_big1.png'
 import Event250209Image from '@/public/images/events/event250209_small2.png'
 import Event250219Image from '@/public/images/events/event250219_small1.png'
 import Event250323Image from '@/public/images/events/event250323_big1.png'
+import Event250425Image from '@/public/images/events/event250425_big3.png'
 import YuriIshitoya from '@/public/images/blog/yuri_ishitoya/yuri_ishitoya_1.png'
 import ShunKatayose from '@/public/images/blog/shun_katayose/shun_katayose_2.png'
 
@@ -65,6 +66,23 @@ export const blogData = {
             description: "Let's dive into our passionate memory, where we were so enthusiastic that it felt like we were melting."
         },
         posts: [
+            {
+                title: 'Tokyo Game Jam - Spring 2025',
+                slug: '../events/250425',
+                description: '',
+                keywords: '',
+                categories: [
+                    { name: 'Hackathon' },
+                    { name: 'Offline' },
+                    { name: 'Game' },],
+                date: 'April 25th - 27th, 2025',
+                postedBy: '',
+                content: '',
+                mainImage: Event250425Image,
+                media: [],
+                images: [],
+                tags: []
+            },
             {
                 title: 'Apple Vision Pro Hackathon',
                 slug: '../events/250323',
