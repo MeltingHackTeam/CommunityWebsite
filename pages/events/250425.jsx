@@ -145,7 +145,7 @@ const Event250425 = ({ post }) => {
                                 <div className="py-3">
                                     <h4>🥉 3rd Place: Lost and Found</h4>
                                     <p><b>Project Page:</b> <Link className="link-hover" href="https://kenrio.itch.io/lost-and-found">https://kenrio.itch.io/lost-and-found</Link></p>
-                                    <p>An isometric exploration game where players, as a robot, find lost items for city inhabitants. It included generating "memories" as videos from player actions via AI.</p>
+                                    <p>An isometric exploration game where players, as a robot, find lost items for city inhabitants. It included generating &quot;memories&quot; as videos from player actions via AI.</p>
                                 </div>
                                 <div className="py-3">
                                     <h4>Alibaba Award & Audience Award: Cosmic Diner</h4>
