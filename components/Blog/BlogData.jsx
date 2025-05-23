@@ -18,6 +18,7 @@ import Event250219Image from '@/public/images/events/event250219_small1.png'
 import Event250323Image from '@/public/images/events/event250323_big1.png'
 import Event250425Image from '@/public/images/events/event250425_big4.png'
 import Event250514Image from '@/public/images/events/event250514_small2.png'
+import Event250517Image from '@/public/images/events/event250517_small3.png'
 import YuriIshitoya from '@/public/images/blog/yuri_ishitoya/yuri_ishitoya_1.png'
 import ShunKatayose from '@/public/images/blog/shun_katayose/shun_katayose_2.png'
 
@@ -67,6 +68,24 @@ export const blogData = {
             description: "Let's dive into our passionate memory, where we were so enthusiastic that it felt like we were melting."
         },
         posts: [
+            {
+                title: '4 Hours to Viral: Short Video Creation Hackathon',
+                slug: '../events/250517',
+                description: '',
+                category: 'hackathon',
+                keywords: '',
+                categories: [
+                    { name: 'Hackathon' },
+                    { name: 'Offline' },
+                    { name: 'Creator' },],
+                date: 'May 17th, 2025',
+                postedBy: '',
+                content: '',
+                mainImage: Event250517Image,
+                media: [],
+                images: [],
+                tags: []
+            },
             {
                 title: 'Exploring the Latest Generative AI Landscape in China',
                 slug: '../events/250514',
