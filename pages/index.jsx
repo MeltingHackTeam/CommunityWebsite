@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import { mainData } from '@/lib/data'
-import { Accordion, Blog, BusinessAbout, MarketingAbout, CorporateHero, About, AgencyHero, BackgroundVerticalLines, Clients, Footer, Header, Portfolio, Pricing, ScrollToTop, Services, Team, Testimonial } from '@/components'
+import { Accordion, Blog, BusinessAbout, MarketingAbout, CorporateHero, About, AgencyHero, BackgroundVerticalLines, Clients, Footer, Header, Portfolio, Pricing, ScrollToTop, Services, Team, Testimonial, Sponsor } from '@/components'
 import { clientsData } from '@/components/Clients/ClientsData'
 import { portfolioData } from '@/components/Portfolio/PortfolioData'
 import { pricingData } from '@/components/Pricing/PricingData'
@@ -10,6 +10,7 @@ import { testimonialData } from '@/components/Testimonial/TestimonialData'
 import { accordionData } from '@/components/Accordion/AccordionData'
 import { aboutData } from '@/components/About/AboutData'
 import { blogData } from '@/components/Blog/BlogData'
+import { sponsorData } from '@/components/Sponsor/SponsorData'
 
 export default function Home() {
     const themeData = mainData.home;
@@ -36,6 +37,8 @@ export default function Home() {
                 <Blog data={blogData.events} />
                 {/* Team section */}
                 <Team data={teamData.agency} />
+                {/* Sponsor section */}
+                {/* <Sponsor data={sponsorData} /> */}
                 {/* Accordion section */}
                 <Accordion data={accordionData.corporate} />
                 {/* Footer section */}

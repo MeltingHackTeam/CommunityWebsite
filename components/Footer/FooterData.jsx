@@ -2,6 +2,7 @@ import Icon from '@/public/images/meltinghack_header_icon.png';
 
 export const footerData = {
     name: 'Melting Hack',
+    icon: Icon,
     copyWriteText: 'All Rights Reserved.',
     mainData: {
         websiteName: 'MeltingHack',
