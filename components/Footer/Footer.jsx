@@ -4,43 +4,74 @@ import { footerData } from './FooterData';
 
 const Footer = () => {
     const currentYear = new Date().getFullYear();
-    const discord = footerData.mainData.discord
 
     return (
-        <footer>
-            <div className="section-box">
-                <div className="section-sm bg-lighter border-radius-1">
-                    <div className="container">
-                        <div className="row g-4 g-lg-5 justify-content-between">
-                            <div className="col-12 col-lg-4">
-                                <h2 className="uppercase letter-spacing-1">{footerData.mainData.websiteName}</h2>
-                                <p>{footerData.mainData.websiteDescription}</p>
-                            </div>
-                            <div className="col-12 col-lg-4">
-                                <iframe src={discord.src} frameBorder={discord.frameBorder} width={discord.width} height={discord.height} allowtransparency={discord.allowtransparency} sandbox={discord.sandbox}></iframe>
-                            </div>
-                        </div> {/* end row */}
-                    </div> {/* end container */}
-                </div>
-            </div>
-            <div className="py-4 pb-lg-5">
+        <footer className="footer bg-black text-white">
+            <div className="section-lg">
                 <div className="container">
-                    <div className="row g-2">
-                        <div className="col-12 col-md-6 text-center text-md-start">
-                            <p>&copy; {currentYear} {footerData.name}, {footerData.copyWriteText}</p>
+                    {/* Main Footer Content */}
+                    <div className="row justify-content-center text-center">
+                        <div className="col-12">
+                            {/* Logo */}
+                            <div className="mb-4">
+                                <img 
+                                    src="/images/meltinghack_header_icon.png"
+                                    alt={footerData.name} 
+                                    className="footer-logo"
+                                />
+                            </div>
+
+                            {/* Social Media Icons */}
+                            <div className="mb-5">
+                                <div className="d-flex justify-content-center gap-3">
+                                    <Link href={footerData.mainData.socialMedia.facebook} target="_blank" className="social-icon">
+                                        <i className="bi bi-facebook"></i>
+                                    </Link>
+                                    <Link href={footerData.mainData.socialMedia.twitter} target="_blank" className="social-icon">
+                                        <i className="bi bi-twitter-x"></i>
+                                    </Link>
+                                    <Link href={footerData.mainData.socialMedia.instagram} target="_blank" className="social-icon">
+                                        <i className="bi bi-instagram"></i>
+                                    </Link>
+                                    <Link href={footerData.mainData.socialMedia.linkedin} target="_blank" className="social-icon">
+                                        <i className="bi bi-linkedin"></i>
+                                    </Link>
+                                    <Link href={footerData.mainData.socialMedia.youtube} target="_blank" className="social-icon">
+                                        <i className="bi bi-youtube"></i>
+                                    </Link>
+                                </div>
+                            </div>
+
+                            {/* Discord Button */}
+                            <div className="mb-5">
+                                <Link 
+                                    href={footerData.mainData.discordURL} 
+                                    target="_blank"
+                                    className="footer-discord-btn btn btn-outline-light btn-lg px-5 py-3"
+                                >
+                                    Join MeltingHack Discord Community
+                                    <i className="bi bi-arrow-right ms-2"></i>
+                                </Link>
+                            </div>
                         </div>
-                        {/* When links are provided, will update section */}
-                        {/* <div className="col-12 col-md-6 text-center text-md-end">
-                            <ul className="list-inline-dot">
-                                {footerData.links.map((item, index) => (
-                                    <li key={index}>
-                                        <Link className="link-hover" href={item.url}>{item.name}</Link>
-                                    </li>
-                                ))}
-                            </ul>
-                        </div> */}
-                    </div> {/* end row */}
-                </div> {/* end container */}
+                    </div>
+
+                    {/* Bottom Section */}
+                    <div className="row">
+                        <div className="col-12">
+                            <hr className="footer-hr" />
+
+                            {/* Copyright and Legal Links */}
+                            <div className="d-flex flex-column flex-md-row justify-content-between align-items-center text-center">
+                                <div className="mb-3 mb-md-0">
+                                    <p className="footer-copyright mb-0">
+                                        COPYRIGHT © {currentYear} {footerData.mainData.copywriter} | ALL RIGHTS RESERVED
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </footer>
     )
