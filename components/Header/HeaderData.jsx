@@ -6,7 +6,7 @@ export const headerData = {
     menu: [
         {
             label: 'Events',
-            link: 'events',
+            link: '/events',
         }
     ]
 };
