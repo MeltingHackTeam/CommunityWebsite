@@ -1,22 +1,36 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Link from 'next/link';
 import { heroData } from './HeroData';
-import { LightboxVideo } from '..';
 
 const CorporateHero = () => {
-    const [lightboxVideo, setLightboxVideo] = useState(null);
 
-    const openLightbox = (video) => {
-        setLightboxVideo(video);
-    };
 
-    const closeLightbox = () => {
-        setLightboxVideo(null);
-    };
+    const videoId = `iNXsABdJ_Fs`;
+    const embedUrl = `https://www.youtube.com/embed/${heroData.corporate.videoId}?autoplay=1&mute=1&loop=1&playlist=${heroData.corporate.videoId}&controls=0&showinfo=0&rel=0&iv_load_policy=3&modestbranding=1`;
 
     return (
         <div className="section-box">
-            <div className="bg-image border-radius-1" data-bg-src={heroData.corporate.backgroundImage.src}>
+            <div className="bg-video-container border-radius-1" style={{ position: 'relative', overflow: 'hidden' }}>
+                {/* YouTube背景動画 */}
+                <iframe
+                    src={embedUrl}
+                    style={{
+                        position: 'absolute',
+                        top: '50%',
+                        left: '50%',
+                        width: '100vw',
+                        height: '56.25vw', // 16:9 aspect ratio
+                        minHeight: '100vh',
+                        minWidth: '177.77vh', // 16:9 aspect ratio
+                        transform: 'translate(-50%, -50%)',
+                        zIndex: -1,
+                        pointerEvents: 'none'
+                    }}
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                    title="Background Video"
+                />
                 <div className="bg-dark-08 section">
                     <div className="container">
                         <div className="row g-4 align-items-center">
@@ -26,14 +40,6 @@ const CorporateHero = () => {
                                 <p className="mt-3 mt-lg-4">{heroData.corporate.message}</p>
                                 <Link className="button button-lg button-font-2 mt-4 mt-lg-5" href={heroData.corporate.learnMoreUrl} target='_blank'><i className='bi bi-discord'></i>  Join Discord</Link>
                             </div>
-                            <div className="col-12 col-md-2 col-lg-3 col-xl-4 col-xxl-5 text-center">
-                                <a className="hero-play-btn lightbox-video-link" onClick={() => openLightbox(heroData.corporate.youtubeVideoUrl)}>
-                                    <span><i className="bi bi-play-fill"></i></span>
-                                </a>
-                                {lightboxVideo && (
-                                    <LightboxVideo video={lightboxVideo} closeLightbox={closeLightbox} />
-                                )}
-                            </div> 
                         </div> {/* end row */}
                     </div> {/* end container */}
                 </div>
