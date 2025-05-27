@@ -20,7 +20,7 @@ const Footer = () => {
                                     className="footer-logo"
                                 />
                             </div>
-                            
+
                             {/* Social Media Icons */}
                             <div className="mb-5">
                                 <div className="d-flex justify-content-center gap-3">
@@ -60,7 +60,7 @@ const Footer = () => {
                     <div className="row">
                         <div className="col-12">
                             <hr className="footer-hr" />
-                            
+
                             {/* Copyright and Legal Links */}
                             <div className="d-flex flex-column flex-md-row justify-content-between align-items-center text-center">
                                 <div className="mb-3 mb-md-0">
