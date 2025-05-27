@@ -22,7 +22,7 @@ const CorporateHero = () => {
                         minHeight: '100vh',
                         minWidth: '177.77vh', // 16:9 aspect ratio
                         transform: 'translate(-50%, -50%)',
-                        zIndex: -1,
+                        zIndex: 0,
                         pointerEvents: 'none',
                         filter: 'brightness(1.1) contrast(1.1) saturate(1.2)'
                     }}
