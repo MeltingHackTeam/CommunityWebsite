@@ -7,6 +7,10 @@ export const headerData = {
         {
             label: 'Events',
             link: '/events',
+        },
+        {
+            label: 'Guide',
+            link: '/guide',
         }
     ]
 };
