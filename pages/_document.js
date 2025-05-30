@@ -16,15 +16,24 @@ export default function Document() {
                 {/* Default OGP Meta Tags */}
                 <meta property="og:site_name" content="MeltingHack" />
                 <meta property="og:locale" content="ja_JP" />
-                <meta property="og:image" content="https://meltinghack.com/images/meltinghack_logo_bg_clear.png" />
+                <meta property="og:image" content="https://melting-hack.tokyo/images/meltinghack_logo_bg_clear.png" />
                 <meta property="og:image:width" content="1200" />
                 <meta property="og:image:height" content="630" />
                 <meta property="og:image:type" content="image/png" />
+                
+                {/* ホームページ用OGPメタタグ - LinkedIn対応 */}
+                <meta property="og:title" content="ホーム | MeltingHack" />
+                <meta property="og:description" content="MeltingHackは世界中のハッカソン愛好家が集まるコミュニティです。技術的な学びを共有し、イノベーションを促進します。" />
+                <meta property="og:type" content="website" />
+                <meta property="og:url" content="https://melting-hack.tokyo" />
                 
                 {/* Default Twitter Card */}
                 <meta name="twitter:card" content="summary_large_image" />
                 <meta name="twitter:site" content="@meltinghack" />
                 <meta name="twitter:creator" content="@meltinghack" />
+                <meta name="twitter:title" content="ホーム | MeltingHack" />
+                <meta name="twitter:description" content="MeltingHackは世界中のハッカソン愛好家が集まるコミュニティです。技術的な学びを共有し、イノベーションを促進します。" />
+                <meta name="twitter:image" content="https://melting-hack.tokyo/images/meltinghack_logo_bg_clear.png" />
                 
                 {/* Preconnect for performance */}
                 <link rel="preconnect" href="https://fonts.googleapis.com" />

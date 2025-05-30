@@ -171,7 +171,7 @@ export const mainData = {
     description: 'ハッカソン愛好家のネットワーク。貴重な学びを抽出し、発信することに専念しています。',
     keywords: 'ハッカソン, hackathon, 国際, international, グローバル, global, 東京, tokyo, プログラミング, エンジニア, 開発者, コミュニティ',
     favicon: Favicon,
-    siteUrl: process.env.NEXT_PUBLIC_SITE_URL || 'https://meltinghack.com',
+    siteUrl: process.env.NEXT_PUBLIC_SITE_URL || 'https://melting-hack.tokyo',
     ogImage: '/images/meltinghack_logo_bg_clear.png',
     twitterSite: '@meltinghack',
     ...Object.fromEntries(
