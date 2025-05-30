@@ -11,17 +11,20 @@ import { accordionData } from '@/components/Accordion/AccordionData'
 import { aboutData } from '@/components/About/AboutData'
 import { blogData } from '@/components/Blog/BlogData'
 import { sponsorData } from '@/components/Sponsor/SponsorData'
+import OGPMeta from '@/components/SEO/OGPMeta'
 
 export default function Home() {
     const themeData = mainData.home;
 
     return (
         <>
-            <Head>
-                <title>{`${mainData.websiteTitle} - ${themeData.title}`}</title>
-                <meta name="description" content={themeData.description} />
-                <meta name="keywords" content={themeData.keywords} />
-            </Head>
+            <OGPMeta
+                title={themeData.title}
+                description={themeData.description}
+                url={mainData.siteUrl}
+                image={themeData.ogImage || mainData.ogImage}
+                type="website"
+            />
             <main>
                 {/* Header section */}
                 <Header />

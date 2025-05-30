@@ -3,17 +3,20 @@ import { BackgroundVerticalLines, Footer, Header, PortfolioTwo, ScrollToTop } fr
 import { mainData } from '@/lib/data'
 import Head from 'next/head'
 import { portfolioData } from '@/components/Portfolio/PortfolioData'
+import OGPMeta from '@/components/SEO/OGPMeta'
 
 export default function Events() {
     const themeData = mainData.pagePortfolioListDark;
 
     return (
         <>
-            <Head>
-                <title>{`${mainData.websiteTitle} - ${themeData.title}`}</title>
-                <meta name="description" content={themeData.description} />
-                <meta name="keywords" content={themeData.keywords} />
-            </Head>
+            <OGPMeta
+                title="イベント一覧"
+                description="MeltingHackが主催・参加するハッカソンイベントの一覧です。世界中の技術者と交流し、イノベーションを創出しましょう。"
+                url={`${mainData.siteUrl}/events`}
+                image="/api/og-image?title=イベント一覧&description=ハッカソンイベントで技術者と交流"
+                type="website"
+            />
             <main>
                 {/* Header section */}
                 <Header />

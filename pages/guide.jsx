@@ -2,17 +2,20 @@ import Head from 'next/head'
 import { mainData } from '@/lib/data'
 import { guideData } from '@/lib/guideData'
 import { Header, Footer, ScrollToTop, BackgroundVerticalLines } from '@/components'
+import OGPMeta from '@/components/SEO/OGPMeta'
 
 export default function Guide() {
     const { themeData, guideSteps, summaryPoints } = guideData;
 
     return (
         <>
-            <Head>
-                <title>{`${mainData.websiteTitle} - ${themeData.title}`}</title>
-                <meta name="description" content={themeData.description} />
-                <meta name="keywords" content={themeData.keywords} />
-            </Head>
+            <OGPMeta
+                title="初回ハッカソンガイド"
+                description="ハッカソン初参加者向けの完全ガイド。心構えから準備まで、成功するための必須ポイントを詳しく解説します。"
+                url={`${mainData.siteUrl}/guide`}
+                image="/api/og-image?title=初回ハッカソンガイド&description=成功するための必須ポイントを解説"
+                type="article"
+            />
             <main>
                 {/* Header section */}
                 <Header />
