@@ -2,17 +2,20 @@ import Head from 'next/head'
 import { mainData } from '@/lib/data'
 import { guideData } from '@/lib/guideData'
 import { Header, Footer, ScrollToTop, BackgroundVerticalLines } from '@/components'
+import OGPMeta from '@/components/SEO/OGPMeta'
 
 export default function Guide() {
     const { themeData, guideSteps, summaryPoints } = guideData;
 
     return (
         <>
-            <Head>
-                <title>{`${mainData.websiteTitle} - ${themeData.title}`}</title>
-                <meta name="description" content={themeData.description} />
-                <meta name="keywords" content={themeData.keywords} />
-            </Head>
+            <OGPMeta
+                title="First-time Hackathon Guide"
+                description="A complete beginner’s guide to your first hackathon — essential tips for preparation, mindset, and making the most of your experience."
+                url={`${mainData.siteUrl}/guide`}
+                image={mainData.ogImage}
+                type="article"
+            />
             <main>
                 {/* Header section */}
                 <Header />

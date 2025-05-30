@@ -36,3 +36,4 @@ export { default as Map } from "./Map/Map";
 export { default as Footer } from "./Footer/Footer";
 export { default as Media } from "./Media/Media";
 export { default as Sponsor } from "./Sponsor/Sponsor";
+export { default as OGPMeta } from "./SEO/OGPMeta";

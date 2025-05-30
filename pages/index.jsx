@@ -11,6 +11,7 @@ import { accordionData } from '@/components/Accordion/AccordionData'
 import { aboutData } from '@/components/About/AboutData'
 import { blogData } from '@/components/Blog/BlogData'
 import { sponsorData } from '@/components/Sponsor/SponsorData'
+import OGPMeta from '@/components/SEO/OGPMeta'
 
 export default function Home() {
     const themeData = mainData.home;
@@ -18,9 +19,8 @@ export default function Home() {
     return (
         <>
             <Head>
-                <title>{`${mainData.websiteTitle} - ${themeData.title}`}</title>
-                <meta name="description" content={themeData.description} />
-                <meta name="keywords" content={themeData.keywords} />
+                <title>ホーム | MeltingHack</title>
+                <meta name="description" content="MeltingHack is a Tokyo-based non-profit international hackathon community that empowers individuals of all backgrounds to gain hands-on tech skills and bring their dreams to life." />
             </Head>
             <main>
                 {/* Header section */}

@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://melting-hack.tokyo/sitemap.xml
+
+# Disallow API routes from crawling
+Disallow: /api/
+
+# Allow OG image generation for social media
+Allow: /api/og-image* 
