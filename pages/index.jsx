@@ -15,16 +15,12 @@ import OGPMeta from '@/components/SEO/OGPMeta'
 
 export default function Home() {
     const themeData = mainData.home;
-    
-    // デバッグ用ログ
-    console.log('Home component - themeData:', themeData);
-    console.log('Home component - mainData.siteUrl:', mainData.siteUrl);
 
     return (
         <>
             <Head>
                 <title>ホーム | MeltingHack</title>
-                <meta name="description" content="MeltingHackは世界中のハッカソン愛好家が集まるコミュニティです。技術的な学びを共有し、イノベーションを促進します。" />
+                <meta name="description" content="MeltingHack is a Tokyo-based non-profit international hackathon community that empowers individuals of all backgrounds to gain hands-on tech skills and bring their dreams to life." />
             </Head>
             <main>
                 {/* Header section */}

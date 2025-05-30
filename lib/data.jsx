@@ -2,15 +2,15 @@ import Favicon from '@/public/images/meltinghack_favicon.png';
 
 const defaultMetaData = {
     title: '',
-    description: 'ハッカソン愛好家のネットワーク。貴重な学びを抽出し、発信することに専念しています。',
+    description: 'MeltingHack is a Tokyo-based non-profit international hackathon community that empowers individuals of all backgrounds to gain hands-on tech skills and bring their dreams to life.',
     keywords: 'ハッカソン, hackathon, 国際, international, グローバル, global, 東京, tokyo, プログラミング, エンジニア, 開発者, コミュニティ',
     ogImage: '/images/meltinghack_logo_bg_clear.png',
 };
 
 const themes = {
     home: { 
-        title: 'ホーム', 
-        description: 'MeltingHackは世界中のハッカソン愛好家が集まるコミュニティです。技術的な学びを共有し、イノベーションを促進します。', 
+        title: 'Home', 
+        description: 'MeltingHack is a Tokyo-based non-profit international hackathon community that empowers individuals of all backgrounds to gain hands-on tech skills and bring their dreams to life.', 
         keywords: 'ハッカソン, コミュニティ, 技術, イノベーション, プログラミング, 開発者',
         ogImage: '/api/og-image?title=MeltingHack&description=ハッカソン愛好家のグローバルコミュニティ'
     },
@@ -168,7 +168,7 @@ const themes = {
 
 export const mainData = {
     websiteTitle: 'MeltingHack',
-    description: 'ハッカソン愛好家のネットワーク。貴重な学びを抽出し、発信することに専念しています。',
+    description: 'MeltingHack is a Tokyo-based non-profit international hackathon community that empowers individuals of all backgrounds to gain hands-on tech skills and bring their dreams to life.',
     keywords: 'ハッカソン, hackathon, 国際, international, グローバル, global, 東京, tokyo, プログラミング, エンジニア, 開発者, コミュニティ',
     favicon: Favicon,
     siteUrl: process.env.NEXT_PUBLIC_SITE_URL || 'https://melting-hack.tokyo',

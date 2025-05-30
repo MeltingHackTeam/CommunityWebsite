@@ -10,8 +10,8 @@ export default function Guide() {
     return (
         <>
             <OGPMeta
-                title="初回ハッカソンガイド"
-                description="ハッカソン初参加者向けの完全ガイド。心構えから準備まで、成功するための必須ポイントを詳しく解説します。"
+                title="First-time Hackathon Guide"
+                description="A complete beginner’s guide to your first hackathon — essential tips for preparation, mindset, and making the most of your experience."
                 url={`${mainData.siteUrl}/guide`}
                 image={mainData.ogImage}
                 type="article"

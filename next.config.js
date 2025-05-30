@@ -14,7 +14,7 @@ const nextConfig = {
   trailingSlash: true,
   // 画像最適化設定
   images: {
-    domains: ['melting-hack.tokyo', 'meltinghack.com'],
+    domains: ['melting-hack.tokyo'],
     formats: ['image/webp', 'image/avif'],
   },
   // SEO最適化のためのヘッダー設定

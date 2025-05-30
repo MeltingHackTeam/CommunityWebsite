@@ -3,7 +3,7 @@ export default async function handler(req, res) {
   try {
     const { 
       title = 'MeltingHack', 
-      description = 'ハッカソン愛好家のネットワーク',
+      description = 'International Hackathon Hub',
       type = 'default' 
     } = req.query;
 

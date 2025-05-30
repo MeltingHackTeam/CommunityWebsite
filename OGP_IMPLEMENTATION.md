@@ -163,7 +163,7 @@ firebase deploy
 
 1. **絶対URLの確認**:
    ```
-   ✓ https://meltinghack.com/images/meltinghack_logo_bg_clear.png
+   ✓ https://melting-hack.tokyo/images/meltinghack_logo_bg_clear.png
    ✗ /images/meltinghack_logo_bg_clear.png
    ```
 
@@ -173,8 +173,8 @@ firebase deploy
 
 3. **メタタグの確認**:
    ```html
-   <meta property="og:image" content="https://meltinghack.com/images/meltinghack_logo_bg_clear.png" />
-   <meta property="og:image:secure_url" content="https://meltinghack.com/images/meltinghack_logo_bg_clear.png" />
+   <meta property="og:image" content="https://melting-hack.tokyo/images/meltinghack_logo_bg_clear.png" />
+   <meta property="og:image:secure_url" content="https://melting-hack.tokyo/images/meltinghack_logo_bg_clear.png" />
    <meta property="og:image:width" content="1200" />
    <meta property="og:image:height" content="630" />
    <meta property="og:image:alt" content="ページタイトル - 説明文" />

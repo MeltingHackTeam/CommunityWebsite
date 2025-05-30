@@ -15,15 +15,15 @@ export default function Document() {
                 
                 {/* Default OGP Meta Tags */}
                 <meta property="og:site_name" content="MeltingHack" />
-                <meta property="og:locale" content="ja_JP" />
-                <meta property="og:image" content="https://melting-hack.tokyo/images/meltinghack_logo_bg_clear.png" />
+                <meta property="og:locale" content="en_US" />
+                <meta property="og:image" content="https://melting-hack.tokyo/images/meltinghack_header_icon.png" />
                 <meta property="og:image:width" content="1200" />
                 <meta property="og:image:height" content="630" />
                 <meta property="og:image:type" content="image/png" />
                 
                 {/* ホームページ用OGPメタタグ - LinkedIn対応 */}
                 <meta property="og:title" content="ホーム | MeltingHack" />
-                <meta property="og:description" content="MeltingHackは世界中のハッカソン愛好家が集まるコミュニティです。技術的な学びを共有し、イノベーションを促進します。" />
+                <meta property="og:description" content="MeltingHack is a Tokyo-based non-profit international hackathon community that empowers individuals of all backgrounds to gain hands-on tech skills and bring their dreams to life." />
                 <meta property="og:type" content="website" />
                 <meta property="og:url" content="https://melting-hack.tokyo" />
                 
@@ -32,8 +32,8 @@ export default function Document() {
                 <meta name="twitter:site" content="@meltinghack" />
                 <meta name="twitter:creator" content="@meltinghack" />
                 <meta name="twitter:title" content="ホーム | MeltingHack" />
-                <meta name="twitter:description" content="MeltingHackは世界中のハッカソン愛好家が集まるコミュニティです。技術的な学びを共有し、イノベーションを促進します。" />
-                <meta name="twitter:image" content="https://melting-hack.tokyo/images/meltinghack_logo_bg_clear.png" />
+                <meta name="twitter:description" content="Melting Hack is a Tokyo-based non-profit international hackathon community that empowers individuals of all backgrounds to gain hands-on tech skills and bring their dreams to life." />
+                <meta name="twitter:image" content="https://melting-hack.tokyo/images/meltinghack_header_icon.png" />
                 
                 {/* Preconnect for performance */}
                 <link rel="preconnect" href="https://fonts.googleapis.com" />

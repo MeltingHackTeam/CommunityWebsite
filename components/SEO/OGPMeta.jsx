@@ -7,7 +7,7 @@ const OGPMeta = ({
   image,
   type = 'website',
   siteName = 'MeltingHack',
-  locale = 'ja_JP',
+  locale = 'en_US',
   twitterCard = 'summary_large_image',
   twitterSite = '@meltinghack'
 }) => {
