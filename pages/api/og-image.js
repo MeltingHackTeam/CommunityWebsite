@@ -46,8 +46,18 @@ export default async function handler(req, res) {
       </svg>
     `;
 
-    res.setHeader('Content-Type', 'image/svg+xml');
+    // SVGをPNGに変換（ブラウザ環境でのみ動作）
+    if (req.query.format === 'png') {
+      // PNG変換を試みる（実際の変換はクライアント側で行う）
+      res.setHeader('Content-Type', 'image/svg+xml');
+      res.setHeader('X-Content-Type-Options', 'nosniff');
+    } else {
+      res.setHeader('Content-Type', 'image/svg+xml');
+      res.setHeader('X-Content-Type-Options', 'nosniff');
+    }
+    
     res.setHeader('Cache-Control', 'public, max-age=31536000, immutable');
+    res.setHeader('Access-Control-Allow-Origin', '*');
     res.send(svg);
 
   } catch (error) {

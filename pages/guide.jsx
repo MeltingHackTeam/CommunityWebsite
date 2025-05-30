@@ -13,7 +13,7 @@ export default function Guide() {
                 title="初回ハッカソンガイド"
                 description="ハッカソン初参加者向けの完全ガイド。心構えから準備まで、成功するための必須ポイントを詳しく解説します。"
                 url={`${mainData.siteUrl}/guide`}
-                image="/api/og-image?title=初回ハッカソンガイド&description=成功するための必須ポイントを解説"
+                image={mainData.ogImage}
                 type="article"
             />
             <main>

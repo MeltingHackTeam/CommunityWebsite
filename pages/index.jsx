@@ -22,7 +22,7 @@ export default function Home() {
                 title={themeData.title}
                 description={themeData.description}
                 url={mainData.siteUrl}
-                image={themeData.ogImage || mainData.ogImage}
+                image={mainData.ogImage}
                 type="website"
             />
             <main>
