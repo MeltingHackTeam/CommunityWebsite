@@ -4,11 +4,11 @@ import Head from 'next/head'
 import { blogData } from '@/components/Blog/BlogData'
 import Image from 'next/image';
 import Link from 'next/link';
-import SmallImage1 from '@/public/images/events/Event250219_small1.png'
-import SmallImage2 from '@/public/images/events/Event250219_small2.png'
-import SmallImage3 from '@/public/images/events/Event250219_small3.png'
-import BigImage1 from '@/public/images/events/Event250219_big1.png'
-import BigImage2 from '@/public/images/events/Event250219_big2.png'
+import SmallImage1 from '@/public/images/events/event250219_small1.png'
+import SmallImage2 from '@/public/images/events/event250219_small2.png'
+import SmallImage3 from '@/public/images/events/event250219_small3.png'
+import BigImage1 from '@/public/images/events/event250219_big1.png'
+import BigImage2 from '@/public/images/events/event250219_big2.png'
 
 
 const Event250219 = ({ post }) => {
@@ -130,7 +130,7 @@ const Event250219 = ({ post }) => {
                                     <h4>🌟 Winning Advice from a Game Jam Champion 🥇</h4>
                                     <p>McIsiah Kendema—CEO of indie game studio Borderless Studios and past winner of MeltingHack&apos;s hackathon—shared valuable, actionable recommendations for aspiring Tokyo Game Jam participants:</p>
                                     <h6>1️⃣ Watch Out for &quot;Scope Creep&quot; 📌</h6>
-                                    <p>“Scope creep,” or uncontrolled growth of your game&apos;s ambitions, is your biggest enemy during a brief 48-hour hackathon. From the start, have a strictly defined and manageable scope. Regularly re-evaluate if your project stays on track relative to your goal 🎯.</p>
+                                    <p>&quot;Scope creep,&quot; or uncontrolled growth of your game&apos;s ambitions, is your biggest enemy during a brief 48-hour hackathon. From the start, have a strictly defined and manageable scope. Regularly re-evaluate if your project stays on track relative to your goal 🎯.</p>
                                     <h6>2️⃣ Clear Communication & Collaboration Tools 🗣️📁</h6>
                                     <p>Use shared platforms like Google Drive, Discord, or Trello to stay organized. Ensure that clear and open communication is established immediately after team formation. Understanding each teammate&apos;s strengths and role assignments is critical for success 👥.</p>
                                     <h6>3️⃣ Choosing the Right Team 🎲</h6>

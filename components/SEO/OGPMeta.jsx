@@ -11,9 +11,6 @@ const OGPMeta = ({
   twitterCard = 'summary_large_image',
   twitterSite = '@meltinghack'
 }) => {
-  // デバッグ用ログ
-  console.log('OGPMeta props:', { title, description, url, image, type });
-  
   const fullTitle = title ? `${title} | ${siteName}` : siteName;
   const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://melting-hack.tokyo';
   
@@ -28,8 +25,6 @@ const OGPMeta = ({
     // デフォルトは既存のロゴ画像
     ogImage = `${baseUrl}/images/meltinghack_logo_bg_clear.png`;
   }
-
-  console.log('OGPMeta computed values:', { fullTitle, canonicalUrl, ogImage });
 
   return (
     <Head>

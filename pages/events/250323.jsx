@@ -4,14 +4,14 @@ import Head from 'next/head'
 import { blogData } from '@/components/Blog/BlogData'
 import Image from 'next/image';
 import Link from 'next/link';
-import SmallImage1 from '@/public/images/events/Event250323_small1.png'
-import SmallImage2 from '@/public/images/events/Event250323_small2.png'
-import SmallImage3 from '@/public/images/events/Event250323_small3.png'
-import SmallImage4 from '@/public/images/events/Event250323_small4.png'
-import SmallImage5 from '@/public/images/events/Event250323_small5.png'
-import SmallImage6 from '@/public/images/events/Event250323_small6.png'
-import BigImage1 from '@/public/images/events/Event250323_big1.png'
-import BigImage2 from '@/public/images/events/Event250323_big2.png'
+import SmallImage1 from '@/public/images/events/event250323_small1.png'
+import SmallImage2 from '@/public/images/events/event250323_small2.png'
+import SmallImage3 from '@/public/images/events/event250323_small3.png'
+import SmallImage4 from '@/public/images/events/event250323_small4.png'
+import SmallImage5 from '@/public/images/events/event250323_small5.png'
+import SmallImage6 from '@/public/images/events/event250323_small6.png'
+import BigImage1 from '@/public/images/events/event250323_big1.png'
+import BigImage2 from '@/public/images/events/event250323_big2.png'
 
 
 const Event250323 = ({ post }) => {

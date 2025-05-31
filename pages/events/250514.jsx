@@ -4,11 +4,11 @@ import Head from 'next/head'
 import { blogData } from '@/components/Blog/BlogData'
 import Image from 'next/image';
 import Link from 'next/link';
-import SmallImage1 from '@/public/images/events/Event250514_small1.png'
-import SmallImage2 from '@/public/images/events/Event250514_small2.png'
-import SmallImage3 from '@/public/images/events/Event250514_small3.png'
-import BigImage1 from '@/public/images/events/Event250514_big1.png'
-import BigImage2 from '@/public/images/events/Event250514_big2.png'
+import SmallImage1 from '@/public/images/events/event250514_small1.png'
+import SmallImage2 from '@/public/images/events/event250514_small2.png'
+import SmallImage3 from '@/public/images/events/event250514_small3.png'
+import BigImage1 from '@/public/images/events/event250514_big1.png'
+import BigImage2 from '@/public/images/events/event250514_big2.png'
 
 const Event250514 = ({ post }) => {
     const [lightboxImage, setLightboxImage] = useState(null);

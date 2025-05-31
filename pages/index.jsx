@@ -19,7 +19,7 @@ export default function Home() {
     return (
         <>
             <Head>
-                <title>ホーム | MeltingHack</title>
+                <title>Home | MeltingHack</title>
                 <meta name="description" content="MeltingHack is a Tokyo-based non-profit international hackathon community that empowers individuals of all backgrounds to gain hands-on tech skills and bring their dreams to life." />
             </Head>
             <main>
