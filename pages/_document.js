@@ -5,7 +5,6 @@ export default function Document() {
         <Html lang="ja">
             <Head>
                 {/* Favicon */}
-                <link rel="icon" href="/favicon.ico" />
                 <link rel="icon" type="image/png" sizes="32x32" href="/images/meltinghack_favicon.png" />
                 <link rel="apple-touch-icon" href="/images/meltinghack_favicon.png" />
                 
@@ -22,7 +21,7 @@ export default function Document() {
                 <meta property="og:image:type" content="image/png" />
                 
                 {/* ホームページ用OGPメタタグ - LinkedIn対応 */}
-                <meta property="og:title" content="ホーム | MeltingHack" />
+                <meta property="og:title" content="Home | MeltingHack" />
                 <meta property="og:description" content="MeltingHack is a Tokyo-based non-profit international hackathon community that empowers individuals of all backgrounds to gain hands-on tech skills and bring their dreams to life." />
                 <meta property="og:type" content="website" />
                 <meta property="og:url" content="https://melting-hack.tokyo" />
@@ -31,8 +30,8 @@ export default function Document() {
                 <meta name="twitter:card" content="summary_large_image" />
                 <meta name="twitter:site" content="@meltinghack" />
                 <meta name="twitter:creator" content="@meltinghack" />
-                <meta name="twitter:title" content="ホーム | MeltingHack" />
-                <meta name="twitter:description" content="Melting Hack is a Tokyo-based non-profit international hackathon community that empowers individuals of all backgrounds to gain hands-on tech skills and bring their dreams to life." />
+                <meta name="twitter:title" content="Home | MeltingHack" />
+                <meta name="twitter:description" content="MeltingHack is a Tokyo-based non-profit international hackathon community that empowers individuals of all backgrounds to gain hands-on tech skills and bring their dreams to life." />
                 <meta name="twitter:image" content="https://melting-hack.tokyo/images/meltinghack_header_icon.png" />
                 
                 {/* Preconnect for performance */}
