@@ -17,7 +17,6 @@ const Footer = () => {
                                 <img 
                                     src="/images/meltinghack_header_icon.png"
                                     alt={footerData.name} 
-                                    className="footer-logo"
                                 />
                             </div>
 
