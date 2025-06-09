@@ -17,6 +17,7 @@ import Event250323Image from '@/public/images/events/event250323_big1.png'
 import Event250425Image from '@/public/images/events/event250425_big4.png'
 import Event250514Image from '@/public/images/events/event250514_small2.png'
 import Event250517Image from '@/public/images/events/event250517_small3.png'
+import Event250601Image from '@/public/images/events/event250601_big1.png'
 import SubscriptionImage from '@/public/images/events/subscription_hackathon.png'
 
 export const portfolioData = {
@@ -580,6 +581,24 @@ export const portfolioData = {
             }
         ],
         projects: [
+            {
+                title: 'AI Agent Hackathon: Revolutionizing Health Concierge and Fostering Innovation',
+                slug: 'events/250601',
+                description: '',
+                category: 'hackathon',
+                keywords: '',
+                categories: [
+                    { name: 'Hackathon' },
+                    { name: 'Offline' },
+                    { name: 'AI' },
+                ],
+                postedBy: '',
+                content: '',
+                mainImage: Event250601Image,
+                media: [],
+                images: [],
+                tags: []
+            },
             {
                 title: '4 Hours to Viral: Short Video Creation Hackathon',
                 slug: 'events/250517',
