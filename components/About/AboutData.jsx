@@ -43,15 +43,15 @@ export const aboutData = {
     corporate: {
         mainData: {
             name1: 'Community Members',
-            count1: '600',
+            count1: '670',
             image1: OnlineSessionImage,
             name2: 'Events Organized',
-            count2: '20',
+            count2: '30',
             image2: BornFireImage,
             title1: 'About US',
             title2: 'MeltingHack: a Hackathon hub for anyone ready to take on new challenges',
             biography: "Let's ignite a global movement of passionate dreamers turning ideas into reality! Join us in shaping a brighter future together!",
-            learnMoreUrl: '#',
+            learnMoreUrl: 'https://lu.ma/meltinghack',
         }
     },
     marketing: {
