@@ -73,6 +73,16 @@ const BusinessAbout = ({data, className}) => {
                         <h6 className="title-heading mb-3">{data.mainData.title1}</h6>
                         <h2 className="display-6 fw-normal mb-3">{data.mainData.title2}</h2>
                         <p>{data.mainData.biography}</p>
+                        <div className="mb-5 mt-4 text-center">
+                            <Link 
+                                href={data.mainData.learnMoreUrl} 
+                                target="_blank"
+                                className="footer-discord-btn btn btn-outline-light btn-lg px-5 py-3"
+                            >
+                                Upcoming Events
+                                <i className="bi bi-arrow-right ms-2"></i>
+                            </Link>
+                        </div>
                     </div>
                 </div> {/* end row */}
             </div> {/* end container */}

@@ -26,6 +26,7 @@ export { default as Portfolio } from "./Portfolio/Portfolio";
 export { default as PortfolioTwo } from "./Portfolio/PortfolioTwo";
 export { default as Pricing } from "./Pricing/Pricing";
 export { default as Team } from "./Team/Team";
+export { default as Partners } from "./Partners/Partners";
 export { default as Testimonial } from "./Testimonial/Testimonial";
 export { default as Awards } from "./Awards/Awards";
 export { default as AwardsTwo } from "./Awards/AwardsTwo";
