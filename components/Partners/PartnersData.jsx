@@ -1,8 +1,8 @@
 export const partnersData = {
     sectionData: {
-        title: "HERE'S WHAT OUR PARTNERS HAVE TO SAY",
-        subtitle: "Partner Testimonials",
-        description: "Hear directly from our valued partners about their experience working with MeltingHack and the impact of our collaboration."
+        title: "Our Partners",
+        subtitle: "Collaborative Effort",
+        description: "Our sincerest gratitude goes out to the visionary partners who make this event possible. Their commitment to fostering the next generation of talent is the cornerstone of this hackathon's success."
     },
     partners: [
         {

@@ -49,9 +49,7 @@ const Partners = ({ data }) => {
                             {/* end Slider Nav */}
                         </div>
                     </div>
-                </div>
-                
-                <Swiper
+                    <Swiper
                     onSwiper={(swiper) => {
                         sliderRef.current = swiper;
                         swiper.on('init', () => {
@@ -113,20 +111,104 @@ const Partners = ({ data }) => {
                         </SwiperSlide>
                     ))}
                 </Swiper>
+                </div>
                 
-                <div className="container">
-                    <div className="row mt-5">
-                        <div className="col-12 text-center">
-                            <p className="text-light mb-3">
-                                Interested in becoming a partner?
-                            </p>
-                            <Link 
-                                href="/contact" 
-                                className="btn btn-outline-light btn-lg px-4"
-                            >
-                                Get in Touch
-                                <i className="bi bi-arrow-right ms-2"></i>
-                            </Link>
+                <div className="container mt-5">
+                    <div className="row">
+                        <div className="col-12">
+                            <h3 className="text-white text-center mb-4">Community Partners</h3>
+                            <div className="community-partners-grid">
+                                <div className="community-partner-item">
+                                    <Image
+                                        src="/images/partners/partner-alibaba.png"
+                                        alt="Community Partner 1"
+                                        width={125}
+                                        height={30}
+                                        className="community-partner-logo"
+                                    />
+                                </div>
+                                <div className="community-partner-item">
+                                    <Image
+                                        src="/images/partners/partner-revenuecat.png"
+                                        alt="Community Partner 2"
+                                        width={125}
+                                        height={30}
+                                        className="community-partner-logo"
+                                    />
+                                </div>
+                                <div className="community-partner-item">
+                                    <Image
+                                        src="/images/partners/partner-alibaba.png"
+                                        alt="Community Partner 3"
+                                        width={125}
+                                        height={30}
+                                        className="community-partner-logo"
+                                    />
+                                </div>
+                                <div className="community-partner-item">
+                                    <Image
+                                        src="/images/partners/partner-revenuecat.png"
+                                        alt="Community Partner 4"
+                                        width={125}
+                                        height={30}
+                                        className="community-partner-logo"
+                                    />
+                                </div>
+                                <div className="community-partner-item">
+                                    <Image
+                                        src="/images/partners/partner-alibaba.png"
+                                        alt="Community Partner 5"
+                                        width={125}
+                                        height={30}
+                                        className="community-partner-logo"
+                                    />
+                                </div>
+                                <div className="community-partner-item">
+                                    <Image
+                                        src="/images/partners/partner-revenuecat.png"
+                                        alt="Community Partner 6"
+                                        width={125}
+                                        height={30}
+                                        className="community-partner-logo"
+                                    />
+                                </div>
+                                <div className="community-partner-item">
+                                    <Image
+                                        src="/images/partners/partner-alibaba.png"
+                                        alt="Community Partner 7"
+                                        width={125}
+                                        height={30}
+                                        className="community-partner-logo"
+                                    />
+                                </div>
+                                <div className="community-partner-item">
+                                    <Image
+                                        src="/images/partners/partner-revenuecat.png"
+                                        alt="Community Partner 8"
+                                        width={125}
+                                        height={30}
+                                        className="community-partner-logo"
+                                    />
+                                </div>
+                                <div className="community-partner-item">
+                                    <Image
+                                        src="/images/partners/partner-alibaba.png"
+                                        alt="Community Partner 9"
+                                        width={125}
+                                        height={30}
+                                        className="community-partner-logo"
+                                    />
+                                </div>
+                                <div className="community-partner-item">
+                                    <Image
+                                        src="/images/partners/partner-revenuecat.png"
+                                        alt="Community Partner 10"
+                                        width={125}
+                                        height={30}
+                                        className="community-partner-logo"
+                                    />
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

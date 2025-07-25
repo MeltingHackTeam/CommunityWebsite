@@ -39,9 +39,7 @@ export default function Home() {
                 {/* Team section */}
                 <Team data={teamData.agency} />
                 {/* Partners section */}
-                <Partners data={partnersData} />
-                {/* Sponsor section */}
-                {/* <Sponsor data={sponsorData} /> */}
+                {/* <Partners data={partnersData} /> */}
                 {/* Accordion section */}
                 <Accordion data={accordionData.corporate} />
                 {/* Footer section */}
