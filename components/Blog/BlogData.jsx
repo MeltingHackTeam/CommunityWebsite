@@ -20,6 +20,9 @@ import Event250425Image from '@/public/images/events/event250425_big4.png'
 import Event250514Image from '@/public/images/events/event250514_small2.png'
 import Event250517Image from '@/public/images/events/event250517_small3.png'
 import Event250601Image from '@/public/images/events/event250601_big1.png'
+import Event250702Image from '@/public/images/events/event250702_small1.png'
+import Event250704Image from '@/public/images/events/event250704_big2.png'
+import Event250712Image from '@/public/images/events/event250712_big1.png'
 import YuriIshitoya from '@/public/images/blog/yuri_ishitoya/yuri_ishitoya_1.png'
 import ShunKatayose from '@/public/images/blog/shun_katayose/shun_katayose_2.png'
 
@@ -69,6 +72,60 @@ export const blogData = {
             description: "Let's dive into our passionate memory, where we were so enthusiastic that it felt like we were melting."
         },
         posts: [
+            {
+                title: 'Generative AI Video Creation: WAN Hackathon',
+                slug: '../events/250712',
+                description: '',
+                keywords: '',
+                categories: [
+                    { name: 'Hackathon' },
+                    { name: 'Hybrid' },
+                    { name: 'AI' },
+                ],
+                date: 'July 12th, 2025',
+                postedBy: '',
+                content: '',
+                mainImage: Event250712Image,
+                media: [],
+                images: [],
+                tags: []
+            },
+            {
+                title: 'IVS AI Buildathon: Forging Global AI Ventures from Kyoto',
+                slug: '../events/250704',
+                description: '',
+                keywords: '',
+                categories: [
+                    { name: 'Hackathon' },
+                    { name: 'Offline' },
+                    { name: 'AI' },
+                ],
+                date: 'July 2nd - 4th, 2025',
+                postedBy: '',
+                content: '',
+                mainImage: Event250704Image,
+                media: [],
+                images: [],
+                tags: []
+            },
+            {
+                title: 'A Night to Redefine the Future of Entertainment',
+                slug: '../events/250702',
+                description: '',
+                keywords: '',
+                categories: [
+                    { name: 'FunEvent' },
+                    { name: 'Offline' },
+                    { name: 'Game' },
+                ],
+                date: 'July 2nd, 2025',
+                postedBy: '',
+                content: '',
+                mainImage: Event250702Image,
+                media: [],
+                images: [],
+                tags: []
+            },
             {
                 title: 'AI Agent Hackathon: Revolutionizing Health Concierge and Fostering Innovation',
                 slug: '../events/250601',
