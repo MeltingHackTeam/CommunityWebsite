@@ -18,6 +18,7 @@ import Event250425Image from '@/public/images/events/event250425_big4.png'
 import Event250514Image from '@/public/images/events/event250514_small2.png'
 import Event250517Image from '@/public/images/events/event250517_small3.png'
 import Event250601Image from '@/public/images/events/event250601_big1.png'
+import Event250702Image from '@/public/images/events/event250702_small1.png'
 import SubscriptionImage from '@/public/images/events/subscription_hackathon.png'
 
 export const portfolioData = {
@@ -581,6 +582,24 @@ export const portfolioData = {
             }
         ],
         projects: [
+            {
+                title: 'A Night to Redefine the Future of Entertainment',
+                slug: 'events/250702',
+                description: '',
+                category: 'fun-event',
+                keywords: '',
+                categories: [
+                    { name: 'FunEvent' },
+                    { name: 'Offline' },
+                    { name: 'Game' },
+                ],
+                postedBy: '',
+                content: '',
+                mainImage: Event250702Image,
+                media: [],
+                images: [],
+                tags: []
+            },
             {
                 title: 'AI Agent Hackathon: Revolutionizing Health Concierge and Fostering Innovation',
                 slug: 'events/250601',
