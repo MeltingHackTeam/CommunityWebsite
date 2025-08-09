@@ -119,7 +119,7 @@ const Event250807 = ({ post }) => {
                                 </div>
                                 <div className="py-3">
                                     <h4>For Beginners</h4>
-                                    <p>The challenge was to create a simple webpage introducing a favorite food. Guided by the principle of "talking to the AI," participants used Qwen Chat's Web Dev mode. They started with a basic prompt, such as "Create a webpage about takoyaki," and then iteratively refined the design through conversational commands like "Make the background matcha green," or "Center the photo and add a shadow." It was a powerful illustration of how ideas could be visually shaped without writing a single line of code.</p>
+                                    <p>The challenge was to create a simple webpage introducing a favorite food. Guided by the principle of &quot;talking to the AI,&quot; participants used Qwen Chat&apos;s Web Dev mode. They started with a basic prompt, such as &quot;Create a webpage about takoyaki,&quot; and then iteratively refined the design through conversational commands like &quot;Make the background matcha green,&quot; or &quot;Center the photo and add a shadow.&quot; It was a powerful illustration of how ideas could be visually shaped without writing a single line of code.</p>
                                 </div>
                                 <div className="py-3">
                                     <h4>For Learners</h4>
@@ -127,7 +127,7 @@ const Event250807 = ({ post }) => {
                                 </div>
                                 <div className="py-3">
                                     <h4>For Experienced Developers</h4>
-                                    <p>This track focused on using Qwen Code, the command-line interface, for more advanced content creation. Participants explored generating technical documentation, interactive learning materials, and project proposals, showcasing the AI's versatility beyond simple web apps.</p>
+                                    <p>This track focused on using Qwen Code, the command-line interface, for more advanced content creation. Participants explored generating technical documentation, interactive learning materials, and project proposals, showcasing the AI&apos;s versatility beyond simple web apps.</p>
                                 </div>
                             </div>
                         </div> 
@@ -155,7 +155,7 @@ const Event250807 = ({ post }) => {
                                 <div className="py-3">
                                     <h4>Conclusion: A New Era of Collaboration</h4>
                                     <p>The event concluded with participants sharing their creations and experiences. The overwhelming sentiment was one of excitement and empowerment. The workshop successfully broke down the barrier to coding, proving that the future of development is collaborative. Tools like Qwen3-Coder are not replacing human developers but are augmenting their abilities, handling tedious tasks and allowing creators to focus on the bigger picture.</p>
-                                    <p>As one of the final slides stated, "Your idea + AI = A future that takes shape." The "Unlock the Future of Coding" event was a compelling glimpse into that very future, where the only prerequisite for creation is an idea.</p>
+                                    <p>As one of the final slides stated, &quot;Your idea + AI = A future that takes shape.&quot; The &quot;Unlock the Future of Coding&quot; event was a compelling glimpse into that very future, where the only prerequisite for creation is an idea.</p>
                                 </div>
                             </div>
                         </div> 
