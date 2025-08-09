@@ -21,6 +21,7 @@ import Event250601Image from '@/public/images/events/event250601_big1.png'
 import Event250702Image from '@/public/images/events/event250702_small1.png'
 import Event250704Image from '@/public/images/events/event250704_big2.png'
 import Event250712Image from '@/public/images/events/event250712_big1.png'
+import Event250807Image from '@/public/images/events/event250807_big1.png'
 import SubscriptionImage from '@/public/images/events/subscription_hackathon.png'
 
 export const portfolioData = {
@@ -584,6 +585,24 @@ export const portfolioData = {
             }
         ],
         projects: [
+            {
+                title: 'Unlock the Future of Coding with Qwen3-Coder',
+                slug: 'events/250807',
+                description: '',
+                category: 'workshop',
+                keywords: '',
+                categories: [
+                    { name: 'Workshop' },
+                    { name: 'Offline' },
+                    { name: 'AI' },
+                ],
+                postedBy: '',
+                content: '',
+                mainImage: Event250807Image,
+                media: [],
+                images: [],
+                tags: []
+            },
             {
                 title: 'Generative AI Video Creation: WAN Hackathon',
                 slug: 'events/250712',
