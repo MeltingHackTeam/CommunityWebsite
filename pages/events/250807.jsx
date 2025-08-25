@@ -37,7 +37,7 @@ const Event250807 = ({ post }) => {
                         <div className="row">
                             <div className="col-12 col-lg-10 offset-lg-1 col-xl-8 offset-xl-2">
                                 <h1 className="display-4 fw-normal">Unlock the Future of Coding with Qwen3-Coder</h1>
-                                <p>A landmark workshop co-hosted by Alibaba Cloud and MeltingHack demonstrating how AI can transform development for everyone, regardless of technical background.</p>
+                                <p>A landmark workshop co-hosted by Alibaba Cloud demonstrating how AI can transform development for everyone, regardless of technical background.</p>
                             </div>
                         </div> {/* end row */}
                         <div className="row g-4 mt-4">
