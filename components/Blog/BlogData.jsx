@@ -84,6 +84,7 @@ export const blogData = {
                     { name: 'Offline' },
                     { name: 'Mobile' },
                 ],
+                date: 'August 23rd, 2025',
                 postedBy: '',
                 content: '',
                 mainImage: Event250823Image,
