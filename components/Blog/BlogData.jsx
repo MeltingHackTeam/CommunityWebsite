@@ -25,6 +25,8 @@ import Event250704Image from '@/public/images/events/event250704_big2.png'
 import Event250712Image from '@/public/images/events/event250712_big1.png'
 import Event250807Image from '@/public/images/events/event250807_big1.png'
 import Event250823Image from '@/public/images/events/event250823_big1.png'
+import Event250915Image from '@/public/images/events/event250915_small1.png'
+import Event250923Image from '@/public/images/events/event250923_big1.png'
 import YuriIshitoya from '@/public/images/blog/yuri_ishitoya/yuri_ishitoya_1.png'
 import ShunKatayose from '@/public/images/blog/shun_katayose/shun_katayose_2.png'
 
@@ -74,6 +76,41 @@ export const blogData = {
             description: "Let's dive into our passionate memory, where we were so enthusiastic that it felt like we were melting."
         },
         posts: [
+            {
+                title: 'From Tokyo to Shanghai: How Our First-Ever Booth at S-Tron 2025 Blew Our Minds',
+                slug: '../events/250923',
+                description: '',
+                keywords: '',
+                categories: [
+                    { name: 'FunEvent' },
+                    { name: 'Offline' },
+                ],
+                date: 'September 23rd, 2025',
+                postedBy: '',
+                content: '',
+                mainImage: Event250923Image,
+                media: [],
+                images: [],
+                tags: []
+            },
+            {
+                title: 'AWS AI Agent 1Day Hackathon Tokyo – Build an AI Employee in 4 Hours',
+                slug: '../events/250915',
+                description: '',
+                keywords: '',
+                categories: [
+                    { name: 'Hackathon' },
+                    { name: 'Offline' },
+                    { name: 'AI' },
+                ],
+                date: 'September 15th, 2025',
+                postedBy: '',
+                content: '',
+                mainImage: Event250915Image,
+                media: [],
+                images: [],
+                tags: []
+            },
             {
                 title: 'Vibe Coding: 1-Day Ship Challenge in Tokyo',
                 slug: '../events/250823',

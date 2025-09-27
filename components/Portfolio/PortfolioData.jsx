@@ -23,6 +23,8 @@ import Event250704Image from '@/public/images/events/event250704_big2.png'
 import Event250712Image from '@/public/images/events/event250712_big1.png'
 import Event250807Image from '@/public/images/events/event250807_big1.png'
 import Event250823Image from '@/public/images/events/event250823_big1.png'
+import Event250915Image from '@/public/images/events/event250915_small1.png'
+import Event250923Image from '@/public/images/events/event250923_big1.png'
 import SubscriptionImage from '@/public/images/events/subscription_hackathon.png'
 
 export const portfolioData = {
@@ -587,8 +589,43 @@ export const portfolioData = {
         ],
         projects: [
             {
+                title: 'From Tokyo to Shanghai: How Our First-Ever Booth at S-Tron 2025 Blew Our Minds',
+                slug: '../events/250923',
+                description: '',
+                category: 'fun-event',
+                keywords: '',
+                categories: [
+                    { name: 'FunEvent' },
+                    { name: 'Offline' },
+                ],
+                postedBy: '',
+                content: '',
+                mainImage: Event250923Image,
+                media: [],
+                images: [],
+                tags: []
+            },
+            {
+                title: 'AWS AI Agent 1Day Hackathon Tokyo – Build an AI Employee in 4 Hours',
+                slug: '../events/250915',
+                description: '',
+                category: 'hackathon',
+                keywords: '',
+                categories: [
+                    { name: 'Hackathon' },
+                    { name: 'Offline' },
+                    { name: 'AI' },
+                ],
+                postedBy: '',
+                content: '',
+                mainImage: Event250915Image,
+                media: [],
+                images: [],
+                tags: []
+            },
+            {
                 title: 'Vibe Coding: 1-Day Ship Challenge in Tokyo',
-                slug: 'events/250823',
+                slug: '../events/250823',
                 description: '',
                 category: 'hackathon',
                 keywords: '',
@@ -606,7 +643,7 @@ export const portfolioData = {
             },
             {
                 title: 'Unlock the Future of Coding with Qwen3-Coder',
-                slug: 'events/250807',
+                slug: '../events/250807',
                 description: '',
                 category: 'workshop',
                 keywords: '',
@@ -624,7 +661,7 @@ export const portfolioData = {
             },
             {
                 title: 'Generative AI Video Creation: WAN Hackathon',
-                slug: 'events/250712',
+                slug: '../events/250712',
                 description: '',
                 category: 'hackathon',
                 keywords: '',
@@ -642,7 +679,7 @@ export const portfolioData = {
             },
             {
                 title: 'IVS AI Buildathon: Forging Global AI Ventures from Kyoto',
-                slug: 'events/250704',
+                slug: '../events/250704',
                 description: '',
                 category: 'hackathon',
                 keywords: '',
@@ -660,7 +697,7 @@ export const portfolioData = {
             },
             {
                 title: 'A Night to Redefine the Future of Entertainment',
-                slug: 'events/250702',
+                slug: '../events/250702',
                 description: '',
                 category: 'fun-event',
                 keywords: '',
@@ -678,7 +715,7 @@ export const portfolioData = {
             },
             {
                 title: 'AI Agent Hackathon: Revolutionizing Health Concierge and Fostering Innovation',
-                slug: 'events/250601',
+                slug: '../events/250601',
                 description: '',
                 category: 'hackathon',
                 keywords: '',
@@ -696,7 +733,7 @@ export const portfolioData = {
             },
             {
                 title: '4 Hours to Viral: Short Video Creation Hackathon',
-                slug: 'events/250517',
+                slug: '../events/250517',
                 description: '',
                 category: 'hackathon',
                 keywords: '',
@@ -713,7 +750,7 @@ export const portfolioData = {
             },
             {
                 title: 'Exploring the Latest Generative AI Landscape in China',
-                slug: 'events/250514',
+                slug: '../events/250514',
                 description: '',
                 category: 'workshop',
                 keywords: '',
@@ -730,7 +767,7 @@ export const portfolioData = {
             },
             {
                 title: 'Tokyo Game Jam - Spring 2025',
-                slug: 'events/250425',
+                slug: '../events/250425',
                 description: '',
                 category: 'hackathon',
                 keywords: '',
@@ -747,7 +784,7 @@ export const portfolioData = {
             },
             {
                 title: 'Apple Vision Pro Hackathon',
-                slug: 'events/250323',
+                slug: '../events/250323',
                 description: '',
                 category: 'hackathon',
                 keywords: '',
@@ -764,7 +801,7 @@ export const portfolioData = {
             },
             {
                 title: 'Tokyo GameJam Community Night',
-                slug: 'events/250219',
+                slug: '../events/250219',
                 description: '',
                 category: 'fun-event',
                 keywords: '',
@@ -781,7 +818,7 @@ export const portfolioData = {
             },
             {
                 title: 'AI Agents 1Day Hackathon',
-                slug: 'events/250209',
+                slug: '../events/250209',
                 description: '',
                 category: 'hackathon',
                 keywords: '',
@@ -798,7 +835,7 @@ export const portfolioData = {
             },
             {
                 title: 'Subscription App Industry Networking Night',
-                slug: 'events/241120',
+                slug: '../events/241120',
                 description: '',
                 category: 'fun-event',
                 services: [],
@@ -817,7 +854,7 @@ export const portfolioData = {
             },
             {
                 title: 'AI Buildathon by Inception Studio',
-                slug: 'events/241115',
+                slug: '../events/241115',
                 description: '',
                 category: 'hackathon',
                 services: [],
@@ -836,7 +873,7 @@ export const portfolioData = {
             },
             {
                 title: 'Hands-on AI Workshop with Alibaba Cloud',
-                slug: 'events/241002',
+                slug: '../events/241002',
                 description: '',
                 category: 'workshop',
                 services: [],
@@ -855,7 +892,7 @@ export const portfolioData = {
             },
             {
                 title: 'SubscriptionApp Hackathon with RevenueCat',
-                slug: 'events/240830',
+                slug: '../events/240830',
                 description: '',
                 category: 'hackathon',
                 services: [],
@@ -874,7 +911,7 @@ export const portfolioData = {
             },
             {
                 title: 'GameJam vol.1',
-                slug: 'events/240818',
+                slug: '../events/240818',
                 description: '',
                 category: 'hackathon',
                 services: [],
@@ -893,7 +930,7 @@ export const portfolioData = {
             },
             {
                 title: 'MeltingHack Meetup Night',
-                slug: 'events/240713',
+                slug: '../events/240713',
                 description: '',
                 category: 'fun-event',
                 services: [],
@@ -911,7 +948,7 @@ export const portfolioData = {
             },
             {
                 title: 'MeltingHack Sprint#2: Card Game Development',
-                slug: 'events/240630',
+                slug: '../events/240630',
                 description: '',
                 category: 'hackathon',
                 services: [],
@@ -930,7 +967,7 @@ export const portfolioData = {
             },
             {
                 title: 'AR 1Day Hackathon with Apple and Mercari',
-                slug: 'events/240519',
+                slug: '../events/240519',
                 description: '',
                 category: 'hackathon',
                 services: [],
@@ -949,7 +986,7 @@ export const portfolioData = {
             },
             {
                 title: 'Intel AI PC Hands-on Workshop with Intel',
-                slug: 'events/240514',
+                slug: '../events/240514',
                 description: '',
                 category: 'workshop',
                 services: [],
@@ -968,7 +1005,7 @@ export const portfolioData = {
             },
             {
                 title: 'Generative AI 1DAY Hackathon supported by Stability AI',
-                slug: 'events/240427',
+                slug: '../events/240427',
                 description: '',
                 category: 'hackathon',
                 services: [],
