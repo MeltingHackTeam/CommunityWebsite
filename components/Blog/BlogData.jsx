@@ -75,6 +75,24 @@ export const blogData = {
         },
         posts: [
             {
+                title: 'AWS AI Agent 1Day Hackathon Tokyo – Build an AI Employee in 4 Hours',
+                slug: 'events/250915',
+                description: '',
+                keywords: '',
+                categories: [
+                    { name: 'Hackathon' },
+                    { name: 'Offline' },
+                    { name: 'AI' },
+                ],
+                date: 'September 15th, 2025',
+                postedBy: '',
+                content: '',
+                mainImage: Event250915Image,
+                media: [],
+                images: [],
+                tags: []
+            },
+            {
                 title: 'Vibe Coding: 1-Day Ship Challenge in Tokyo',
                 slug: '../events/250823',
                 description: '',

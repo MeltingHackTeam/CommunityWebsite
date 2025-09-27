@@ -23,6 +23,7 @@ import Event250704Image from '@/public/images/events/event250704_big2.png'
 import Event250712Image from '@/public/images/events/event250712_big1.png'
 import Event250807Image from '@/public/images/events/event250807_big1.png'
 import Event250823Image from '@/public/images/events/event250823_big1.png'
+import Event250915Image from '@/public/images/events/event250915_big1.png'
 import SubscriptionImage from '@/public/images/events/subscription_hackathon.png'
 
 export const portfolioData = {
@@ -586,6 +587,24 @@ export const portfolioData = {
             }
         ],
         projects: [
+            {
+                title: 'AWS AI Agent 1Day Hackathon Tokyo – Build an AI Employee in 4 Hours',
+                slug: 'events/250915',
+                description: '',
+                category: 'hackathon',
+                keywords: '',
+                categories: [
+                    { name: 'Hackathon' },
+                    { name: 'Offline' },
+                    { name: 'AI' },
+                ],
+                postedBy: '',
+                content: '',
+                mainImage: Event250915Image,
+                media: [],
+                images: [],
+                tags: []
+            },
             {
                 title: 'Vibe Coding: 1-Day Ship Challenge in Tokyo',
                 slug: 'events/250823',
