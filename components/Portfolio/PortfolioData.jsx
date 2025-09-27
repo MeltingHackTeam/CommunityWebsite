@@ -24,6 +24,7 @@ import Event250712Image from '@/public/images/events/event250712_big1.png'
 import Event250807Image from '@/public/images/events/event250807_big1.png'
 import Event250823Image from '@/public/images/events/event250823_big1.png'
 import Event250915Image from '@/public/images/events/event250915_big1.png'
+import Event250923Image from '@/public/images/events/event250923_big1.png'
 import SubscriptionImage from '@/public/images/events/subscription_hackathon.png'
 
 export const portfolioData = {
@@ -587,6 +588,23 @@ export const portfolioData = {
             }
         ],
         projects: [
+            {
+                title: 'From Tokyo to Shanghai: How Our First-Ever Booth at S-Tron 2025 Blew Our Minds',
+                slug: 'events/250923',
+                description: '',
+                category: 'fun-event',
+                keywords: '',
+                categories: [
+                    { name: 'FunEvent' },
+                    { name: 'Offline' },
+                ],
+                postedBy: '',
+                content: '',
+                mainImage: Event250923Image,
+                media: [],
+                images: [],
+                tags: []
+            },
             {
                 title: 'AWS AI Agent 1Day Hackathon Tokyo – Build an AI Employee in 4 Hours',
                 slug: 'events/250915',
