@@ -1,9 +1,24 @@
-import React from 'react'
-import { BackgroundVerticalLines, Footer, Header, ScrollToTop } from '@/components'
+import React, { useState } from 'react'
+import { BackgroundVerticalLines, Footer, Header, Lightbox, ScrollToTop } from '@/components'
 import Head from 'next/head'
+import Image from 'next/image';
 import Link from 'next/link'
+import SmallImage1 from '@/public/images/events/event250923_small1.png'
+import SmallImage2 from '@/public/images/events/event250923_small2.png'
+import SmallImage3 from '@/public/images/events/event250923_small3.png'
+import BigImage1 from '@/public/images/events/event250923_big1.png'
+import BigImage2 from '@/public/images/events/event250923_big2.png'
 
 const Event250923 = () => {
+    const [lightboxImage, setLightboxImage] = useState(null);
+
+    const openLightbox = (image) => {
+        setLightboxImage(image);
+    };
+
+    const closeLightbox = () => {
+        setLightboxImage(null);
+    };
     return (
         <>
             <Head>
@@ -57,6 +72,20 @@ const Event250923 = () => {
 
                 <div className="section pt-0">
                     <div className="container">
+                        {/* Media */}
+                        <div className="row g-4">
+                            <div className="col-12 col-lg-4">
+                                <Image className="border-radius-1" src={SmallImage1} alt="S-Tron Shanghai 2025 Booth" placeholder="blur" />
+                            </div>
+                            <div className="col-12 col-lg-4">
+                                <Image className="border-radius-1" src={SmallImage2} alt="S-Tron Shanghai 2025 Booth" placeholder="blur" />
+                            </div>
+                            <div className="col-12 col-lg-4">
+                                <Image className="border-radius-1" src={SmallImage3} alt="S-Tron Shanghai 2025 Booth" placeholder="blur" />
+                            </div>
+                        </div> 
+                        {/* end row */}
+
                         {/* Content */}
                         <div className="row mt-5">
                             <div className="col-12 col-lg-10 offset-lg-1 col-xl-8 offset-xl-2">
@@ -91,9 +120,25 @@ const Event250923 = () => {
                             </div>
                         </div> 
                         {/* end row */}
+                        {/* Images */}
+                        <div className="row g-4 mt-4">
+                            {/* Images Lightbox */}
+                            <div className="col-12 col-md-6">
+                                <div className="lightbox-image">
+                                    <Image src={BigImage1} alt="S-Tron Shanghai 2025 Booth" placeholder="blur" />
+                                </div>
+                            </div>
+                            <div className="col-12 col-md-6">
+                                <div className="lightbox-image">
+                                    <Image src={BigImage2} alt="S-Tron Shanghai 2025 Booth" placeholder="blur" />
+                                </div>
+                            </div>
+                        </div> 
                     </div>
                 </div>
-
+                {lightboxImage && (
+                    <Lightbox image={lightboxImage} closeLightbox={closeLightbox} />
+                )}
                 {/* Footer section */}
                 <Footer />
                 {/* Scroll To Top */}
