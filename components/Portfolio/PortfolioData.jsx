@@ -590,7 +590,7 @@ export const portfolioData = {
         ],
         projects: [
             {
-                title: 'Bringing the Future a Little Closer: Apple Foundation Models Framework Hackathon',
+                title: 'Apple Foundation Models Framework Hackathon',
                 slug: '../events/251012',
                 description: '',
                 category: 'hackathon',

@@ -7,6 +7,9 @@ import Link from 'next/link';
 import SmallImage1 from '@/public/images/events/event251012_small1.png'
 import SmallImage2 from '@/public/images/events/event251012_small2.png'
 import SmallImage3 from '@/public/images/events/event251012_small3.png'
+import SmallImage4 from '@/public/images/events/event251012_small4.png'
+import SmallImage5 from '@/public/images/events/event251012_small5.png'
+import SmallImage6 from '@/public/images/events/event251012_small6.png'
 import BigImage1 from '@/public/images/events/event251012_big1.png'
 import BigImage2 from '@/public/images/events/event251012_big2.png'
 
@@ -24,7 +27,7 @@ const Event251012 = ({ post }) => {
     return (
         <>
             <Head>
-                <title>Bringing the Future a Little Closer: Apple Foundation Models Framework Hackathon</title>
+                <title>Apple Foundation Models Framework Hackathon</title>
                 <meta name="description" content="A special hackathon dedicated to pushing the boundaries of Apple's Foundation Models framework, where developers and creators designed memorable experiences." />
                 <meta name="keywords" content="Hackathon, Mobile, Offline, AI, Apple" />
             </Head>
@@ -36,7 +39,7 @@ const Event251012 = ({ post }) => {
                     <div className="container">
                         <div className="row">
                             <div className="col-12 col-lg-10 offset-lg-1 col-xl-8 offset-xl-2">
-                                <h1 className="display-4 fw-normal">Bringing the Future a Little Closer: Apple Foundation Models Framework Hackathon</h1>
+                                <h1 className="display-4 fw-normal">Apple Foundation Models Framework Hackathon</h1>
                                 <p>A day dedicated to designing &quot;memorable experiences&quot; by pushing the boundaries of Apple&apos;s Foundation Models framework.</p>
                             </div>
                         </div> {/* end row */}
@@ -109,21 +112,19 @@ const Event251012 = ({ post }) => {
                         </div> 
                         {/* end row */}
 
-                        {/* Images */}
-                        <div className="row g-4 mt-4">
-                            {/* Images Lightbox */}
-                            <div className="col-12 col-md-6">
-                                <div className="lightbox-image">
-                                    <Image src={BigImage1} alt="event" placeholder="blur" />
-                                </div>
+                        {/* Media */}
+                        <div className="row g-4">
+                            <div className="col-12 col-lg-4">
+                                <Image className="border-radius-1" src={SmallImage4} alt="event" placeholder="blur" />
                             </div>
-                            <div className="col-12 col-md-6">
-                                <div className="lightbox-image">
-                                    <Image src={BigImage2} alt="event" placeholder="blur" />
-                                </div>
+                            <div className="col-12 col-lg-4">
+                                <Image className="border-radius-1" src={SmallImage5} alt="event" placeholder="blur" />
                             </div>
-                        </div>
-                        {/* end container */}
+                            <div className="col-12 col-lg-4">
+                                <Image className="border-radius-1" src={SmallImage6} alt="event" placeholder="blur" />
+                            </div>
+                        </div> 
+                        {/* end row */}
 
                         {/* Content */}
                         <div className="row mt-5">
@@ -150,6 +151,22 @@ const Event251012 = ({ post }) => {
                             </div>
                         </div> 
                         {/* end row */}
+
+                        {/* Images */}
+                        <div className="row g-4 mt-4">
+                            {/* Images Lightbox */}
+                            <div className="col-12 col-md-6">
+                                <div className="lightbox-image">
+                                    <Image src={BigImage1} alt="event" placeholder="blur" />
+                                </div>
+                            </div>
+                            <div className="col-12 col-md-6">
+                                <div className="lightbox-image">
+                                    <Image src={BigImage2} alt="event" placeholder="blur" />
+                                </div>
+                            </div>
+                        </div>
+                        {/* end container */}
                     </div>
                 </div>
                 {lightboxImage && (
