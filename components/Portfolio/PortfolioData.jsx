@@ -25,6 +25,7 @@ import Event250807Image from '@/public/images/events/event250807_big1.png'
 import Event250823Image from '@/public/images/events/event250823_big1.png'
 import Event250915Image from '@/public/images/events/event250915_small1.png'
 import Event250923Image from '@/public/images/events/event250923_big1.png'
+import Event251012Image from '@/public/images/events/event251012_big1.png'
 import SubscriptionImage from '@/public/images/events/subscription_hackathon.png'
 
 export const portfolioData = {
@@ -588,6 +589,25 @@ export const portfolioData = {
             }
         ],
         projects: [
+            {
+                title: 'Apple Foundation Models Framework Hackathon',
+                slug: '../events/251012',
+                description: '',
+                category: 'hackathon',
+                services: [],
+                client: '',
+                projectLink: {},
+                duration: '',
+                content: '',
+                mainImage: Event251012Image,
+                media: [],
+                images: [],
+                categories: [
+                    { name: 'Hackathon' },
+                    { name: 'Mobile' },
+                    { name: 'Offline' },
+                ],
+            },
             {
                 title: 'From Tokyo to Shanghai: How Our First-Ever Booth at S-Tron 2025 Blew Our Minds',
                 slug: '../events/250923',
