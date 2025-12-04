@@ -8,39 +8,6 @@
     ],
     "frameworksBackend": {
       "region": "asia-east1"
-    },
-    "headers": [
-      {
-        "source": "/api/og-image**",
-        "headers": [
-          {
-            "key": "Cache-Control",
-            "value": "public, max-age=31536000, immutable"
-          },
-          {
-            "key": "Content-Type",
-            "value": "image/svg+xml"
-          }
-        ]
-      },
-      {
-        "source": "/images/**",
-        "headers": [
-          {
-            "key": "Cache-Control",
-            "value": "public, max-age=31536000, immutable"
-          }
-        ]
-      },
-      {
-        "source": "**/*.@(jpg|jpeg|gif|png|svg|webp|avif)",
-        "headers": [
-          {
-            "key": "Cache-Control",
-            "value": "public, max-age=31536000, immutable"
-          }
-        ]
-      }
-    ]
+    }
   }
 }
