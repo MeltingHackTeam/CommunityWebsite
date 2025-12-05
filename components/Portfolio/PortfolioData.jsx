@@ -26,6 +26,7 @@ import Event250823Image from '@/public/images/events/event250823_big1.png'
 import Event250915Image from '@/public/images/events/event250915_small1.png'
 import Event250923Image from '@/public/images/events/event250923_big1.png'
 import Event251012Image from '@/public/images/events/event251012_big1.png'
+import Event251106Image from '@/public/images/events/event251106_small2.png'
 import SubscriptionImage from '@/public/images/events/subscription_hackathon.png'
 
 export const portfolioData = {
@@ -589,6 +590,25 @@ export const portfolioData = {
             }
         ],
         projects: [
+            {
+                title: 'The Best of China\'s Tech Conferences: Recap & Insights',
+                slug: '../events/251106',
+                description: '',
+                category: 'fun-event',
+                services: [],
+                client: '',
+                projectLink: {},
+                duration: '',
+                content: '',
+                mainImage: Event251106Image,
+                media: [],
+                images: [],
+                categories: [
+                    { name: 'Meetup' },
+                    { name: 'Offline' },
+                    { name: 'AI' },
+                ],
+            },
             {
                 title: 'Apple Foundation Models Framework Hackathon',
                 slug: '../events/251012',
