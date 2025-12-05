@@ -26,6 +26,9 @@ import Event250823Image from '@/public/images/events/event250823_big1.png'
 import Event250915Image from '@/public/images/events/event250915_small1.png'
 import Event250923Image from '@/public/images/events/event250923_big1.png'
 import Event251012Image from '@/public/images/events/event251012_big1.png'
+import Event251106Image from '@/public/images/events/event251106_small2.png'
+import Event251120Image from '@/public/images/events/event251120_big1.png'
+import Event251130Image from '@/public/images/events/event251130_big1.png'
 import SubscriptionImage from '@/public/images/events/subscription_hackathon.png'
 
 export const portfolioData = {
@@ -589,6 +592,63 @@ export const portfolioData = {
             }
         ],
         projects: [
+            {
+                title: 'The ERNIE AI Developer 1-Day Challenge in Tokyo',
+                slug: '../events/251130',
+                description: '',
+                category: 'hackathon',
+                services: [],
+                client: '',
+                projectLink: {},
+                duration: '',
+                content: '',
+                mainImage: Event251130Image,
+                media: [],
+                images: [],
+                categories: [
+                    { name: 'Hackathon' },
+                    { name: 'Offline' },
+                    { name: 'AI' },
+                ],
+            },
+            {
+                title: 'Meta Llama Academy in Japan 2025',
+                slug: '../events/251120',
+                description: '',
+                category: 'hackathon',
+                services: [],
+                client: '',
+                projectLink: {},
+                duration: '',
+                content: '',
+                mainImage: Event251120Image,
+                media: [],
+                images: [],
+                categories: [
+                    { name: 'Hackathon' },
+                    { name: 'Offline' },
+                    { name: 'AI' },
+                ],
+            },
+            {
+                title: 'The Best of China\'s Tech Conferences: Recap & Insights',
+                slug: '../events/251106',
+                description: '',
+                category: 'fun-event',
+                services: [],
+                client: '',
+                projectLink: {},
+                duration: '',
+                content: '',
+                mainImage: Event251106Image,
+                media: [],
+                images: [],
+                categories: [
+                    { name: 'Meetup' },
+                    { name: 'Offline' },
+                    { name: 'AI' },
+                ],
+            },
             {
                 title: 'Apple Foundation Models Framework Hackathon',
                 slug: '../events/251012',
