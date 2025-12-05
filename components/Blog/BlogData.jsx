@@ -29,6 +29,7 @@ import Event250915Image from '@/public/images/events/event250915_small1.png'
 import Event250923Image from '@/public/images/events/event250923_big1.png'
 import Event251012Image from '@/public/images/events/event251012_big1.png'
 import Event251106Image from '@/public/images/events/event251106_small2.png'
+import Event251120Image from '@/public/images/events/event251120_big1.png'
 import YuriIshitoya from '@/public/images/blog/yuri_ishitoya/yuri_ishitoya_1.png'
 import ShunKatayose from '@/public/images/blog/shun_katayose/shun_katayose_2.png'
 
@@ -78,6 +79,24 @@ export const blogData = {
             description: "Let's dive into our passionate memory, where we were so enthusiastic that it felt like we were melting."
         },
         posts: [
+            {
+                title: 'Meta Llama Academy in Japan 2025',
+                slug: '../events/251120',
+                description: '',
+                keywords: '',
+                categories: [
+                    { name: 'Hackathon' },
+                    { name: 'Offline' },
+                    { name: 'AI' },
+                ],
+                date: 'November 20th, 2025',
+                postedBy: '',
+                content: '',
+                mainImage: Event251120Image,
+                media: [],
+                images: [],
+                tags: []
+            },
             {
                 title: 'The Best of China\'s Tech Conferences: Recap & Insights',
                 slug: '../events/251106',
