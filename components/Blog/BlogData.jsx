@@ -30,6 +30,7 @@ import Event250923Image from '@/public/images/events/event250923_big1.png'
 import Event251012Image from '@/public/images/events/event251012_big1.png'
 import Event251106Image from '@/public/images/events/event251106_small2.png'
 import Event251120Image from '@/public/images/events/event251120_big1.png'
+import Event251130Image from '@/public/images/events/event251130_big1.png'
 import YuriIshitoya from '@/public/images/blog/yuri_ishitoya/yuri_ishitoya_1.png'
 import ShunKatayose from '@/public/images/blog/shun_katayose/shun_katayose_2.png'
 
@@ -79,6 +80,24 @@ export const blogData = {
             description: "Let's dive into our passionate memory, where we were so enthusiastic that it felt like we were melting."
         },
         posts: [
+            {
+                title: 'The ERNIE AI Developer 1-Day Challenge in Tokyo',
+                slug: '../events/251130',
+                description: '',
+                keywords: '',
+                categories: [
+                    { name: 'Hackathon' },
+                    { name: 'Offline' },
+                    { name: 'AI' },
+                ],
+                date: 'November 30th, 2025',
+                postedBy: '',
+                content: '',
+                mainImage: Event251130Image,
+                media: [],
+                images: [],
+                tags: []
+            },
             {
                 title: 'Meta Llama Academy in Japan 2025',
                 slug: '../events/251120',
