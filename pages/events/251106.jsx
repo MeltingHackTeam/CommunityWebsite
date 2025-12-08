@@ -151,4 +151,3 @@ const Event251106 = () => {
 }
 
 export default Event251106
-

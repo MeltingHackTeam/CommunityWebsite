@@ -190,4 +190,3 @@ const Event251130 = () => {
 }
 
 export default Event251130
-
