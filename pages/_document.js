@@ -10,7 +10,7 @@ export default function Document() {
                 
                 {/* Basic Meta Tags */}
                 <meta charSet="utf-8" />
-                <meta name="theme-color" content="#667eea" />
+                <meta name="theme-color" content="#0A0A0B" />
                 
                 {/* Default OGP Meta Tags */}
                 <meta property="og:site_name" content="MeltingHack" />
@@ -36,7 +36,7 @@ export default function Document() {
                 
                 {/* Preconnect for performance */}
                 <link rel="preconnect" href="https://fonts.googleapis.com" />
-                <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
+                <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
             </Head>
             <body>
                 <Main />

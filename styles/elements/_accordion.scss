@@ -16,10 +16,12 @@
             z-index: 1;
             position: relative;
             overflow: hidden;
-            background: $dark;
+            background: $bg-secondary;
+            border: 1px solid $border-default;
             border-radius: 4em;
             padding: 16px 30px;
             cursor: pointer;
+            color: $text-primary;
             @include transition(linear 0.1s);
             &:before {
                 z-index: -1;
@@ -29,7 +31,7 @@
                 position: absolute;
                 top: 0;
                 left: 0;
-                background-image: $gradient;
+                background-image: $gradient-primary;
                 width: 100%;
                 height: 100%;
                 @include transition(linear 0.1s);
@@ -41,7 +43,7 @@
                 right: 0;
                 left: 0;
                 opacity: 0;
-                background-image: $gradient;
+                background-image: $gradient-primary;
                 width: auto;
                 height: 1px;
                 @include transition(linear 0.1s);
@@ -50,6 +52,7 @@
                 position: absolute;
                 right: 30px;
                 top: 50%;
+                color: $accent-violet;
                 @include transform(translateY(-50%));
             }
             * {
@@ -61,12 +64,13 @@
             overflow: hidden;
             max-height: 0;
             padding: 0 30px;
+            color: $text-secondary;
             @include transition(ease-out 0.2s);
             &:before {
                 content: '';
                 display: block;
                 width: 100%;
-                height: 20px; 
+                height: 20px;
             }
             &:after {
                 content: '';
@@ -104,6 +108,7 @@
         }
         &:hover, &.active {
             .accordion-title {
+                border-color: $accent-violet;
                 &:before {
                     visibility: visible;
                     opacity: 0.05;
@@ -112,6 +117,7 @@
         }
         &.active {
             .accordion-title {
+                border-left: 3px solid $accent-violet;
                 &:after {
                     opacity: 1;
                 }

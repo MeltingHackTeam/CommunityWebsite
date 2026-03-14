@@ -2,8 +2,8 @@
 // Typography //
 //
 body {
-	color: $white-08;
-	font-family: $font-family-primary;
+	color: $text-secondary;
+	font-family: $font-primary;
 	font-size: 1rem;
 	font-weight: 400;
 	letter-spacing: 0;
@@ -13,10 +13,10 @@ body {
 }
 
 h1,h2,h3,h4,h5,h6 {
-	letter-spacing: -0.3px;
-	color: white;
-	font-family: $font-family-secondary;
-	font-weight: $font-weight-medium;
+	letter-spacing: -0.03em;
+	color: $text-primary;
+	font-family: $font-secondary;
+	font-weight: $font-weight-bold;
 }
 
 p {
@@ -46,8 +46,8 @@ p {
 }
 
 .title-heading {
-	color: white;
-	font-family: $font-family-secondary;
+	color: $text-primary;
+	font-family: $font-secondary;
 	font-weight: 400;
 	font-size: 0.9em;
 	text-transform: uppercase;
@@ -55,16 +55,30 @@ p {
 	&:before {
 		content: '//';
 		padding-right: 6px;
+		color: $accent-violet;
 	}
 }
 
 .sm-heading {
-	color: white;
-	font-family: $font-family-secondary;
+	color: $text-primary;
+	font-family: $font-secondary;
 	font-weight: 400;
 	font-size: 0.9em;
 	text-transform: uppercase;
 	letter-spacing: 1px;
+}
+
+//
+// Gradient Text //
+//
+.gradient-text {
+	background: $gradient-primary;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+}
+.text-glow {
+	text-shadow: 0 0 20px rgba(124,58,237,0.5), 0 0 40px rgba(124,58,237,0.2);
 }
 
 //

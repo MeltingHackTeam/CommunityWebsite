@@ -1,8 +1,13 @@
 //
 // Font styles //
 //
-$font-family-primary: 'Open Sans', sans-serif;
-$font-family-secondary: 'Outfit', sans-serif;
+$font-primary: 'Inter', sans-serif;
+$font-secondary: 'Space Grotesk', sans-serif;
+$font-mono: 'JetBrains Mono', monospace;
+
+// Legacy aliases
+$font-family-primary: $font-primary;
+$font-family-secondary: $font-secondary;
 
 $font-weight-extra-bold: 800;
 $font-weight-bold: 700;
@@ -12,8 +17,24 @@ $font-weight-regular: 400;
 $font-weight-light: 300;
 
 //
-// Colors //
+// Colors — Neon Dark Palette //
 //
+$bg-primary: #0A0A0B;
+$bg-secondary: #111113;
+$bg-tertiary: #1A1A1E;
+$border-default: #222228;
+$border-glow: rgba(124,58,237,0.3);
+$text-primary: #FAFAFA;
+$text-secondary: #A1A1AA;
+$text-muted: #52525B;
+$accent-violet: #7C3AED;
+$accent-violet-glow: #8B5CF6;
+$accent-cyan: #06B6D4;
+$accent-success: #10B981;
+$gradient-primary: linear-gradient(135deg, #7C3AED, #06B6D4);
+$gradient-warm: linear-gradient(135deg, #F97316, #EC4899);
+
+// Legacy color mappings
 $black-09: rgba(0, 0, 0, 0.9);
 $black-08: rgba(0, 0, 0, 0.8);
 $black-07: rgba(0, 0, 0, 0.7);
@@ -24,34 +45,34 @@ $black-03: rgba(0, 0, 0, 0.3);
 $black-02: rgba(0, 0, 0, 0.2);
 $black-015: rgba(0, 0, 0, 0.15);
 $black-01: rgba(0, 0, 0, 0.1);
-$dark: rgb(24, 26, 28);
-$dark-09: rgba(24, 26, 28, 0.9);
-$dark-08: rgba(24, 26, 28, 0.8);
-$dark-07: rgba(24, 26, 28, 0.7);
-$dark-06: rgba(24, 26, 28, 0.6);
-$dark-05: rgba(24, 26, 28, 0.5);
-$dark-04: rgba(24, 26, 28, 0.4);
-$dark-03: rgba(24, 26, 28, 0.3);
-$dark-02: rgba(24, 26, 28, 0.2);
-$dark-015: rgba(24, 26, 28, 0.15);
-$dark-01: rgba(24, 26, 28, 0.1);
-$white-09: rgba(255, 255, 255, 0.9);
-$white-08: rgba(255, 255, 255, 0.8);
-$white-07: rgba(255, 255, 255, 0.7);
-$white-06: rgba(255, 255, 255, 0.6);
-$white-05: rgba(255, 255, 255, 0.5);
-$white-04: rgba(255, 255, 255, 0.4);
-$white-03: rgba(255, 255, 255, 0.3);
-$white-02: rgba(255, 255, 255, 0.2);
-$white-015: rgba(255, 255, 255, 0.15);
-$white-01: rgba(255, 255, 255, 0.1);
-$primary: rgb(130, 131, 133);
-$primary-lighter: rgb(136, 137, 138);
-$green: #32CD32;
+$dark: $bg-secondary;
+$dark-09: rgba(17, 17, 19, 0.9);
+$dark-08: rgba(17, 17, 19, 0.8);
+$dark-07: rgba(17, 17, 19, 0.7);
+$dark-06: rgba(17, 17, 19, 0.6);
+$dark-05: rgba(17, 17, 19, 0.5);
+$dark-04: rgba(17, 17, 19, 0.4);
+$dark-03: rgba(17, 17, 19, 0.3);
+$dark-02: rgba(17, 17, 19, 0.2);
+$dark-015: rgba(17, 17, 19, 0.15);
+$dark-01: rgba(17, 17, 19, 0.1);
+$white-09: rgba(250, 250, 250, 0.9);
+$white-08: rgba(250, 250, 250, 0.8);
+$white-07: rgba(250, 250, 250, 0.7);
+$white-06: rgba(250, 250, 250, 0.6);
+$white-05: rgba(250, 250, 250, 0.5);
+$white-04: rgba(250, 250, 250, 0.4);
+$white-03: rgba(250, 250, 250, 0.3);
+$white-02: rgba(250, 250, 250, 0.2);
+$white-015: rgba(250, 250, 250, 0.15);
+$white-01: rgba(250, 250, 250, 0.1);
+$primary: $text-secondary;
+$primary-lighter: $text-secondary;
+$green: $accent-success;
 $red: #E32227;
 $yellow: #FFAE42;
 
-$bg-gray: rgb(241, 245, 249);
-$btn-gray: rgb(237, 241, 245);
+$bg-gray: $bg-tertiary;
+$btn-gray: $bg-tertiary;
 
-$gradient: linear-gradient(45deg, #2fbdff 0%, #ff7582 100%);
+$gradient: $gradient-primary;

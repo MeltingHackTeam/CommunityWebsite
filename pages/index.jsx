@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import { mainData } from '@/lib/data'
-import { Accordion, Blog, BusinessAbout, MarketingAbout, CorporateHero, About, AgencyHero, BackgroundVerticalLines, Clients, Footer, Header, Portfolio, Pricing, ScrollToTop, Services, Team, Partners, Testimonial, Sponsor } from '@/components'
+import { Accordion, Blog, BusinessAbout, MarketingAbout, CorporateHero, About, AgencyHero, Clients, Footer, Header, Portfolio, Pricing, ScrollToTop, Services, Team, Partners, Testimonial, Sponsor } from '@/components'
 import { clientsData } from '@/components/Clients/ClientsData'
 import { portfolioData } from '@/components/Portfolio/PortfolioData'
 import { pricingData } from '@/components/Pricing/PricingData'
@@ -46,8 +46,6 @@ export default function Home() {
                 <Footer />
                 {/* Scroll To Top */}
                 <ScrollToTop />
-                {/* Background Vertical Lines */}
-                <BackgroundVerticalLines />
             </main>
         </>
     )

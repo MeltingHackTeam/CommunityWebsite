@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import Head from 'next/head'
 import { mainData } from '@/lib/data'
-import { Header, Footer, ScrollToTop, BackgroundVerticalLines } from '@/components'
+import { Header, Footer, ScrollToTop } from '@/components'
 import OGPMeta from '@/components/SEO/OGPMeta'
 
 const privacyContent = {
@@ -340,8 +340,6 @@ export default function Privacy() {
                 <Footer />
                 {/* Scroll To Top */}
                 <ScrollToTop />
-                {/* Background Vertical Lines */}
-                <BackgroundVerticalLines />
             </main>
         </>
     )

@@ -2,18 +2,29 @@
 // Team //
 //
 .team-box {
+    background: $bg-secondary;
+    border: 1px solid $border-default;
+    border-radius: 1em;
+    transition: all 0.3s ease;
+
+    &:hover {
+        border-color: $accent-violet;
+        box-shadow: 0 0 20px rgba(124,58,237,0.15), 0 0 40px rgba(124,58,237,0.05);
+        transform: translateY(-4px);
+    }
+
     .team-img {
         position: relative;
         overflow: hidden;
         @include transform(translate3d(0,0,0));
-        border-radius: 1em;
+        border-radius: 1em 1em 0 0;
         &:after {
             content: '';
             position: absolute;
             top: 0;
             left: 0;
             opacity: 0;
-            background-image: linear-gradient(to top, $black-03, transparent);
+            background-image: linear-gradient(to top, rgba($bg-primary, 0.5), transparent);
             width: 100%;
             height: 100%;
             @include transition(ease-out 0.16s);
@@ -48,6 +59,13 @@
             img {
 				@include transform(scale(1.06));
 			}
+        }
+    }
+
+    .team-info {
+        color: $text-secondary;
+        h5, h6 {
+            color: $text-primary;
         }
     }
 }
