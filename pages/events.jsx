@@ -1,5 +1,5 @@
 import React from 'react'
-import { BackgroundVerticalLines, Footer, Header, PortfolioTwo, ScrollToTop } from '@/components'
+import { Footer, Header, PortfolioTwo, ScrollToTop } from '@/components'
 import { mainData } from '@/lib/data'
 import Head from 'next/head'
 import { portfolioData } from '@/components/Portfolio/PortfolioData'
@@ -28,8 +28,6 @@ export default function Events() {
                 <Footer />
                 {/* Scroll To Top */}
                 <ScrollToTop />
-                {/* Background Vertical Lines */}
-                <BackgroundVerticalLines />
             </main >
         </>
     )

@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import Image from 'next/image';
 import Link from 'next/link';
+import ScrollReveal from '../UI/ScrollReveal';
 
 const BusinessAbout = ({data, className}) => {
     const [counters, setCounters] = useState({
@@ -40,6 +41,7 @@ const BusinessAbout = ({data, className}) => {
     }, []);
 
     return (
+        <ScrollReveal>
         <div className={`section-lg ${className}`}>
             <div className="container">
                 <div className="row g-5 align-items-center">
@@ -47,22 +49,22 @@ const BusinessAbout = ({data, className}) => {
                         <div className="row">
                             <div className="col-6 text-end">
                                 <Image src={data.mainData.image1} alt="img-mask" placeholder="blur" className="img-mask-2" />
-                                    <div className="d-flex align-items-center justify-content-end mt-3">
+                                    <div className="d-flex align-items-center justify-content-end mt-3 glow-border" style={{ padding: '12px', borderRadius: '8px' }}>
                                         <div className="d-inline-block">
-                                            <h1 className="fw-semi-bold stroke-text display-4 letter-spacing-1"><span className="counter">{counters.count1}+</span></h1>
+                                            <h1 className="fw-semi-bold stroke-text display-4 letter-spacing-1" style={{ color: '#FAFAFA' }}><span className="counter">{counters.count1}+</span></h1>
                                         </div>
                                         <div className="d-inline-block pe-2">
-                                            <p className="sm-heading">{data.mainData.name1}</p>
+                                            <p className="sm-heading" style={{ color: '#A1A1AA' }}>{data.mainData.name1}</p>
                                         </div>
                                     </div>
                             </div>
                             <div className="col-6">
-                                <div className="d-flex align-items-center mb-3">
+                                <div className="d-flex align-items-center mb-3 glow-border" style={{ padding: '12px', borderRadius: '8px' }}>
                                     <div className="d-inline-block">
-                                        <h1 className="fw-semi-bold stroke-text display-4 letter-spacing-1"><span className="counter">{counters.count2}+</span></h1>
+                                        <h1 className="fw-semi-bold stroke-text display-4 letter-spacing-1" style={{ color: '#FAFAFA' }}><span className="counter">{counters.count2}+</span></h1>
                                     </div>
                                     <div className="d-inline-block ps-2">
-                                        <p className="sm-heading">{data.mainData.name2}</p>
+                                        <p className="sm-heading" style={{ color: '#A1A1AA' }}>{data.mainData.name2}</p>
                                     </div>
                                 </div>
                                 <Image src={data.mainData.image2} alt="img-mask" placeholder="blur" className="img-mask-2" />
@@ -71,11 +73,11 @@ const BusinessAbout = ({data, className}) => {
                     </div>
                     <div className="col-12 col-lg-6">
                         <h6 className="title-heading mb-3">{data.mainData.title1}</h6>
-                        <h2 className="display-6 fw-normal mb-3">{data.mainData.title2}</h2>
-                        <p>{data.mainData.biography}</p>
+                        <h2 className="display-6 fw-normal mb-3" style={{ color: '#FAFAFA' }}>{data.mainData.title2}</h2>
+                        <p style={{ color: '#A1A1AA' }}>{data.mainData.biography}</p>
                         <div className="mb-5 mt-4 text-center">
-                            <Link 
-                                href={data.mainData.learnMoreUrl} 
+                            <Link
+                                href={data.mainData.learnMoreUrl}
                                 target="_blank"
                                 className="footer-discord-btn btn btn-outline-light btn-lg px-5 py-3"
                             >
@@ -87,6 +89,7 @@ const BusinessAbout = ({data, className}) => {
                 </div> {/* end row */}
             </div> {/* end container */}
         </div>
+        </ScrollReveal>
 
     )
 }

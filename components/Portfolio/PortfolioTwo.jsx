@@ -48,7 +48,7 @@ const PortfolioTwo = ({data}) => {
                                         <Image src={item.mainImage} alt={item.title} placeholder="blur" />
                                     </Link>
                                 </div>
-                                <div className="pt-4">
+                                <div className="portfolio-info">
                                     {/* Categories */}
                                     <ul className="list-inline-dot sm-heading mb-2">
                                         {item.categories.map((category, index) => (

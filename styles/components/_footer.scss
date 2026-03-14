@@ -2,8 +2,14 @@
 // Footer Styles //
 //
 .footer {
+    background: transparent;
+    position: relative;
+    border-top: 1px solid transparent;
+    border-image: $gradient-primary;
+    border-image-slice: 1;
+
     &.bg-black {
-        background-color: black !important;
+        background-color: transparent !important;
     }
 }
 
@@ -13,9 +19,9 @@
     justify-content: center;
     width: 50px;
     height: 50px;
-    border: 2px solid rgba(255, 255, 255, 0.3);
+    border: 2px solid $border-default;
     border-radius: 50%;
-    color: white;
+    color: $text-secondary;
     text-decoration: none;
     transition: all 0.3s ease;
 
@@ -24,25 +30,27 @@
     }
 
     &:hover {
-        background-color: rgba(255, 255, 255, 0.1);
-        border-color: rgba(255, 255, 255, 0.6);
-        color: white;
+        background-color: rgba($accent-violet, 0.15);
+        border-color: $accent-violet;
+        color: $accent-violet;
         transform: translateY(-2px);
+        box-shadow: 0 0 20px rgba(124,58,237,0.2);
     }
 }
 
 .footer-discord-btn {
     &.btn-outline-light {
         border-radius: 50px;
-        border: 2px solid rgba(255, 255, 255, 0.3);
+        border: 2px solid $border-default;
+        color: $text-secondary;
         transition: all 0.3s ease;
 
         &:hover {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: $gradient-primary;
             border-color: transparent;
-            color: white;
+            color: $text-primary;
             transform: translateY(-2px);
-            box-shadow: 0 8px 25px rgba(102, 126, 234, 0.3);
+            box-shadow: 0 8px 25px rgba(124,58,237,0.3);
         }
     }
 }
@@ -50,10 +58,11 @@
 .footer-nav {
     a {
         font-size: 1.1rem;
+        color: $text-secondary;
         transition: color 0.3s ease;
 
         &:hover {
-            color: rgba(255, 255, 255, 0.8) !important;
+            color: $accent-violet !important;
         }
     }
 }
@@ -65,21 +74,25 @@
 }
 
 .footer-hr {
-    border-color: rgba(255, 255, 255, 0.2);
+    border-color: $border-default;
     margin: 3rem 0 2rem 0;
 }
 
 .footer-copyright {
-    color: rgba(255, 255, 255, 0.6);
+    color: $text-muted;
 }
 
 .footer-legal-links {
     a {
-        color: rgba(255, 255, 255, 0.6);
+        color: $text-muted;
         font-size: 0.9rem;
+        transition: color 0.3s ease;
+        &:hover {
+            color: $accent-violet;
+        }
     }
 
     .separator {
-        color: rgba(255, 255, 255, 0.3);
+        color: $text-muted;
     }
-} 
+}

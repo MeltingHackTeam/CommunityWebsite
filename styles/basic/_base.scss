@@ -9,32 +9,32 @@ body {
 	overflow-x: hidden;
 	position: relative;
 	z-index: 1;
-	background: black;
+	background: $bg-primary;
 	width: auto;
 	min-height: 100%;
-	color: $white-07;
+	color: $text-secondary;
 }
 h1,h2,h3,h4,h5,h6 {
-	color: white;
+	color: $text-primary;
 	a {
-		color: white;
-		&:hover, &:focus { color: white; }
+		color: $text-primary;
+		&:hover, &:focus { color: $text-primary; }
 	}
 }
 a {
 	text-decoration: none;
 	@include transition(linear 0.1s);
 	&:not([class*='button']) {
-		color: white;
-		&:hover, &:focus { 
-			color: white; 
-			text-decoration: none; 
+		color: $text-primary;
+		&:hover, &:focus {
+			color: $accent-violet;
+			text-decoration: none;
 		}
 	}
 }
 
 :root {
-	--bs-dark-rgb: 24, 26, 28;
+	--bs-dark-rgb: 17, 17, 19;
 }
 
 .container, .container-fluid {

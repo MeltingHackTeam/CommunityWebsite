@@ -2,11 +2,22 @@
 // Portfolio box //
 //
 .portfolio-box {
+	background: $bg-secondary;
+	border: 1px solid $border-default;
+	border-radius: 1em;
+	transition: all 0.3s ease;
+
+	&:hover {
+		border-color: $accent-violet;
+		box-shadow: 0 0 20px rgba(124,58,237,0.15), 0 0 40px rgba(124,58,237,0.05);
+		transform: translateY(-4px);
+	}
+
 	.portfolio-img {
 		position: relative;
 		overflow: hidden;
 		@include transform(translate3d(0,0,0));
-		border-radius: 1em;
+		border-radius: 1em 1em 0 0;
 		a {
 			position: relative;
 			display: block;
@@ -16,7 +27,7 @@
 				position: absolute;
 				top: 0;
 				left: 0;
-				background-image: linear-gradient(to top, $black-02, transparent);
+				background-image: linear-gradient(to top, rgba($bg-primary, 0.4), transparent);
 				opacity: 0;
 				width: 100%;
 				height: 100%;
@@ -39,6 +50,14 @@
 			}
 		}
 	}
+
+	.portfolio-info {
+		padding: 1.25rem 1.5rem;
+		color: $text-secondary;
+		h5, h6 {
+			color: $text-primary;
+		}
+	}
 }
 
 //
@@ -51,12 +70,13 @@
 			list-style-type: none;
 			display: inline-block;
 			overflow: hidden;
-			background: $white-015;
+			background: rgba($bg-secondary, 0.6);
+			border: 1px solid $border-default;
 			backdrop-filter: blur(5px);
 			margin-right: 6px;
 			padding: 13px 30px;
 			border-radius: 40px;
-			color: white;
+			color: $text-secondary;
 			cursor: pointer;
 			@include transition(linear 0.1s);
 			&:last-child {
@@ -69,18 +89,22 @@
 				top: 0;
 				left: 0;
 				opacity: 0;
-				background-image: $gradient;
+				background-image: $gradient-primary;
 				width: 100%;
 				height: 100%;
 				@include transition(linear 0.1s);
 			}
 			&:hover {
-				background: $white-015;
+				background: rgba($accent-violet, 0.1);
+				border-color: $accent-violet;
+				color: $text-primary;
 				&:after {
 					opacity: 0.15;
 				}
 			}
 			&.mixitup-control-active {
+				border-color: $accent-violet;
+				color: $text-primary;
 				&:after {
 					opacity: 0.2;
 				}

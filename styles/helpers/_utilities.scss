@@ -1,8 +1,8 @@
 //
 // Background Colors //
 //
-.bg-black { background: black; }
-.bg-dark { background: $dark; }
+.bg-black { background: $bg-primary; }
+.bg-dark { background: $bg-secondary; }
 .bg-dark-09 { background: $dark-09; }
 .bg-dark-08 { background: $dark-08; }
 .bg-dark-07 { background: $dark-07; }
@@ -13,7 +13,7 @@
 .bg-dark-02 { background: $dark-02; }
 .bg-dark-01 { background: $dark-01; }
 
-.bg-lighter { background: $dark; }
+.bg-lighter { background: $bg-tertiary; }
 
 
 //
@@ -31,8 +31,9 @@
 //
 // Font Families //
 //
-.font-family-primary { font-family: $font-family-primary }
-.font-family-secondary { font-family: $font-family-secondary }
+.font-family-primary { font-family: $font-primary }
+.font-family-secondary { font-family: $font-secondary }
+.font-family-mono { font-family: $font-mono }
 
 
 //
@@ -73,9 +74,9 @@
 *.text-white-03 { color: $white-03; }
 *.text-white-02 { color: $white-02; }
 *.text-white-01 { color: $white-01; }
-*.text-black { color: black; }
-*.text-dark { color: $dark; }
-*.text-green { color: $green; }
+*.text-black { color: $bg-primary; }
+*.text-dark { color: $bg-secondary; }
+*.text-green { color: $accent-success; }
 *.text-red { color: $red; }
 *.text-yellow { color: $yellow; }
 
@@ -83,10 +84,10 @@
 // Stroke Text //
 //
 .stroke-text {
-	color: white;
+	color: $text-primary;
 	-webkit-text-fill-color: transparent;
 	-webkit-text-stroke-width: 1px;
-	-webkit-text-stroke-color: white;
+	-webkit-text-stroke-color: $text-primary;
 }
 
 //
@@ -101,7 +102,7 @@
 		right: 0;
 		bottom: -1px;
 		left: 0;
-		background: white;
+		background: $text-primary;
 		height: 1px;
 		@include animation(line-out 0.3s cubic-bezier(0.165, 0.84, 0.44, 1) both);
 	}
@@ -124,7 +125,7 @@
 		bottom: 0;
 		left: 0;
 		opacity: 0.4;
-		background: $gradient;
+		background: $gradient-primary;
 		height: 30%;
 		@include animation(line-out 0.4s cubic-bezier(0.165, 0.84, 0.44, 1) both);
 	}

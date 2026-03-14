@@ -81,7 +81,7 @@ const Blog = ({data}) => {
                     >
                         {data.posts.map((item, index) => (
                             <SwiperSlide key={index}>
-                                <div className="blog-post-box">
+                                <div className="blog-post-box glow-border">
                                     <div className="blog-img">
                                         {/* Image */}
                                         <Link className="blog-img-link" href={`blog/${item.slug}`}>

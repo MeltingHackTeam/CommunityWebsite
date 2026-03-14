@@ -2,10 +2,21 @@
 // Blog Post box //
 //
 .blog-post-box {
+    background: $bg-secondary;
+    border: 1px solid $border-default;
+    border-radius: 1em;
+    transition: all 0.3s ease;
+
+    &:hover {
+        border-color: $accent-violet;
+        box-shadow: 0 0 20px rgba(124,58,237,0.15), 0 0 40px rgba(124,58,237,0.05);
+        transform: translateY(-4px);
+    }
+
     .blog-img {
         position: relative;
         overflow: hidden;
-        border-radius: 1em;
+        border-radius: 1em 1em 0 0;
         .blog-img-link {
             display: block;
             position: relative;
@@ -15,7 +26,7 @@
                 position: absolute;
                 top: 0;
                 left: 0;
-                background-image: linear-gradient(to top, $black-02, transparent);
+                background-image: linear-gradient(to top, rgba($bg-primary, 0.4), transparent);
                 opacity: 0;
                 width: 100%;
                 height: 100%;
@@ -37,11 +48,29 @@
             position: absolute;
             top: 20px;
             right: 20px;
+            background: rgba($accent-violet, 0.8);
+            color: $text-primary;
+            padding: 4px 12px;
+            border-radius: 4px;
+            font-family: $font-mono;
+            font-size: 0.75em;
         }
         &:hover {
             img {
                 @include transform(scale(1.06));
             }
+        }
+    }
+
+    .blog-info {
+        padding: 1.25rem 1.5rem;
+        color: $text-secondary;
+        h5, h6 {
+            color: $text-primary;
+        }
+        .blog-date {
+            color: $text-muted;
+            font-family: $font-mono;
         }
     }
 }
@@ -56,6 +85,23 @@
 }
 .swiper-blog-prev {
 	margin-right: 6px;
+}
+
+//
+// Swiper Nav Buttons //
+//
+.swiper-blog-prev,
+.swiper-blog-next,
+.swiper-portfolio-prev,
+.swiper-portfolio-next {
+    color: $text-secondary;
+    border: 1px solid $border-default;
+    transition: all 0.2s ease;
+    &:hover {
+        color: $accent-violet;
+        border-color: $accent-violet;
+        box-shadow: 0 0 10px rgba(124,58,237,0.2);
+    }
 }
 
 //

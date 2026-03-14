@@ -70,32 +70,21 @@ a, button {
 	position: relative;
 	display: inline-block;
 	overflow: hidden;
-	background: $white-015;
-	backdrop-filter: blur(5px);
+	background: rgba($bg-secondary, 0.8);
+	backdrop-filter: blur(12px);
+	border: 1px solid $border-default;
 	width: 50px;
 	height: 50px;
 	border-radius: 50%;
-	color: white;
+	color: $text-primary;
 	text-align: center;
 	line-height: 50px;
-	@include transition(linear 0.06s);
-	&:after {
-		content: '';
-		z-index: -1;
-		position: absolute;
-		top: 0;
-		left: 0;
-		opacity: 0.15;
-		background-image: $gradient;
-		width: 100%;
-		height: 100%;
-		@include transition(linear 0.06s);
-	}
+	@include transition(all 0.2s ease);
 	&:hover {
-		background: $white-02;
-		&:after {
-			opacity: 0.2;
-		}
+		background: rgba($accent-violet, 0.15);
+		border-color: $accent-violet;
+		color: $text-primary;
+		box-shadow: 0 0 20px rgba(124,58,237,0.2);
 	}
 }
 .button-circle-sm {

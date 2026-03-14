@@ -1,4 +1,7 @@
 export { default as BackgroundVerticalLines } from "./UI/BackgroundVerticalLines";
+export { default as ParticleWaveBackground } from "./UI/ParticleWaveBackground";
+export { default as AuroraBackground } from "./UI/AuroraBackground";
+export { default as ScrollReveal } from "./UI/ScrollReveal";
 export { default as LoadingScreen } from "./UI/LoadingScreen";
 export { default as Cursor } from "./UI/Cursor";
 export { default as ScrollToTop } from "./UI/ScrollToTop";

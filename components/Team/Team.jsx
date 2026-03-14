@@ -1,6 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
+import ScrollReveal from '../UI/ScrollReveal';
 
 const Team = ({ data, className }) => {
   return (
@@ -21,6 +22,7 @@ const Team = ({ data, className }) => {
               key={index}
               className="col-6 col-sm-4 col-lg-3"
             >
+              <ScrollReveal delay={index * 0.1}>
               <div className="team-box">
                 <div className="team-img">
                   <Image
@@ -48,6 +50,7 @@ const Team = ({ data, className }) => {
                   <h3>{item.name}</h3>
                 </div>
               </div>
+              </ScrollReveal>
             </div>
           ))}
         </div>{' '}

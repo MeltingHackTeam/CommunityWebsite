@@ -7,9 +7,6 @@ export const footerData = {
     mainData: {
         websiteName: 'MeltingHack',
         websiteDescription: 'Unleash your potential',
-        phone: '+123 456 7890',
-        email: 'contact@example.com',
-        time: 'Mon-Fri 9am-5pm',
         copywriter: 'Melting Hack',
         discordURL: 'https://discord.gg/74WJ455uWw',
         socialMedia: {
@@ -28,18 +25,4 @@ export const footerData = {
             sandbox: "allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"
         }
     },
-    links: [
-        {
-            name: 'About us',
-            url: '#'
-        },
-        {
-            name: 'Pricing',
-            url: '#'
-        },
-        {
-            name: 'Contact',
-            url: '#'
-        },
-    ],
 };

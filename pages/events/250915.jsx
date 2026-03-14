@@ -1,5 +1,5 @@
 import React from 'react'
-import { BackgroundVerticalLines, Footer, Header, ScrollToTop } from '@/components'
+import { Footer, Header, ScrollToTop } from '@/components'
 import Head from 'next/head'
 import Link from 'next/link'
 
@@ -100,8 +100,6 @@ const Event250915 = () => {
                 <Footer />
                 {/* Scroll To Top */}
                 <ScrollToTop />
-                {/* Background Vertical Lines */}
-                <BackgroundVerticalLines />
             </main>
         </>
     )
