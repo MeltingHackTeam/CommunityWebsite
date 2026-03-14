@@ -32,6 +32,7 @@ import Event251106Image from '@/public/images/events/event251106_small2.png'
 import Event251120Image from '@/public/images/events/event251120_big1.png'
 import Event251130Image from '@/public/images/events/event251130_big1.png'
 import Event260116Image from '@/public/images/events/event260116_big2.png'
+import Event260308Image from '@/public/images/events/event260307_small2.png'
 import YuriIshitoya from '@/public/images/blog/yuri_ishitoya/yuri_ishitoya_1.png'
 import ShunKatayose from '@/public/images/blog/shun_katayose/shun_katayose_2.png'
 
@@ -81,6 +82,24 @@ export const blogData = {
             description: "Let's dive into our passionate memory, where we were so enthusiastic that it felt like we were melting."
         },
         posts: [
+            {
+                title: 'Figma Make 1Day Challenge',
+                slug: '../events/260308',
+                description: '',
+                keywords: '',
+                categories: [
+                    { name: 'Hackathon' },
+                    { name: 'Offline' },
+                    { name: 'Design' },
+                ],
+                date: 'March 8th, 2026',
+                postedBy: '',
+                content: '',
+                mainImage: Event260308Image,
+                media: [],
+                images: [],
+                tags: []
+            },
             {
                 title: 'Next-Generation Automotive Generative AI Hackathon',
                 slug: '../events/260116',

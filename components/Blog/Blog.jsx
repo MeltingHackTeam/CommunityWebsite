@@ -94,7 +94,7 @@ const Blog = ({data}) => {
                                             </Link>
                                         </div> */}
                                     </div>
-                                    <div className="pt-4">
+                                    <div className="pt-4 px-3">
                                         <ul className="list-inline-dot sm-heading mb-2">
                                             <li>
                                                 <Link className="link-hover" href={`blog/${item.slug}`}>

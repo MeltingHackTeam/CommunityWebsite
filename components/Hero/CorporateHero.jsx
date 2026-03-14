@@ -25,7 +25,7 @@ const CorporateHero = () => {
                     </div>
                     {/* Right: Video window */}
                     <div className="col-12 col-lg-6 mt-5 mt-lg-0">
-                        <div className="corporate-hero-video">
+                        <div className="corporate-hero-video" style={{ transform: 'translateY(-1rem) scale(1.05)' }}>
                             <iframe
                                 src={embedUrl}
                                 frameBorder="0"
