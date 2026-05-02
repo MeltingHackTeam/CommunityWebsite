@@ -17,6 +17,11 @@ export default function App({ Component, pageProps }) {
 
   useEffect(() => {
     const lenis = new Lenis({
+      // Observe <body>, not <html>. The site's _base.scss pins
+      // html { height: 100% } so the default content target never
+      // resizes — the scroll limit would freeze at first paint.
+      wrapper: window,
+      content: document.body,
       duration: 1.2,
       easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
       smoothWheel: true,
@@ -29,8 +34,22 @@ export default function App({ Component, pageProps }) {
     }
     rafId = requestAnimationFrame(raf);
 
+    // The LoadingScreen flips off on the next tick and the real
+    // page mounts after that. Force a resize once layout has settled
+    // so we don't sit on Lenis's 250ms debounce window.
+    const initialResize = requestAnimationFrame(() =>
+      requestAnimationFrame(() => lenis.resize())
+    );
+
+    // Final catch for the last reflow after lazy images and webfonts
+    // resolve.
+    const onLoad = () => lenis.resize();
+    window.addEventListener('load', onLoad);
+
     return () => {
+      cancelAnimationFrame(initialResize);
       cancelAnimationFrame(rafId);
+      window.removeEventListener('load', onLoad);
       lenis.destroy();
     };
   }, []);
