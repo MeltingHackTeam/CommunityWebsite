@@ -3,14 +3,14 @@ import { Footer, Header, Lightbox, ScrollToTop } from '@/components'
 import Head from 'next/head'
 import Image from 'next/image';
 import Link from 'next/link';
-import SmallImage1 from '@/public/images/events/event251120_small1.png'
-import SmallImage2 from '@/public/images/events/event251120_small2.png'
-import SmallImage3 from '@/public/images/events/event251120_small3.png'
-import SmallImage4 from '@/public/images/events/event251120_small4.png'
-import SmallImage5 from '@/public/images/events/event251120_small5.png'
-import SmallImage6 from '@/public/images/events/event251120_small6.png'
-import BigImage1 from '@/public/images/events/event251120_big1.png'
-import BigImage2 from '@/public/images/events/event251120_big2.png'
+import SmallImage1 from '@/public/images/events/event251120_small1.webp'
+import SmallImage2 from '@/public/images/events/event251120_small2.webp'
+import SmallImage3 from '@/public/images/events/event251120_small3.webp'
+import SmallImage4 from '@/public/images/events/event251120_small4.webp'
+import SmallImage5 from '@/public/images/events/event251120_small5.webp'
+import SmallImage6 from '@/public/images/events/event251120_small6.webp'
+import BigImage1 from '@/public/images/events/event251120_big1.webp'
+import BigImage2 from '@/public/images/events/event251120_big2.webp'
 
 const Event251120 = () => {
     const [lightboxImage, setLightboxImage] = useState(null);

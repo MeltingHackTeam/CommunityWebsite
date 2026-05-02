@@ -3,11 +3,11 @@ import { Footer, Header, Lightbox, ScrollToTop } from '@/components'
 import Head from 'next/head'
 import Image from 'next/image';
 import Link from 'next/link';
-import SmallImage1 from '@/public/images/events/event250712_small1.png'
-import SmallImage2 from '@/public/images/events/event250712_small2.png'
-import SmallImage3 from '@/public/images/events/event250712_small3.png'
-import BigImage1 from '@/public/images/events/event250712_big1.png'
-import BigImage2 from '@/public/images/events/event250712_big2.png'
+import SmallImage1 from '@/public/images/events/event250712_small1.webp'
+import SmallImage2 from '@/public/images/events/event250712_small2.webp'
+import SmallImage3 from '@/public/images/events/event250712_small3.webp'
+import BigImage1 from '@/public/images/events/event250712_big1.webp'
+import BigImage2 from '@/public/images/events/event250712_big2.webp'
 
 
 const Event250712 = ({ post }) => {
