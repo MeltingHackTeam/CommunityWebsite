@@ -31,6 +31,7 @@ import Event251120Image from '@/public/images/events/event251120_big1.png'
 import Event251130Image from '@/public/images/events/event251130_big1.png'
 import Event260116Image from '@/public/images/events/event260116_big2.png'
 import Event260308Image from '@/public/images/events/event260307_small2.png'
+import Event260427Image from '@/public/images/events/event260427_big2.png'
 import SubscriptionImage from '@/public/images/events/subscription_hackathon.png'
 
 export const portfolioData = {
@@ -594,6 +595,25 @@ export const portfolioData = {
             }
         ],
         projects: [
+            {
+                title: 'AI Agent Night — はじめてのAI Agent体験',
+                slug: '../events/260427',
+                description: '',
+                category: 'workshop',
+                services: [],
+                client: '',
+                projectLink: {},
+                duration: '',
+                content: '',
+                mainImage: Event260427Image,
+                media: [],
+                images: [],
+                categories: [
+                    { name: 'Workshop' },
+                    { name: 'Offline' },
+                    { name: 'AI' },
+                ],
+            },
             {
                 title: 'Figma Make 1Day Challenge',
                 slug: '../events/260308',
