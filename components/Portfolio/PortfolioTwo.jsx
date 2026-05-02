@@ -45,7 +45,14 @@ const PortfolioTwo = ({data}) => {
                                 {/* Image */}
                                 <div className="portfolio-img">
                                     <Link href={`${item.slug}`}>
-                                        <Image src={item.mainImage} alt={item.title} placeholder="blur" />
+                                        <Image
+                                            src={item.mainImage}
+                                            alt={item.title}
+                                            placeholder="blur"
+                                            sizes="(max-width: 768px) 100vw, 50vw"
+                                            quality={70}
+                                            priority={index < 2}
+                                        />
                                     </Link>
                                 </div>
                                 <div className="portfolio-info">

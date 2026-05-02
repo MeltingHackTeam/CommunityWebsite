@@ -18,6 +18,11 @@ const nextConfig = {
       { protocol: 'https', hostname: 'melting-hack.tokyo', pathname: '/**' },
     ],
     formats: ['image/webp', 'image/avif'],
+    qualities: [70, 75, 85],
+    // Cache optimized image variants for 1 year. Pairs with the
+    // /_next/image** header in firebase.json so the Cloud Function
+    // is not re-invoked on every visit.
+    minimumCacheTTL: 31536000,
   },
   // SEO最適化のためのヘッダー設定
   async headers() {

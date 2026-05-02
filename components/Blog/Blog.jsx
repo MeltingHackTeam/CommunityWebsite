@@ -85,7 +85,14 @@ const Blog = ({data}) => {
                                     <div className="blog-img">
                                         {/* Image */}
                                         <Link className="blog-img-link" href={`blog/${item.slug}`}>
-                                            <Image src={item.mainImage} alt={item.title} placeholder="blur" />
+                                            <Image
+                                                src={item.mainImage}
+                                                alt={item.title}
+                                                placeholder="blur"
+                                                sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 50vw"
+                                                quality={70}
+                                                priority={index < 2}
+                                            />
                                         </Link>
                                         {/* Category */}
                                         {/* <div className="blog-category">
